@@ -29,26 +29,31 @@ struct beacon_msg
   uint8_t id;
 } __attribute__((packed));
 
-uint8_t beacons_count = 0;
+uint8_t sent_beacon_count = 0;
 int listen_count = 0;
-uint16_t epoch = 0;
+uint16_t epoch = -1;
 int discovered_n_epoch = 0;
+int epoch_start = 0;
 
 bool neighbors[MAX_NBR]; // assume ids are from 0 to MAX_NBR
 
 #define TRANSMISSION_WINDOW_COUNT 1
-#define RECEPTION_WINDOW_COUNT 2
+#define RECEPTION_WINDOW_COUNT 5
 #define EPOCH_DURATION EPOCH_INTERVAL_RT
 
+#define NUM_EPOCH_EACH_WRAP EPOCH_DURATION / USHRT_MAX // short unsigned dimension
+
+// both transmission and reception have the same window dimension
 #define WINDOW_LEN EPOCH_DURATION / (TRANSMISSION_WINDOW_COUNT + RECEPTION_WINDOW_COUNT)
 
 #define TRANSMISSION_WINDOW_DURATION WINDOW_LEN
 #define RECEPTION_WINDOW_DURATION WINDOW_LEN
 
 #define TICKS_PER_SEC RTIMER_SECOND // number of ticks in one second
+#define TICKS_PER_MILLISEC TICKS_PER_SEC / 1000
 
-#define TRANSMISSION_DURATION 500                        // TODO define better
-#define RECEPTION_DURATION RECEPTION_WINDOW_DURATION / 3 // TODO define better
+#define TRANSMISSION_DURATION 400   // [ticks]
+#define RECEPTION_DURATION RECEPTION_WINDOW_DURATION / 3 // [ticks]
 
 #define TRANSMISSION_PER_WINDOW TRANSMISSION_WINDOW_DURATION / TRANSMISSION_DURATION
 
@@ -98,23 +103,32 @@ void nd_send_beacon(void)
     NETSTACK_RADIO.send(&node_id, sizeof(unsigned short));
   }
   NETSTACK_RADIO.off();
-  beacons_count++;
+  sent_beacon_count++;
 
-  if (beacons_count != TRANSMISSION_PER_WINDOW)
+  if (sent_beacon_count != TRANSMISSION_PER_WINDOW)
   {
     static struct rtimer beacon_timer;
     rtimer_set(
         &beacon_timer,
-        rtimer_arch_now() + TRANSMISSION_DURATION,
+        epoch_start + (sent_beacon_count * TRANSMISSION_DURATION), // set next beacon wrt to epoch start
         NULL,
         nd_send_beacon,
         NULL);
   }
   else
   {
-    beacons_count = 0;
-    nd_listen();
     // start receive
+    sent_beacon_count = 0;
+
+    // call nd_listen when recv window starts
+    static struct rtimer start_listening;
+    rtimer_set(
+        &start_listening,
+        // wait the remainig time and then listen again
+        epoch_start + TRANSMISSION_WINDOW_DURATION,
+        NULL,
+        nd_listen,
+        NULL);
   }
 }
 
@@ -129,7 +143,7 @@ void nd_stop_listen(void)
     rtimer_set(
         &start_listening,
         // wait the remainig time and then listen again
-        rtimer_arch_now() + (RECEPTION_WINDOW_DURATION - RECEPTION_DURATION),
+        epoch_start + (RECEPTION_WINDOW_DURATION * (listen_count + 1)),
         NULL,
         nd_listen,
         NULL);
@@ -137,17 +151,7 @@ void nd_stop_listen(void)
   else
   {
     app_cb.nd_epoch_end(epoch, discovered_n_epoch);
-    static struct rtimer beacon_timer;
-    rtimer_set(
-        &beacon_timer,
-        // wait the remainig time and then send beacon
-        rtimer_arch_now() + (RECEPTION_WINDOW_DURATION - RECEPTION_DURATION),
-        NULL,
-        nd_send_beacon,
-        NULL);
-    listen_count = 0;
-    discovered_n_epoch = 0;
-    epoch++;
+    nd_step();
   }
 }
 
@@ -159,10 +163,19 @@ void nd_listen(void)
   static struct rtimer stop_listening;
   rtimer_set(
       &stop_listening,
-      rtimer_arch_now() + RECEPTION_DURATION,
+      epoch_start + (RECEPTION_WINDOW_DURATION * (listen_count + 1)) + (RECEPTION_DURATION),
       NULL,
       nd_stop_listen,
       NULL);
+}
+
+void nd_step()
+{
+  listen_count = 0;
+  discovered_n_epoch = 0;
+  epoch++;
+  epoch_start = rtimer_arch_now();
+  nd_send_beacon();
 }
 
 /*---------------------------------------------------------------------------*/
@@ -178,7 +191,7 @@ void nd_start(uint8_t mode, const struct nd_callbacks *cb)
   {
   case ND_BURST:
   {
-    nd_send_beacon();
+    nd_step();
     break;
   }
   case ND_SCATTER:
