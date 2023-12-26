@@ -29,8 +29,7 @@
 /*---------------------------------------------------------------------------*/
 #include "netstack.h"
 /*---------------------------------------------------------------------------*/
-void
-netstack_init(void)
+void netstack_init(void)
 {
   NETSTACK_RADIO.init();
   NETSTACK_RDC.init();

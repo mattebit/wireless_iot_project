@@ -43,54 +43,61 @@
 
 /*---------------------------------------------------------------------------*/
 static void
-send(mac_callback_t sent, void *ptr) {
+send(mac_callback_t sent, void *ptr)
+{
 }
 
 /*---------------------------------------------------------------------------*/
 static void
-send_list(mac_callback_t sent, void *ptr, struct rdc_buf_list *list) {
+send_list(mac_callback_t sent, void *ptr, struct rdc_buf_list *list)
+{
 }
 
 /*---------------------------------------------------------------------------*/
 static void
-input(void) {
-    nd_recv();
+input(void)
+{
+  nd_recv();
 }
 
 /*---------------------------------------------------------------------------*/
 static int
-on(void) {
-    NETSTACK_RADIO.on();
-    return 1;
+on(void)
+{
+  NETSTACK_RADIO.on();
+  return 1;
 }
 
 /*---------------------------------------------------------------------------*/
 static int
-off(int keep_radio_on) {
-    return keep_radio_on;
+off(int keep_radio_on)
+{
+  return keep_radio_on;
 }
 
 /*---------------------------------------------------------------------------*/
 static unsigned short
-cca(void) {
-    return 0;
+cca(void)
+{
+  return 0;
 }
 
 /*---------------------------------------------------------------------------*/
 static void
-init(void) {
-    on();
+init(void)
+{
+  on();
 }
 
 /*---------------------------------------------------------------------------*/
 const struct rdc_driver nd_rdc_driver = {
-        "nd-rdc",
-        init,
-        send,
-        send_list,
-        input,
-        on,
-        off,
-        cca,
+    "nd-rdc",
+    init,
+    send,
+    send_list,
+    input,
+    on,
+    off,
+    cca,
 };
 /*---------------------------------------------------------------------------*/

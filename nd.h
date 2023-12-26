@@ -15,10 +15,11 @@ void nd_recv(void); /* Called by lower layers when a message is received */
  *	nd_epoch_end: report to the application the number of neighbors discovered
  *				  at the end of the epoch
  */
-struct nd_callbacks {
-    void (*nd_new_nbr)(uint16_t epoch, uint8_t nbr_id);
+struct nd_callbacks
+{
+  void (*nd_new_nbr)(uint16_t epoch, uint8_t nbr_id);
 
-    void (*nd_epoch_end)(uint16_t epoch, uint8_t num_nbr);
+  void (*nd_epoch_end)(uint16_t epoch, uint8_t num_nbr);s
 };
 /*---------------------------------------------------------------------------*/
 /* Start selected ND primitive (ND_BURST or ND_SCATTER) */
