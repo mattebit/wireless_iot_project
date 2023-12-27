@@ -64,8 +64,8 @@ PROCESS_THREAD(app_process, ev, data)
   PROCESS_WAIT_UNTIL(etimer_expired(&et));
 
   /* Start ND Primitive */
-  nd_start(ND_BURST, &rcb);
-  /* nd_start(ND_SCATTER, &rcb); */
+  //nd_start(ND_BURST, &rcb);
+  nd_start(ND_SCATTER, &rcb);
 
   /* Do nothing else */
   while (1)

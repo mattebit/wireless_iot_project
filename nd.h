@@ -28,3 +28,4 @@ void nd_start(uint8_t mode, const struct nd_callbacks *cb);
 
 void nd_stop_listen(void);
 void nd_listen(void);
+void nd_step();
