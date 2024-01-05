@@ -41,9 +41,9 @@ bool FIRST_TRANSMIT = false;
 
 uint8_t sent_beacon_count = 0;
 int listen_count = 0;
-uint16_t epoch = -1;
+uint16_t epoch = 0;
 int discovered_n_epoch = 0;
-int epoch_start = 0;
+unsigned short epoch_start = 0;
 int transmit_window_count = 0;
 
 bool neighbors[MAX_NBR]; // assume ids are from 0 to MAX_NBR
@@ -54,8 +54,8 @@ bool neighbors[MAX_NBR]; // assume ids are from 0 to MAX_NBR
 #define TICKS_PER_MILLISEC TICKS_PER_SEC / 1000
 
 #define TRANSMISSION_WINDOW_COUNT_BURST 1
-#define RECEPTION_WINDOW_COUNT_BURST 5
-#define TRANSMISSION_WINDOW_COUNT_SCATTER 5
+#define RECEPTION_WINDOW_COUNT_BURST 10
+#define TRANSMISSION_WINDOW_COUNT_SCATTER 15
 #define RECEPTION_WINDOW_COUNT_SCATTER 1
 
 // both transmission and reception have the same window dimension
@@ -69,12 +69,16 @@ bool neighbors[MAX_NBR]; // assume ids are from 0 to MAX_NBR
 #define RECEPTION_WINDOW_DURATION_SCATTER WINDOW_LEN_SCATTER
 
 #define TRANSMISSION_DURATION_BURST 400                                   // [ticks]
-#define RECEPTION_DURATION_BURST RECEPTION_WINDOW_DURATION_BURST / 3      // [ticks]
-#define TRANSMISSION_DURATION_SCATTER 200                                 // [ticks]
+#define RECEPTION_DURATION_BURST RECEPTION_WINDOW_DURATION_BURST / 4      // [ticks]
+#define TRANSMISSION_DURATION_SCATTER 100                                 // [ticks]
 #define RECEPTION_DURATION_SCATTER RECEPTION_WINDOW_DURATION_SCATTER - 10 // [ticks]
 
 #define TRANSMISSION_PER_WINDOW_BURST TRANSMISSION_WINDOW_DURATION_BURST / TRANSMISSION_DURATION_BURST
 #define TRANSMISSION_PER_WINDOW_SCATTER 1
+
+#define EPOCH_COLLISION_OFFSET 10 // offset added to the epoch to try to avoid collisions
+
+#define EPOCH_RANDOM_OFFSET 0 // rand() % 100 + 0
 
 /*---------------------------------------------------------------------------*/
 
@@ -89,7 +93,26 @@ void nd_recv(void)
    */
 
   unsigned short nbr_id;
+
+  if (packetbuf_datalen() != sizeof(unsigned short))
+  {
+    printf("invalid payload len\n");
+    return;
+  }
+
   memcpy(&nbr_id, packetbuf_dataptr(), sizeof(unsigned short));
+
+  if (nbr_id == 0)
+  {
+    return; // idk why but sometimes have payload 0
+  }
+
+  int i = 0;
+  for (i; i < 11; i++)
+  {
+    printf("%d", neighbors[i]);
+  };
+  printf("\n");
 
   if (nbr_id < MAX_NBR)
   {
@@ -104,6 +127,7 @@ void nd_recv(void)
       }
       else
       {
+        printf("App: Epoch %u New NBR %u\n", epoch, nbr_id);
         printf("app_cb.nd_new_nbr is NULL\n"); // TODO: fix
       }
     }
@@ -117,13 +141,14 @@ void nd_recv(void)
  */
 void nd_send_beacon(void)
 {
-  NETSTACK_RADIO.on();
-
-  if (!NETSTACK_RADIO.receiving_packet())
+  int ret = NETSTACK_RADIO.send(&node_id, sizeof(unsigned short));
+  if (ret == RADIO_TX_COLLISION)
   {
-    NETSTACK_RADIO.send(&node_id, sizeof(unsigned short));
+    printf("there was a collision\n");
+    // adds an offset to the epoch to try avoid a collision again
+    epoch_start = epoch_start + EPOCH_COLLISION_OFFSET;
   }
-  NETSTACK_RADIO.off();
+
   sent_beacon_count++;
 
   if (sent_beacon_count != TRANSMISSION_PER_WINDOW)
@@ -131,22 +156,22 @@ void nd_send_beacon(void)
     static struct rtimer beacon_timer;
     rtimer_set(
         &beacon_timer,
-        epoch_start + (sent_beacon_count * TRANSMISSION_DURATION), // set next beacon wrt to epoch start
+        epoch_start + (sent_beacon_count * TRANSMISSION_DURATION) + (RECEPTION_WINDOW_DURATION * (FIRST_TRANSMIT ? 0 : 1)), // set next beacon wrt to epoch start
         NULL,
         nd_send_beacon,
         NULL);
   }
   else
   {
-    transmit_window_count += 1;
+    transmit_window_count++;
     sent_beacon_count = 0;
-    if (transmit_window_count < TRANSMISSION_WINDOW_COUNT)
+    if (transmit_window_count != TRANSMISSION_WINDOW_COUNT)
     {
       // do another transmission window
       static struct rtimer beacon_timer;
       rtimer_set(
           &beacon_timer,
-          epoch_start + (TRANSMISSION_WINDOW_DURATION * (transmit_window_count + 1)),
+          epoch_start + (TRANSMISSION_WINDOW_DURATION * transmit_window_count) + (RECEPTION_WINDOW_DURATION * (FIRST_TRANSMIT ? 0 : 1)),
           NULL,
           nd_send_beacon,
           NULL);
@@ -165,7 +190,7 @@ void nd_send_beacon(void)
         rtimer_set(
             &start_listening,
             // wait the remainig time and then listen again
-            epoch_start + (TRANSMISSION_WINDOW_DURATION * TRANSMISSION_WINDOW_COUNT),
+            epoch_start + TRANSMISSION_WINDOW_DURATION,
             NULL,
             nd_listen,
             NULL);
@@ -190,7 +215,7 @@ void nd_stop_listen(void)
   NETSTACK_RADIO.off();
   listen_count++;
 
-  if (listen_count < RECEPTION_WINDOW_COUNT)
+  if (listen_count != RECEPTION_WINDOW_COUNT)
   {
     static struct rtimer start_listening;
     rtimer_set(
@@ -223,7 +248,7 @@ void nd_stop_listen(void)
       rtimer_set(
           &start_transmitting,
           // wait the remainig time and then listen again
-          epoch_start + (RECEPTION_WINDOW_DURATION * (RECEPTION_WINDOW_COUNT)),
+          epoch_start + (RECEPTION_WINDOW_DURATION * RECEPTION_WINDOW_COUNT),
           NULL,
           nd_send_beacon,
           NULL);
@@ -234,12 +259,11 @@ void nd_stop_listen(void)
 void nd_listen(void)
 {
   NETSTACK_RADIO.on(); // start listening
-
   // set callback to stop listening
   static struct rtimer stop_listening;
   rtimer_set(
       &stop_listening,
-      epoch_start + (RECEPTION_WINDOW_DURATION * (FIRST_TRANSMIT ? listen_count + 1 : listen_count)) + (RECEPTION_DURATION),
+      epoch_start + (RECEPTION_WINDOW_DURATION * (FIRST_TRANSMIT ? listen_count + 1 : listen_count)) + RECEPTION_DURATION,
       NULL,
       nd_stop_listen,
       NULL);
@@ -247,16 +271,18 @@ void nd_listen(void)
 
 void nd_step()
 {
-  if (epoch != -1)
+  if (epoch != 0)
   {
     app_cb.nd_epoch_end(epoch, discovered_n_epoch);
   }
+
+  epoch++;
   listen_count = 0;
   discovered_n_epoch = 0;
-  epoch++;
+  sent_beacon_count = 0;
   if (epoch_start != 0)
   {
-    epoch_start = epoch_start + EPOCH_DURATION;
+    epoch_start = epoch_start + EPOCH_DURATION + EPOCH_RANDOM_OFFSET;
   }
   else
   {
@@ -281,6 +307,12 @@ void nd_start(uint8_t mode, const struct nd_callbacks *cb)
   app_cb.nd_new_nbr = cb->nd_new_nbr;
   app_cb.nd_epoch_end = cb->nd_epoch_end;
 
+  int i = 0;
+  for (; i < MAX_NBR; i++)
+  {
+    neighbors[i] = false;
+  }
+
   switch (mode)
   {
   case ND_BURST:
@@ -294,6 +326,17 @@ void nd_start(uint8_t mode, const struct nd_callbacks *cb)
     RECEPTION_WINDOW_DURATION = RECEPTION_WINDOW_DURATION_BURST;
     TRANSMISSION_WINDOW_DURATION = TRANSMISSION_WINDOW_DURATION_BURST;
     FIRST_TRANSMIT = true;
+    printf(
+        "START: BURST, %d, %d, %d, %d, %d, %d, %d\n",
+        TRANSMISSION_WINDOW_COUNT,
+        RECEPTION_WINDOW_COUNT,
+        TRANSMISSION_WINDOW_DURATION,
+        RECEPTION_WINDOW_DURATION,
+        TRANSMISSION_PER_WINDOW,
+        TRANSMISSION_DURATION,
+        RECEPTION_DURATION);
+    printf(
+        "START: TYPE, TRANSMISSION_WINDOW_COUNT,RECEPTION_WINDOW_COUNT,TRANSMISSION_WINDOW_DURATION,RECEPTION_WINDOW_DURATION,TRANSMISSION_PER_WINDOW,TRANSMISSION_DURATION,RECEPTION_DURATION\n");
     nd_step();
     break;
   }
@@ -306,8 +349,19 @@ void nd_start(uint8_t mode, const struct nd_callbacks *cb)
     TRANSMISSION_DURATION = TRANSMISSION_DURATION_SCATTER;
     RECEPTION_DURATION = RECEPTION_DURATION_SCATTER;
     RECEPTION_WINDOW_DURATION = RECEPTION_WINDOW_DURATION_SCATTER;
-    TRANSMISSION_WINDOW_DURATION = TRANSMISSION_WINDOW_DURATION_BURST;
+    TRANSMISSION_WINDOW_DURATION = TRANSMISSION_WINDOW_DURATION_SCATTER;
     FIRST_TRANSMIT = false;
+    printf(
+        "START: SCATTER, %d, %d, %d, %d, %d, %d, %d\n",
+        TRANSMISSION_WINDOW_COUNT,
+        RECEPTION_WINDOW_COUNT,
+        TRANSMISSION_WINDOW_DURATION,
+        RECEPTION_WINDOW_DURATION,
+        TRANSMISSION_PER_WINDOW,
+        TRANSMISSION_DURATION,
+        RECEPTION_DURATION);
+    printf(
+        "START: TYPE, TRANSMISSION_WINDOW_COUNT,RECEPTION_WINDOW_COUNT,TRANSMISSION_WINDOW_DURATION,RECEPTION_WINDOW_DURATION,TRANSMISSION_PER_WINDOW,TRANSMISSION_DURATION,RECEPTION_DURATION\n");
     nd_step();
     break;
   }
