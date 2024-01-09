@@ -22,6 +22,17 @@ class Experiment():
   nodes : list[Node] = []
   max_node_id = 0
 
+  def clear_empty_nodes(self):
+    self.nodes.pop(0) # first element is always absent
+
+    for i,n in enumerate(self.nodes):
+      if n.node_id == -1:
+        break
+
+    self.nodes = self.nodes[0:i]
+
+    for n in self.nodes:
+      n.neighbour_count = len(n.neighbours)
 
 def save_output(e : Experiment):
   OUT_FILENAME = f"{e.TYPE}_{e.max_node_id}.log"
@@ -99,13 +110,22 @@ def parse(filename=FILENAME):
         n = e.nodes[int(node_id)] 
         n.neighbour_count += n_count_discovered
         #print(f"id: {node_id}, epoch: {epoch}, n_discovered: {n_count_discovered}")
+    
+      else:
+        print(line)
+
+  e.clear_empty_nodes()
 
   f.close()
-
-  for i in e.nodes:
-    if i.node_id != -1:
-      print(f"node id: {i.node_id}, neigh_count: {i.neighbour_count}, neighbours: {i.neighbours}")
-
+  print_output(e)
   save_output(e)
 
+def print_output(e:Experiment):
+  n_perc_sum = 0
+
+  for i in e.nodes:
+    n_perc_sum += i.neighbour_count/(e.max_node_id-1)
+    print(f"node id: {i.node_id},\tneigh_count: {i.neighbour_count}/{len(i.neighbours)},\tdiscover_perc: {i.neighbour_count/(e.max_node_id-1)},\tneighbours: {i.neighbours}")
+  
+  print(f"avg_discover_perc: {n_perc_sum/(e.max_node_id-1)}")
 parse()
