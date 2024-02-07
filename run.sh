@@ -1,3 +1,5 @@
+sudo docker run -v .:/build ghcr.io/mattebit/contiki-cooja-compile-compiler:main
+
 xhost +local:
 sudo docker run \
       -v /tmp/.X11-unix/:/tmp/.X11-unix/ \

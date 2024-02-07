@@ -1,4 +1,5 @@
 import re
+import math
 FILENAME = "test.log"
 
 class Node():
@@ -124,8 +125,9 @@ def print_output(e:Experiment):
   n_perc_sum = 0
 
   for i in e.nodes:
-    n_perc_sum += i.neighbour_count/(e.max_node_id-1)
-    print(f"node id: {i.node_id},\tneigh_count: {i.neighbour_count}/{len(i.neighbours)},\tdiscover_perc: {i.neighbour_count/(e.max_node_id-1)},\tneighbours: {i.neighbours}")
+    discover_perc = round(i.neighbour_count/(e.max_node_id-1), 2)
+    n_perc_sum += discover_perc
+    print(f"node id: {i.node_id},\tneigh_count: {i.neighbour_count}/{len(i.neighbours)},\tdiscover_perc: {discover_perc},\tneighbours: {i.neighbours}")
   
-  print(f"avg_discover_perc: {n_perc_sum/(e.max_node_id-1)}")
+  print(f"avg_discover_perc: {n_perc_sum/(e.max_node_id)}")
 parse()
