@@ -23,10 +23,10 @@ nd_new_nbr_cb(uint16_t epoch, uint8_t nbr_id)
 }
 /*---------------------------------------------------------------------------*/
 static void
-nd_epoch_end_cb(uint16_t epoch, uint8_t num_nbr)
+nd_epoch_end_cb(uint16_t epoch, uint8_t num_nbr, uint8_t num_new_nbr)
 {
-  printf("App: Epoch %u finished Num NBR %u\n",
-         epoch, num_nbr);
+  printf("App: Epoch %u finished Num NBR %u Num new NBR %u\n",
+         epoch, num_nbr, num_new_nbr);
 }
 /*---------------------------------------------------------------------------*/
 struct nd_callbacks rcb = {
@@ -64,8 +64,8 @@ PROCESS_THREAD(app_process, ev, data)
   PROCESS_WAIT_UNTIL(etimer_expired(&et));
 
   /* Start ND Primitive */
-  //nd_start(ND_BURST, &rcb);
-  nd_start(ND_SCATTER, &rcb);
+  nd_start(ND_BURST, &rcb);
+  //nd_start(ND_SCATTER, &rcb);
 
   /* Do nothing else */
   while (1)
