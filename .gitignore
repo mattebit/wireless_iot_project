@@ -10,3 +10,5 @@ contiki-sky.map
 app.sky
 obj_sky/
 cooja_folder/
+.idea/
+.vscode/
