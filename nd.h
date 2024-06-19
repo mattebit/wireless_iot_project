@@ -19,7 +19,7 @@ struct nd_callbacks
 {
   void (*nd_new_nbr)(uint16_t epoch, uint8_t nbr_id);
 
-  void (*nd_epoch_end)(uint16_t epoch, uint8_t num_nbr);
+  void (*nd_epoch_end)(uint16_t epoch, uint8_t num_nbr, uint8_t num_new_nbr);
 };
 /*---------------------------------------------------------------------------*/
 /* Start selected ND primitive (ND_BURST or ND_SCATTER) */

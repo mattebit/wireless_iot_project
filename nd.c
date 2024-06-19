@@ -42,18 +42,22 @@ bool FIRST_TRANSMIT = false; // basically tells if to use BURST or SCATTER
 uint8_t sent_beacon_count = 0;
 int listen_count = 0;
 uint16_t epoch = 0;
-int discovered_n_epoch = 0;
+uint8_t discovered_n_epoch = 0; // number of all neighbours discovered each epoch
+uint8_t discovered_n_epoch_new = 0; // number of new nodes discovered each epoch
 unsigned short epoch_start = 0;
 int transmit_window_count = 0;
 bool collision = true;
 unsigned short collision_offset = 0;
 
+uint32_t nid;
+
 bool neighbors[MAX_NBR]; // assume ids are from 0 to MAX_NBR
+bool neighbors_act_epoch[MAX_NBR]; // assume ids are from 0 to MAX_NBR
 
 #define EPOCH_DURATION EPOCH_INTERVAL_RT
 #define NUM_EPOCH_EACH_WRAP EPOCH_DURATION / USHRT_MAX // short unsigned dimension
 #define TICKS_PER_SEC RTIMER_SECOND                    // number of ticks in one second
-#define TICKS_PER_MILLISEC (TICKS_PER_SEC / 1000)     // number of ticks in one millisecond
+#define TICKS_PER_MILLISEC (TICKS_PER_SEC / 1000)      // number of ticks in one millisecond
 
 #define TRANSMISSION_WINDOW_COUNT_BURST 1
 #define RECEPTION_WINDOW_COUNT_BURST 10
@@ -72,8 +76,8 @@ bool neighbors[MAX_NBR]; // assume ids are from 0 to MAX_NBR
 #define RECEPTION_WINDOW_DURATION_BURST WINDOW_LEN_BURST
 #define RECEPTION_WINDOW_DURATION_SCATTER WINDOW_LEN_SCATTER
 
-#define TRANSMISSION_DURATION_BURST (15 * TICKS_PER_MILLISEC)             // 15ms [ticks]
-#define RECEPTION_DURATION_BURST RECEPTION_WINDOW_DURATION_BURST / 4      // [ticks]
+#define TRANSMISSION_DURATION_BURST (15 * TICKS_PER_MILLISEC)        // 15ms [ticks]
+#define RECEPTION_DURATION_BURST RECEPTION_WINDOW_DURATION_BURST / 4 // [ticks]
 
 #define TRANSMISSION_DURATION_SCATTER 100 * TICKS_PER_MILLISEC            // [ticks]
 #define RECEPTION_DURATION_SCATTER RECEPTION_WINDOW_DURATION_SCATTER - 10 // [ticks]
@@ -97,9 +101,9 @@ void nd_recv(void)
    * If while you are testing you receive nothing make sure your packet is long enough
    */
 
-  unsigned short nbr_id;
+  uint32_t nbr_id;
 
-  memcpy(&nbr_id, packetbuf_dataptr(), sizeof(unsigned short));
+  memcpy(&nbr_id, packetbuf_dataptr(), sizeof(uint32_t));
 
   /*
   if (packetbuf_datalen() != sizeof(unsigned short))
@@ -114,19 +118,27 @@ void nd_recv(void)
     return; // idk why but sometimes has payload 0
   }
 
+  /*
   int i = 0;
   for (i; i < 11; i++)
   {
     printf("Neighbours: %d", neighbors[i]);
   };
   printf("\n");
+  */
 
+  // check if neigh already found, otherwise set to found
   if (nbr_id < MAX_NBR)
   {
+    if (!neighbors_act_epoch[nbr_id]) {
+      discovered_n_epoch++;
+      neighbors_act_epoch[nbr_id] = true;
+    }
+    
     if (!neighbors[nbr_id])
     {
       neighbors[nbr_id] = true;
-      discovered_n_epoch++;
+      discovered_n_epoch_new++;
 
       if (app_cb.nd_new_nbr != NULL) // sometimes the first one happens to be NULL
       {
@@ -145,7 +157,7 @@ void nd_recv(void)
  */
 void nd_send_beacon(void)
 {
-  int ret = NETSTACK_RADIO.send(&node_id, sizeof(unsigned short));
+  int ret = NETSTACK_RADIO.send(&nid, sizeof(uint32_t));
   if (ret == RADIO_TX_COLLISION)
   {
     printf("there was a collision\n");
@@ -338,18 +350,26 @@ void nd_step()
 {
   if (epoch != 0)
   {
-    app_cb.nd_epoch_end(epoch, discovered_n_epoch);
+    app_cb.nd_epoch_end(epoch, discovered_n_epoch, discovered_n_epoch_new);
   }
 
   if (!FIRST_TRANSMIT)
   {
     // if scatter: transmit at the end of the epoch before starting to listen
-    NETSTACK_RADIO.send(&node_id, sizeof(unsigned short));
+    NETSTACK_RADIO.send(&nid, sizeof(uint32_t));
   }
   epoch++;
   listen_count = 0;
   discovered_n_epoch = 0;
+  discovered_n_epoch_new = 0;
   sent_beacon_count = 0;
+
+  // reset neighbours bitset
+  int i = 0;
+  for (; i < MAX_NBR; i++)
+  {
+    neighbors_act_epoch[i] = false;
+  }
 
   printf("New collision offset: %u\n", collision_offset);
   if (epoch_start != 0)
@@ -383,11 +403,14 @@ void nd_start(uint8_t mode, const struct nd_callbacks *cb)
   app_cb.nd_new_nbr = cb->nd_new_nbr;
   app_cb.nd_epoch_end = cb->nd_epoch_end;
 
+  nid = (uint32_t) node_id;
+
   // init neighbours bitset
   int i = 0;
   for (; i < MAX_NBR; i++)
   {
     neighbors[i] = false;
+    neighbors_act_epoch[i] = false;
   }
 
   switch (mode)
@@ -414,13 +437,13 @@ void nd_start(uint8_t mode, const struct nd_callbacks *cb)
         TRANSMISSION_DURATION,
         RECEPTION_DURATION);
     printf(
-        "START: TYPE, 
-        TRANSMISSION_WINDOW_COUNT,
-        RECEPTION_WINDOW_COUNT,
-        TRANSMISSION_WINDOW_DURATION,
-        RECEPTION_WINDOW_DURATION,
-        TRANSMISSION_PER_WINDOW,
-        TRANSMISSION_DURATION,
+        "START: TYPE, \
+        TRANSMISSION_WINDOW_COUNT, \
+        RECEPTION_WINDOW_COUNT, \
+        TRANSMISSION_WINDOW_DURATION, \
+        RECEPTION_WINDOW_DURATION, \
+        TRANSMISSION_PER_WINDOW, \
+        TRANSMISSION_DURATION, \
         RECEPTION_DURATION\n");
     nd_step(); // does the first step
     break;
@@ -447,13 +470,13 @@ void nd_start(uint8_t mode, const struct nd_callbacks *cb)
         TRANSMISSION_DURATION,
         RECEPTION_DURATION);
     printf(
-        "START: TYPE, 
-        TRANSMISSION_WINDOW_COUNT,
-        RECEPTION_WINDOW_COUNT,
-        TRANSMISSION_WINDOW_DURATION,
-        RECEPTION_WINDOW_DURATION,
-        TRANSMISSION_PER_WINDOW,
-        TRANSMISSION_DURATION,
+        "START: TYPE, \
+        TRANSMISSION_WINDOW_COUNT, \
+        RECEPTION_WINDOW_COUNT, \
+        TRANSMISSION_WINDOW_DURATION, \
+        RECEPTION_WINDOW_DURATION, \
+        TRANSMISSION_PER_WINDOW, \
+        TRANSMISSION_DURATION, \
         RECEPTION_DURATION\n");
     nd_step(); // does the first step
     break;
