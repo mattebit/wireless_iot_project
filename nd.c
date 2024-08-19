@@ -160,7 +160,7 @@ void nd_send_beacon(void)
   int ret = NETSTACK_RADIO.send(&nid, sizeof(uint32_t));
   if (ret == RADIO_TX_COLLISION)
   {
-    printf("there was a collision\n");
+    //printf("there was a collision\n");
     // adds an offset to the epoch to try avoid a collision again
     epoch_start = epoch_start + EPOCH_COLLISION_OFFSET;
     collision = true;
@@ -371,7 +371,7 @@ void nd_step()
     neighbors_act_epoch[i] = false;
   }
 
-  printf("New collision offset: %u\n", collision_offset);
+  printf("NCO: %u\n", collision_offset);
   if (epoch_start != 0)
   {
     epoch_start = epoch_start + EPOCH_DURATION + (collision ? EPOCH_COLLISION_OFFSET : 0);

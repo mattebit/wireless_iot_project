@@ -108,6 +108,7 @@ PROCESS_THREAD(energest_process, ev, data)
   while(1) {
     PROCESS_WAIT_UNTIL(etimer_expired(&periodic));
     etimer_reset(&periodic);
+    PROCESS_YIELD();
     simple_energest_step();
   }
 

@@ -1,2459 +1,750 @@
-293688	ID:28	Rime started with address 28.0
-303296	ID:28	MAC 1c:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 28.
-309269	ID:28	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-311518	ID:28	Starting 'Application process'
-312713	ID:28	Node ID: 28
-314559	ID:28	RTIMER_SECOND: 32768
-330379	ID:38	Rime started with address 38.0
-339994	ID:38	MAC 26:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 38.
-345968	ID:38	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-348216	ID:38	Starting 'Application process'
-349410	ID:38	Node ID: 38
-351256	ID:38	RTIMER_SECOND: 32768
-386745	ID:43	Rime started with address 43.0
-396358	ID:43	MAC 2b:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 43.
-402332	ID:43	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-404580	ID:43	Starting 'Application process'
-405772	ID:43	Node ID: 43
-407618	ID:43	RTIMER_SECOND: 32768
-424023	ID:33	Rime started with address 33.0
-433636	ID:33	MAC 21:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 33.
-439610	ID:33	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-441859	ID:33	Starting 'Application process'
-443055	ID:33	Node ID: 33
-444901	ID:33	RTIMER_SECOND: 32768
-475207	ID:10	Rime started with address 10.0
-476576	ID:18	Rime started with address 18.0
-484729	ID:10	MAC 0a:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 10.
-486185	ID:18	MAC 12:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 18.
-490703	ID:10	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-492159	ID:18	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-492958	ID:10	Starting 'Application process'
-494208	ID:10	Node ID: 10
-494406	ID:18	Starting 'Application process'
-495604	ID:18	Node ID: 18
-496054	ID:10	RTIMER_SECOND: 32768
-497450	ID:18	RTIMER_SECOND: 32768
-586419	ID:22	Rime started with address 22.0
-596031	ID:22	MAC 16:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 22.
-599885	ID:50	Rime started with address 50.0
-602005	ID:22	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-604253	ID:22	Starting 'Application process'
-605450	ID:22	Node ID: 22
-607296	ID:22	RTIMER_SECOND: 32768
-609501	ID:50	MAC 32:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 50.
-615475	ID:50	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-617723	ID:50	Starting 'Application process'
-618916	ID:50	Node ID: 50
-620762	ID:50	RTIMER_SECOND: 32768
-623109	ID:21	Rime started with address 21.0
-626720	ID:12	Rime started with address 12.0
-632718	ID:21	MAC 15:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 21.
-636241	ID:12	MAC 0c:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 12.
-638691	ID:21	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-640938	ID:21	Starting 'Application process'
-642137	ID:21	Node ID: 21
-642215	ID:12	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-643981	ID:21	RTIMER_SECOND: 32768
-644472	ID:12	Starting 'Application process'
-645722	ID:12	Node ID: 12
-646480	ID:21	app_cb.nd_new_nbr is NULL
-647568	ID:12	RTIMER_SECOND: 32768
-650066	ID:12	app_cb.nd_new_nbr is NULL
-652999	ID:43	App: Epoch 0 New NBR 28
-654191	ID:34	Rime started with address 34.0
-654891	ID:42	Rime started with address 42.0
-656954	ID:43	App: Epoch 0 New NBR 50
-659183	ID:36	Rime started with address 36.0
-663803	ID:34	MAC 22:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 34.
-664503	ID:42	MAC 2a:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 42.
-668798	ID:36	MAC 24:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 36.
-669776	ID:34	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-670476	ID:42	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-672023	ID:34	Starting 'Application process'
-672726	ID:42	Starting 'Application process'
-673222	ID:34	Node ID: 34
-673553	ID:46	Rime started with address 46.0
-673920	ID:42	Node ID: 42
-674772	ID:36	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-675067	ID:34	RTIMER_SECOND: 32768
-675765	ID:42	RTIMER_SECOND: 32768
-677020	ID:36	Starting 'Application process'
-677566	ID:34	app_cb.nd_new_nbr is NULL
-678213	ID:36	Node ID: 36
-678264	ID:42	app_cb.nd_new_nbr is NULL
-680079	ID:36	RTIMER_SECOND: 32768
-682578	ID:36	app_cb.nd_new_nbr is NULL
-682643	ID:31	Rime started with address 31.0
-683168	ID:46	MAC 2e:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 46.
-689142	ID:46	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-691391	ID:46	Starting 'Application process'
-692258	ID:31	MAC 1f:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 31.
-692627	ID:46	Node ID: 46
-693105	ID:48	Rime started with address 48.0
-694472	ID:46	RTIMER_SECOND: 32768
-696970	ID:46	app_cb.nd_new_nbr is NULL
-698232	ID:31	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-700480	ID:31	Starting 'Application process'
-701673	ID:31	Node ID: 31
-702714	ID:48	MAC 30:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 48.
-703519	ID:31	RTIMER_SECOND: 32768
-705780	ID:28	App: Epoch 0 New NBR 50
-708687	ID:48	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-710937	ID:48	Starting 'Application process'
-712131	ID:48	Node ID: 48
-713976	ID:48	RTIMER_SECOND: 32768
-716475	ID:48	app_cb.nd_new_nbr is NULL
-787378	ID:25	Rime started with address 25.0
-787538	ID:28	App: Epoch 0 New NBR 22
-794377	ID:28	App: Epoch 0 New NBR 36
-796984	ID:25	MAC 19:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 25.
-802958	ID:25	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-805205	ID:25	Starting 'Application process'
-806403	ID:25	Node ID: 25
-808249	ID:25	RTIMER_SECOND: 32768
-808781	ID:41	Rime started with address 41.0
-818395	ID:41	MAC 29:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 41.
-824369	ID:41	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-826617	ID:41	Starting 'Application process'
-827809	ID:41	Node ID: 41
-829655	ID:41	RTIMER_SECOND: 32768
-831114	ID:50	App: Epoch 0 New NBR 36
-836378	ID:50	App: Epoch 0 New NBR 22
-836409	ID:43	App: Epoch 0 New NBR 22
-842141	ID:5	Rime started with address 5.0
-843207	ID:43	App: Epoch 0 New NBR 36
-851511	ID:5	MAC 05:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 5.
-857409	ID:5	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-859657	ID:5	Starting 'Application process'
-860654	ID:45	Rime started with address 45.0
-860770	ID:5	Node ID: 5
-862616	ID:5	RTIMER_SECOND: 32768
-870262	ID:45	MAC 2d:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 45.
-876235	ID:45	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-878484	ID:45	Starting 'Application process'
-879679	ID:45	Node ID: 45
-881525	ID:45	RTIMER_SECOND: 32768
-887258	ID:28	App: Epoch 0 New NBR 42
-887258	ID:36	App: Epoch 0 New NBR 42
-887338	ID:22	App: Epoch 0 New NBR 42
-923876	ID:50	App: Epoch 0 New NBR 42
-926475	ID:26	Rime started with address 26.0
-936085	ID:26	MAC 1a:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 26.
-936159	ID:43	App: Epoch 0 New NBR 42
-942058	ID:26	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-944307	ID:26	Starting 'Application process'
-945502	ID:26	Node ID: 26
-947347	ID:26	RTIMER_SECOND: 32768
-949845	ID:26	app_cb.nd_new_nbr is NULL
-964038	ID:9	Rime started with address 9.0
-972367	ID:28	App: Epoch 0 New NBR 21
-972367	ID:36	App: Epoch 0 New NBR 21
-972460	ID:22	App: Epoch 0 New NBR 21
-973408	ID:9	MAC 09:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 9.
-979306	ID:9	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-981554	ID:9	Starting 'Application process'
-982667	ID:9	Node ID: 9
-984513	ID:9	RTIMER_SECOND: 32768
-984590	ID:42	App: Epoch 0 New NBR 21
-992034	ID:22	App: Epoch 0 New NBR 33
-992034	ID:42	App: Epoch 0 New NBR 33
-992125	ID:28	App: Epoch 0 New NBR 33
-992243	ID:36	App: Epoch 0 New NBR 33
-1009020	ID:50	App: Epoch 0 New NBR 21
-1016466	ID:43	App: Epoch 0 New NBR 33
-1016516	ID:50	App: Epoch 0 New NBR 33
-1021211	ID:43	App: Epoch 0 New NBR 21
-1024644	ID:29	Rime started with address 29.0
-1028527	ID:6	Rime started with address 6.0
-1034260	ID:29	MAC 1d:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 29.
-1034842	ID:43	App: Epoch 0 New NBR 48
-1034842	ID:50	App: Epoch 0 New NBR 48
-1037894	ID:6	MAC 06:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 6.
-1039500	ID:13	Rime started with address 13.0
-1040234	ID:29	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1042482	ID:29	Starting 'Application process'
-1043674	ID:29	Node ID: 29
-1043796	ID:6	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1045563	ID:29	RTIMER_SECOND: 32768
-1046044	ID:6	Starting 'Application process'
-1047158	ID:6	Node ID: 6
-1048062	ID:29	app_cb.nd_new_nbr is NULL
-1049003	ID:6	RTIMER_SECOND: 32768
-1049017	ID:13	MAC 0d:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 13.
-1051502	ID:6	app_cb.nd_new_nbr is NULL
-1054991	ID:13	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1057247	ID:13	Starting 'Application process'
-1058497	ID:13	Node ID: 13
-1059256	ID:28	App: Epoch 0 New NBR 48
-1059256	ID:36	App: Epoch 0 New NBR 48
-1060342	ID:13	RTIMER_SECOND: 32768
-1062841	ID:13	app_cb.nd_new_nbr is NULL
-1065293	ID:21	App: Epoch 0 New NBR 33
-1071462	ID:22	App: Epoch 0 New NBR 48
-1071510	ID:42	App: Epoch 0 New NBR 48
-1071553	ID:21	App: Epoch 0 New NBR 48
-1083667	ID:33	App: Epoch 0 New NBR 48
-1086262	ID:22	App: Epoch 0 New NBR 34
-1086262	ID:33	App: Epoch 0 New NBR 34
-1086262	ID:42	App: Epoch 0 New NBR 34
-1086353	ID:21	App: Epoch 0 New NBR 34
-1086427	ID:28	App: Epoch 0 New NBR 34
-1094562	ID:33	App: Epoch 0 New NBR 9
-1094642	ID:42	App: Epoch 0 New NBR 9
-1106784	ID:43	App: Epoch 0 New NBR 9
-1106784	ID:50	App: Epoch 0 New NBR 9
-1110049	ID:15	Rime started with address 15.0
-1110677	ID:43	App: Epoch 0 New NBR 34
-1110734	ID:50	App: Epoch 0 New NBR 34
-1119571	ID:15	MAC 0f:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 15.
-1125562	ID:15	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1126831	ID:4	Rime started with address 4.0
-1127810	ID:15	Starting 'Application process'
-1129044	ID:15	Node ID: 15
-1130889	ID:15	RTIMER_SECOND: 32768
-1131152	ID:48	App: Epoch 0 New NBR 9
-1133387	ID:15	app_cb.nd_new_nbr is NULL
-1135089	ID:48	App: Epoch 0 New NBR 34
-1136198	ID:4	MAC 04:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 4.
-1142102	ID:4	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1144350	ID:4	Starting 'Application process'
-1145463	ID:4	Node ID: 4
-1147301	ID:36	App: Epoch 0 New NBR 34
-1147308	ID:4	RTIMER_SECOND: 32768
-1149806	ID:4	app_cb.nd_new_nbr is NULL
-1155571	ID:21	App: Epoch 0 New NBR 9
-1155571	ID:22	App: Epoch 0 New NBR 9
-1155572	ID:28	App: Epoch 0 New NBR 9
-1155573	ID:36	App: Epoch 0 New NBR 9
-1156449	ID:40	Rime started with address 40.0
-1157731	ID:21	App: Epoch 0 New NBR 38
-1157731	ID:22	App: Epoch 0 New NBR 38
-1157731	ID:28	App: Epoch 0 New NBR 38
-1158001	ID:36	App: Epoch 0 New NBR 38
-1166058	ID:40	MAC 28:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 40.
-1167776	ID:34	App: Epoch 0 New NBR 9
-1168696	ID:42	App: Epoch 0 New NBR 38
-1169935	ID:34	App: Epoch 0 New NBR 38
-1172032	ID:40	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1174279	ID:40	Starting 'Application process'
-1175477	ID:40	Node ID: 40
-1177323	ID:40	RTIMER_SECOND: 32768
-1180905	ID:33	App: Epoch 0 New NBR 38
-1186399	ID:34	App: Epoch 0 New NBR 29
-1186402	ID:42	App: Epoch 0 New NBR 29
-1186411	ID:9	App: Epoch 0 New NBR 29
-1186506	ID:33	App: Epoch 0 New NBR 29
-1189288	ID:9	App: Epoch 0 New NBR 41
-1189288	ID:33	App: Epoch 0 New NBR 41
-1189368	ID:34	App: Epoch 0 New NBR 41
-1193111	ID:50	App: Epoch 0 New NBR 38
-1193202	ID:9	App: Epoch 0 New NBR 38
-1198623	ID:43	App: Epoch 0 New NBR 29
-1198623	ID:50	App: Epoch 0 New NBR 29
-1201512	ID:50	App: Epoch 0 New NBR 41
-1201592	ID:43	App: Epoch 0 New NBR 41
-1205317	ID:43	App: Epoch 0 New NBR 38
-1217525	ID:48	App: Epoch 0 New NBR 38
-1223037	ID:48	App: Epoch 0 New NBR 29
-1225924	ID:48	App: Epoch 0 New NBR 41
-1238132	ID:36	App: Epoch 0 New NBR 41
-1247451	ID:21	App: Epoch 0 New NBR 29
-1247451	ID:28	App: Epoch 0 New NBR 29
-1247453	ID:22	App: Epoch 0 New NBR 29
-1247542	ID:36	App: Epoch 0 New NBR 29
-1247542	ID:38	App: Epoch 0 New NBR 29
-1250007	ID:42	App: Epoch 0 New NBR 41
-1250338	ID:22	App: Epoch 0 New NBR 41
-1250338	ID:38	App: Epoch 0 New NBR 41
-1250342	ID:28	App: Epoch 0 New NBR 41
-1250418	ID:21	App: Epoch 0 New NBR 41
-1271437	ID:21	App: Epoch 0 New NBR 18
-1271437	ID:34	App: Epoch 0 New NBR 18
-1271437	ID:42	App: Epoch 0 New NBR 18
-1271438	ID:33	App: Epoch 0 New NBR 18
-1271446	ID:38	App: Epoch 0 New NBR 18
-1280583	ID:35	Rime started with address 35.0
-1283646	ID:9	App: Epoch 0 New NBR 18
-1283646	ID:29	App: Epoch 0 New NBR 18
-1283646	ID:41	App: Epoch 0 New NBR 18
-1283739	ID:50	App: Epoch 0 New NBR 18
-1290192	ID:35	MAC 23:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 35.
-1295853	ID:43	App: Epoch 0 New NBR 18
-1296213	ID:35	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1298467	ID:35	Starting 'Application process'
-1299654	ID:35	Node ID: 35
-1301499	ID:35	RTIMER_SECOND: 32768
-1303997	ID:35	app_cb.nd_new_nbr is NULL
-1308058	ID:48	App: Epoch 0 New NBR 18
-1309384	ID:23	Rime started with address 23.0
-1310330	ID:3	Rime started with address 3.0
-1312212	ID:43	App: Epoch 0 New NBR 12
-1312212	ID:48	App: Epoch 0 New NBR 12
-1318998	ID:23	MAC 17:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 23.
-1319699	ID:3	MAC 03:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 3.
-1324692	ID:44	Rime started with address 44.0
-1324972	ID:23	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1325598	ID:3	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1327220	ID:23	Starting 'Application process'
-1327846	ID:3	Starting 'Application process'
-1328412	ID:23	Node ID: 23
-1328959	ID:3	Node ID: 3
-1330258	ID:23	RTIMER_SECOND: 32768
-1330848	ID:3	RTIMER_SECOND: 32768
-1332472	ID:28	App: Epoch 0 New NBR 18
-1332475	ID:36	App: Epoch 0 New NBR 18
-1332563	ID:22	App: Epoch 0 New NBR 18
-1332797	ID:23	app_cb.nd_new_nbr is NULL
-1333347	ID:3	app_cb.nd_new_nbr is NULL
-1334306	ID:44	MAC 2c:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 44.
-1336576	ID:36	App: Epoch 0 New NBR 46
-1336624	ID:22	App: Epoch 0 New NBR 12
-1336629	ID:21	App: Epoch 0 New NBR 12
-1336715	ID:28	App: Epoch 0 New NBR 12
-1340279	ID:44	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1342527	ID:44	Starting 'Application process'
-1343769	ID:44	Node ID: 44
-1345614	ID:44	RTIMER_SECOND: 32768
-1348113	ID:44	app_cb.nd_new_nbr is NULL
-1348706	ID:38	App: Epoch 0 New NBR 3
-1348875	ID:34	App: Epoch 0 New NBR 12
-1348875	ID:42	App: Epoch 0 New NBR 12
-1349927	ID:21	App: Epoch 0 New NBR 15
-1349927	ID:22	App: Epoch 0 New NBR 15
-1349927	ID:28	App: Epoch 0 New NBR 15
-1349973	ID:36	App: Epoch 0 New NBR 15
-1350865	ID:38	App: Epoch 0 New NBR 15
-1351005	ID:34	App: Epoch 0 New NBR 15
-1351005	ID:42	App: Epoch 0 New NBR 15
-1360993	ID:33	App: Epoch 0 New NBR 46
-1361764	ID:34	App: Epoch 0 New NBR 23
-1361764	ID:38	App: Epoch 0 New NBR 23
-1361765	ID:42	App: Epoch 0 New NBR 23
-1361832	ID:21	App: Epoch 0 New NBR 23
-1361965	ID:22	App: Epoch 0 New NBR 23
-1363123	ID:33	App: Epoch 0 New NBR 23
-1373076	ID:29	App: Epoch 0 New NBR 3
-1373076	ID:50	App: Epoch 0 New NBR 3
-1373244	ID:9	App: Epoch 0 New NBR 12
-1373244	ID:41	App: Epoch 0 New NBR 12
-1373245	ID:18	App: Epoch 0 New NBR 12
-1375234	ID:29	App: Epoch 0 New NBR 23
-1375234	ID:50	App: Epoch 0 New NBR 23
-1375374	ID:9	App: Epoch 0 New NBR 23
-1375375	ID:18	App: Epoch 0 New NBR 23
-1375454	ID:41	App: Epoch 0 New NBR 23
-1385285	ID:43	App: Epoch 0 New NBR 3
-1387443	ID:43	App: Epoch 0 New NBR 23
-1397494	ID:41	App: Epoch 0 New NBR 3
-1398435	ID:48	App: Epoch 0 New NBR 23
-1408996	ID:43	App: Epoch 0 finished Num NBR 17
-1409699	ID:46	App: Epoch 0 New NBR 3
-1409699	ID:48	App: Epoch 0 New NBR 3
-1409700	ID:12	App: Epoch 0 New NBR 3
-1411214	ID:17	Rime started with address 17.0
-1411988	ID:46	App: Epoch 0 New NBR 23
-1411989	ID:12	App: Epoch 0 New NBR 23
-1412249	ID:48	App: Epoch 0 New NBR 43
-1414118	ID:46	App: Epoch 0 New NBR 43
-1414119	ID:12	App: Epoch 0 New NBR 43
-1420826	ID:17	MAC 11:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 17.
-1422817	ID:36	App: Epoch 0 New NBR 23
-1422897	ID:28	App: Epoch 0 New NBR 23
-1424277	ID:22	App: Epoch 0 New NBR 43
-1424947	ID:36	App: Epoch 0 New NBR 43
-1425027	ID:28	App: Epoch 0 New NBR 43
-1426800	ID:17	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1429049	ID:17	Starting 'Application process'
-1430244	ID:17	Node ID: 17
-1432090	ID:17	RTIMER_SECOND: 32768
-1435024	ID:3	App: Epoch 0 New NBR 23
-1436486	ID:21	App: Epoch 0 New NBR 43
-1436486	ID:42	App: Epoch 0 New NBR 43
-1436607	ID:38	App: Epoch 0 New NBR 43
-1437154	ID:3	App: Epoch 0 New NBR 43
-1448690	ID:33	App: Epoch 0 New NBR 43
-1448690	ID:34	App: Epoch 0 New NBR 43
-1448691	ID:15	App: Epoch 0 New NBR 43
-1457575	ID:23	App: Epoch 0 New NBR 10
-1457575	ID:34	App: Epoch 0 New NBR 10
-1457575	ID:42	App: Epoch 0 New NBR 10
-1457576	ID:15	App: Epoch 0 New NBR 10
-1457655	ID:33	App: Epoch 0 New NBR 10
-1457806	ID:18	App: Epoch 0 New NBR 10
-1457812	ID:38	App: Epoch 0 New NBR 10
-1460900	ID:18	App: Epoch 0 New NBR 43
-1460900	ID:29	App: Epoch 0 New NBR 43
-1460991	ID:23	App: Epoch 0 New NBR 43
-1461016	ID:9	App: Epoch 0 New NBR 43
-1469778	ID:9	App: Epoch 0 New NBR 10
-1469778	ID:29	App: Epoch 0 New NBR 10
-1469779	ID:50	App: Epoch 0 New NBR 10
-1469781	ID:41	App: Epoch 0 New NBR 10
-1473105	ID:41	App: Epoch 0 New NBR 43
-1473105	ID:50	App: Epoch 0 New NBR 43
-1479095	ID:19	Rime started with address 19.0
-1488707	ID:19	MAC 13:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 19.
-1494192	ID:12	App: Epoch 0 New NBR 10
-1494192	ID:46	App: Epoch 0 New NBR 10
-1494277	ID:48	App: Epoch 0 New NBR 10
-1494725	ID:19	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1495639	ID:37	Rime started with address 37.0
-1496976	ID:19	Starting 'Application process'
-1498162	ID:19	Node ID: 19
-1500007	ID:19	RTIMER_SECOND: 32768
-1502505	ID:19	app_cb.nd_new_nbr is NULL
-1505254	ID:37	MAC 25:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 37.
-1506482	ID:43	App: Epoch 1 New NBR 10
-1511228	ID:37	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1513476	ID:37	Starting 'Application process'
-1514669	ID:37	Node ID: 37
-1516516	ID:37	RTIMER_SECOND: 32768
-1518606	ID:3	App: Epoch 0 New NBR 10
-1518606	ID:21	App: Epoch 0 New NBR 10
-1518606	ID:28	App: Epoch 0 New NBR 10
-1518606	ID:36	App: Epoch 0 New NBR 10
-1518665	ID:22	App: Epoch 0 New NBR 10
-1519021	ID:37	app_cb.nd_new_nbr is NULL
-1532718	ID:7	Rime started with address 7.0
-1533838	ID:3	App: Epoch 0 New NBR 26
-1533838	ID:15	App: Epoch 0 New NBR 26
-1533838	ID:21	App: Epoch 0 New NBR 26
-1533838	ID:22	App: Epoch 0 New NBR 26
-1533838	ID:28	App: Epoch 0 New NBR 26
-1533838	ID:34	App: Epoch 0 New NBR 26
-1533838	ID:36	App: Epoch 0 New NBR 26
-1533838	ID:38	App: Epoch 0 New NBR 26
-1533918	ID:42	App: Epoch 0 New NBR 26
-1542087	ID:7	MAC 07:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 7.
-1542778	ID:28	App: Epoch 0 finished Num NBR 19
-1542883	ID:3	App: Epoch 0 New NBR 25
-1542883	ID:21	App: Epoch 0 New NBR 25
-1542883	ID:33	App: Epoch 0 New NBR 25
-1542883	ID:34	App: Epoch 0 New NBR 25
-1542883	ID:42	App: Epoch 0 New NBR 25
-1542886	ID:38	App: Epoch 0 New NBR 25
-1542974	ID:15	App: Epoch 0 New NBR 25
-1543127	ID:22	App: Epoch 0 New NBR 25
-1545809	ID:18	App: Epoch 0 New NBR 28
-1545810	ID:23	App: Epoch 0 New NBR 28
-1545835	ID:15	App: Epoch 0 New NBR 28
-1545835	ID:34	App: Epoch 0 New NBR 28
-1545835	ID:42	App: Epoch 0 New NBR 28
-1545882	ID:33	App: Epoch 0 New NBR 28
-1545983	ID:38	App: Epoch 0 New NBR 28
-1545986	ID:3	App: Epoch 0 New NBR 28
-1546051	ID:21	App: Epoch 0 New NBR 28
-1547940	ID:18	App: Epoch 0 New NBR 31
-1547966	ID:15	App: Epoch 0 New NBR 31
-1547989	ID:7	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1548020	ID:23	App: Epoch 0 New NBR 31
-1548046	ID:34	App: Epoch 0 New NBR 31
-1548046	ID:42	App: Epoch 0 New NBR 31
-1548085	ID:33	App: Epoch 0 New NBR 31
-1548147	ID:3	App: Epoch 0 New NBR 31
-1548429	ID:38	App: Epoch 0 New NBR 31
-1550237	ID:7	Starting 'Application process'
-1551350	ID:7	Node ID: 7
-1551717	ID:9	App: Epoch 0 New NBR 35
-1551717	ID:10	App: Epoch 0 New NBR 35
-1551717	ID:23	App: Epoch 0 New NBR 35
-1551717	ID:34	App: Epoch 0 New NBR 35
-1551718	ID:33	App: Epoch 0 New NBR 35
-1551727	ID:29	App: Epoch 0 New NBR 35
-1551762	ID:18	App: Epoch 0 New NBR 35
-1551797	ID:15	App: Epoch 0 New NBR 35
-1551960	ID:42	App: Epoch 0 New NBR 35
-1553196	ID:7	RTIMER_SECOND: 32768
-1555106	ID:9	App: Epoch 0 New NBR 25
-1555106	ID:10	App: Epoch 0 New NBR 25
-1555106	ID:18	App: Epoch 0 New NBR 25
-1555106	ID:29	App: Epoch 0 New NBR 25
-1555107	ID:23	App: Epoch 0 New NBR 25
-1555107	ID:50	App: Epoch 0 New NBR 25
-1555197	ID:41	App: Epoch 0 New NBR 25
-1557905	ID:9	App: Epoch 0 New NBR 0
-1557905	ID:23	App: Epoch 0 New NBR 0
-1557905	ID:50	App: Epoch 0 New NBR 0
-1557913	ID:18	App: Epoch 0 New NBR 0
-1558060	ID:10	App: Epoch 0 New NBR 28
-1558060	ID:41	App: Epoch 0 New NBR 28
-1558091	ID:29	App: Epoch 0 New NBR 28
-1560064	ID:9	App: Epoch 0 New NBR 31
-1560064	ID:50	App: Epoch 0 New NBR 31
-1560191	ID:10	App: Epoch 0 New NBR 31
-1560191	ID:41	App: Epoch 0 New NBR 31
-1560250	ID:29	App: Epoch 0 New NBR 31
-1563940	ID:41	App: Epoch 0 New NBR 35
-1564031	ID:50	App: Epoch 0 New NBR 35
-1566323	ID:50	App: Epoch 0 New NBR 5
-1566372	ID:9	App: Epoch 0 New NBR 5
-1566372	ID:10	App: Epoch 0 New NBR 5
-1566372	ID:23	App: Epoch 0 New NBR 5
-1566372	ID:41	App: Epoch 0 New NBR 5
-1566383	ID:29	App: Epoch 0 New NBR 5
-1566462	ID:18	App: Epoch 0 New NBR 5
-1566544	ID:33	App: Epoch 0 New NBR 5
-1570799	ID:8	Rime started with address 8.0
-1576258	ID:29	App: Epoch 0 New NBR 13
-1576258	ID:50	App: Epoch 0 New NBR 13
-1576259	ID:9	App: Epoch 0 New NBR 13
-1580166	ID:8	MAC 08:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 8.
-1582318	ID:48	App: Epoch 0 New NBR 0
-1582567	ID:30	Rime started with address 30.0
-1583221	ID:49	Rime started with address 49.0
-1583359	ID:50	App: Epoch 0 finished Num NBR 22
-1584521	ID:48	App: Epoch 0 New NBR 31
-1586116	ID:8	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1588364	ID:8	Starting 'Application process'
-1588480	ID:12	App: Epoch 0 New NBR 13
-1588480	ID:48	App: Epoch 0 New NBR 13
-1588483	ID:46	App: Epoch 0 New NBR 13
-1589477	ID:8	Node ID: 8
-1590803	ID:48	App: Epoch 0 New NBR 5
-1590805	ID:46	App: Epoch 0 New NBR 5
-1590836	ID:12	App: Epoch 0 New NBR 5
-1591322	ID:8	RTIMER_SECOND: 32768
-1592184	ID:30	MAC 1e:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 30.
-1592836	ID:49	MAC 31:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 49.
-1592962	ID:48	App: Epoch 0 New NBR 25
-1593171	ID:2	Rime started with address 2.0
-1593234	ID:46	App: Epoch 0 New NBR 25
-1593262	ID:12	App: Epoch 0 New NBR 25
-1593820	ID:8	app_cb.nd_new_nbr is NULL
-1594528	ID:43	App: Epoch 1 New NBR 0
-1595283	ID:46	App: Epoch 0 New NBR 0
-1595312	ID:12	App: Epoch 0 New NBR 0
-1596733	ID:43	App: Epoch 1 New NBR 31
-1597487	ID:46	App: Epoch 0 New NBR 31
-1597515	ID:12	App: Epoch 0 New NBR 31
-1598158	ID:30	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1598854	ID:49	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1600407	ID:30	Starting 'Application process'
-1600642	ID:36	App: Epoch 0 New NBR 35
-1600778	ID:43	App: Epoch 1 New NBR 13
-1601103	ID:49	Starting 'Application process'
-1601600	ID:30	Node ID: 30
-1602291	ID:49	Node ID: 49
-1602538	ID:2	MAC 02:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 2.
-1603012	ID:36	App: Epoch 0 New NBR 5
-1603071	ID:43	App: Epoch 1 New NBR 5
-1603445	ID:30	RTIMER_SECOND: 32768
-1604137	ID:49	RTIMER_SECOND: 32768
-1604615	ID:12	App: Epoch 0 New NBR 6
-1604615	ID:46	App: Epoch 0 New NBR 6
-1604615	ID:48	App: Epoch 0 New NBR 6
-1605221	ID:36	App: Epoch 0 New NBR 25
-1605352	ID:43	App: Epoch 1 New NBR 25
-1605943	ID:30	app_cb.nd_new_nbr is NULL
-1606637	ID:49	app_cb.nd_new_nbr is NULL
-1606733	ID:22	App: Epoch 0 New NBR 0
-1607251	ID:36	App: Epoch 0 New NBR 6
-1607382	ID:43	App: Epoch 1 New NBR 6
-1608440	ID:2	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1608572	ID:21	App: Epoch 0 New NBR 31
-1608936	ID:22	App: Epoch 0 New NBR 31
-1609729	ID:36	App: Epoch 0 New NBR 28
-1610732	ID:2	Starting 'Application process'
-1610853	ID:3	App: Epoch 0 New NBR 50
-1610854	ID:38	App: Epoch 0 New NBR 50
-1611069	ID:22	App: Epoch 0 New NBR 50
-1611845	ID:2	Node ID: 2
-1611983	ID:36	App: Epoch 0 New NBR 31
-1612892	ID:21	App: Epoch 0 New NBR 0
-1613313	ID:3	App: Epoch 0 New NBR 0
-1613314	ID:38	App: Epoch 0 New NBR 0
-1613691	ID:2	RTIMER_SECOND: 32768
-1615217	ID:21	App: Epoch 0 New NBR 5
-1615217	ID:22	App: Epoch 0 New NBR 5
-1615217	ID:42	App: Epoch 0 New NBR 5
-1615320	ID:3	App: Epoch 0 New NBR 5
-1615401	ID:38	App: Epoch 0 New NBR 5
-1616189	ID:2	app_cb.nd_new_nbr is NULL
-1617616	ID:42	App: Epoch 0 New NBR 6
-1617699	ID:21	App: Epoch 0 New NBR 6
-1617760	ID:3	App: Epoch 0 New NBR 6
-1617843	ID:38	App: Epoch 0 New NBR 6
-1618771	ID:47	Rime started with address 47.0
-1623092	ID:15	App: Epoch 0 New NBR 50
-1625099	ID:42	App: Epoch 0 New NBR 0
-1625179	ID:34	App: Epoch 0 New NBR 0
-1625474	ID:24	Rime started with address 24.0
-1627424	ID:15	App: Epoch 0 New NBR 5
-1627424	ID:26	App: Epoch 0 New NBR 5
-1627424	ID:34	App: Epoch 0 New NBR 5
-1628384	ID:47	MAC 2f:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 47.
-1629028	ID:33	App: Epoch 0 New NBR 6
-1629430	ID:26	App: Epoch 0 New NBR 6
-1629430	ID:34	App: Epoch 0 New NBR 6
-1629510	ID:15	App: Epoch 0 New NBR 6
-1634359	ID:47	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1635086	ID:24	MAC 18:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 24.
-1635296	ID:23	App: Epoch 0 New NBR 50
-1635296	ID:26	App: Epoch 0 New NBR 50
-1635296	ID:33	App: Epoch 0 New NBR 50
-1635376	ID:18	App: Epoch 0 New NBR 50
-1635376	ID:25	App: Epoch 0 New NBR 50
-1636607	ID:47	Starting 'Application process'
-1637306	ID:34	App: Epoch 0 New NBR 13
-1637306	ID:42	App: Epoch 0 New NBR 13
-1637307	ID:28	App: Epoch 1 New NBR 13
-1637354	ID:15	App: Epoch 0 New NBR 13
-1637397	ID:38	App: Epoch 0 New NBR 13
-1637426	ID:23	App: Epoch 0 New NBR 13
-1637426	ID:26	App: Epoch 0 New NBR 13
-1637468	ID:21	App: Epoch 0 New NBR 13
-1637485	ID:3	App: Epoch 0 New NBR 13
-1637506	ID:18	App: Epoch 0 New NBR 13
-1637506	ID:25	App: Epoch 0 New NBR 13
-1637517	ID:33	App: Epoch 0 New NBR 13
-1637799	ID:47	Node ID: 47
-1639608	ID:25	App: Epoch 0 New NBR 5
-1639645	ID:47	RTIMER_SECOND: 32768
-1639710	ID:28	App: Epoch 1 New NBR 5
-1639711	ID:31	App: Epoch 0 New NBR 5
-1641060	ID:24	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1641234	ID:9	App: Epoch 0 New NBR 6
-1641234	ID:10	App: Epoch 0 New NBR 6
-1641234	ID:18	App: Epoch 0 New NBR 6
-1641234	ID:29	App: Epoch 0 New NBR 6
-1641314	ID:23	App: Epoch 0 New NBR 6
-1641616	ID:25	App: Epoch 0 New NBR 6
-1641717	ID:28	App: Epoch 1 New NBR 6
-1641717	ID:31	App: Epoch 0 New NBR 6
-1642143	ID:47	app_cb.nd_new_nbr is NULL
-1643308	ID:24	Starting 'Application process'
-1644505	ID:24	Node ID: 24
-1646351	ID:24	RTIMER_SECOND: 32768
-1647409	ID:10	App: Epoch 0 New NBR 45
-1647409	ID:18	App: Epoch 0 New NBR 45
-1647409	ID:25	App: Epoch 0 New NBR 45
-1647409	ID:33	App: Epoch 0 New NBR 45
-1647409	ID:35	App: Epoch 0 New NBR 45
-1647411	ID:41	App: Epoch 0 New NBR 45
-1647412	ID:15	App: Epoch 0 New NBR 45
-1647495	ID:28	App: Epoch 1 New NBR 45
-1647505	ID:29	App: Epoch 0 New NBR 50
-1647506	ID:9	App: Epoch 0 New NBR 50
-1647534	ID:26	App: Epoch 0 New NBR 45
-1647545	ID:31	App: Epoch 0 New NBR 45
-1647576	ID:34	App: Epoch 0 New NBR 45
-1649563	ID:35	App: Epoch 0 New NBR 13
-1649628	ID:10	App: Epoch 0 New NBR 13
-1649832	ID:41	App: Epoch 0 New NBR 13
-1649943	ID:31	App: Epoch 0 New NBR 13
-1653444	ID:35	App: Epoch 0 New NBR 6
-1653444	ID:41	App: Epoch 0 New NBR 6
-1659633	ID:5	App: Epoch 0 New NBR 45
-1665729	ID:5	App: Epoch 0 New NBR 6
-1671839	ID:13	App: Epoch 0 New NBR 45
-1671880	ID:48	App: Epoch 0 New NBR 45
-1677857	ID:13	App: Epoch 0 New NBR 6
-1677858	ID:50	App: Epoch 1 New NBR 6
-1684048	ID:50	App: Epoch 1 New NBR 45
-1684083	ID:12	App: Epoch 0 New NBR 45
-1684102	ID:46	App: Epoch 0 New NBR 45
-1685687	ID:13	App: Epoch 0 New NBR 40
-1685687	ID:48	App: Epoch 0 New NBR 40
-1685689	ID:43	App: Epoch 1 New NBR 40
-1685930	ID:5	App: Epoch 0 New NBR 40
-1686179	ID:50	App: Epoch 1 New NBR 40
-1686481	ID:12	App: Epoch 0 New NBR 40
-1686501	ID:46	App: Epoch 0 New NBR 40
-1696254	ID:22	App: Epoch 0 New NBR 45
-1696254	ID:36	App: Epoch 0 New NBR 45
-1696255	ID:6	App: Epoch 0 New NBR 45
-1696302	ID:43	App: Epoch 1 New NBR 45
-1698384	ID:36	App: Epoch 0 New NBR 40
-1698385	ID:22	App: Epoch 0 New NBR 40
-1698654	ID:6	App: Epoch 0 New NBR 40
-1708461	ID:21	App: Epoch 0 New NBR 45
-1708461	ID:42	App: Epoch 0 New NBR 45
-1708462	ID:3	App: Epoch 0 New NBR 45
-1708541	ID:38	App: Epoch 0 New NBR 45
-1710099	ID:34	App: Epoch 0 New NBR 40
-1710591	ID:21	App: Epoch 0 New NBR 40
-1710591	ID:42	App: Epoch 0 New NBR 40
-1710592	ID:3	App: Epoch 0 New NBR 40
-1710671	ID:38	App: Epoch 0 New NBR 40
-1720774	ID:36	App: Epoch 0 finished Num NBR 24
-1722309	ID:15	App: Epoch 0 New NBR 40
-1722309	ID:26	App: Epoch 0 New NBR 40
-1722309	ID:33	App: Epoch 0 New NBR 40
-1723832	ID:38	App: Epoch 0 New NBR 36
-1723833	ID:3	App: Epoch 0 New NBR 36
-1723833	ID:21	App: Epoch 0 New NBR 36
-1723833	ID:34	App: Epoch 0 New NBR 36
-1723833	ID:42	App: Epoch 0 New NBR 36
-1724076	ID:6	App: Epoch 0 New NBR 36
-1724440	ID:15	App: Epoch 0 New NBR 36
-1724440	ID:26	App: Epoch 0 New NBR 36
-1724441	ID:33	App: Epoch 0 New NBR 36
-1726140	ID:22	App: Epoch 0 New NBR App: Epoch 0 finished Num NBR 24
-1727676	ID:22	36
-1729173	ID:34	App: Epoch 0 New NBR 22
-1729197	ID:15	App: Epoch 0 New NBR 22
-1729197	ID:18	App: Epoch 0 New NBR 22
-1729197	ID:23	App: Epoch 0 New NBR 22
-1729197	ID:26	App: Epoch 0 New NBR 22
-1729197	ID:31	App: Epoch 0 New NBR 22
-1729197	ID:33	App: Epoch 0 New NBR 22
-1729223	ID:25	App: Epoch 0 New NBR 22
-1729282	ID:42	App: Epoch 0 New NBR 22
-1729403	ID:3	App: Epoch 0 New NBR 22
-1729440	ID:38	App: Epoch 0 New NBR 22
-1734514	ID:25	App: Epoch 0 New NBR 40
-1734514	ID:29	App: Epoch 0 New NBR 40
-1734515	ID:9	App: Epoch 0 New NBR 40
-1734515	ID:10	App: Epoch 0 New NBR 40
-1734515	ID:18	App: Epoch 0 New NBR 40
-1734515	ID:31	App: Epoch 0 New NBR 40
-1734515	ID:35	App: Epoch 0 New NBR 40
-1734516	ID:28	App: Epoch 1 New NBR 40
-1734552	ID:23	App: Epoch 0 New NBR 40
-1734595	ID:41	App: Epoch 0 New NBR 40
-1736645	ID:29	App: Epoch 0 New NBR 36
-1736646	ID:9	App: Epoch 0 New NBR 36
-1736646	ID:31	App: Epoch 0 New NBR 36
-1736662	ID:35	App: Epoch 0 New NBR 36
-1736671	ID:10	App: Epoch 0 New NBR 36
-1736683	ID:23	App: Epoch 0 New NBR 36
-1736726	ID:41	App: Epoch 0 New NBR 36
-1736736	ID:25	App: Epoch 0 New NBR 36
-1736737	ID:18	App: Epoch 0 New NBR 36
-1741424	ID:10	App: Epoch 0 New NBR 22
-1741424	ID:29	App: Epoch 0 New NBR 22
-1741424	ID:35	App: Epoch 0 New NBR 22
-1741424	ID:45	App: Epoch 0 New NBR 22
-1741436	ID:41	App: Epoch 0 New NBR 22
-1741472	ID:9	App: Epoch 0 New NBR 22
-1746769	ID:45	App: Epoch 0 New NBR 40
-1748263	ID:5	App: Epoch 0 New NBR 36
-1749168	ID:45	App: Epoch 0 New NBR 36
-1753632	ID:5	App: Epoch 0 New NBR 22
-1754409	ID:14	Rime started with address 14.0
-1760550	ID:13	App: Epoch 0 New NBR 36
-1763008	ID:5	App: Epoch 0 New NBR 2
-1763008	ID:13	App: Epoch 0 New NBR 2
-1763011	ID:48	App: Epoch 0 New NBR 2
-1763098	ID:45	App: Epoch 0 New NBR 2
-1763149	ID:41	App: Epoch 0 New NBR 2
-1763933	ID:14	MAC 0e:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 14.
-1765838	ID:13	App: Epoch 0 New NBR 22
-1765929	ID:48	App: Epoch 0 New NBR 22
-1769909	ID:14	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1772157	ID:14	Starting 'Application process'
-1772679	ID:46	App: Epoch 0 New NBR 36
-1772679	ID:48	App: Epoch 0 New NBR 36
-1772682	ID:12	App: Epoch 0 New NBR 36
-1773449	ID:14	Node ID: 14
-1775212	ID:12	App: Epoch 0 New NBR 2
-1775212	ID:46	App: Epoch 0 New NBR 2
-1775213	ID:43	App: Epoch 1 New NBR 2
-1775213	ID:50	App: Epoch 1 New NBR 2
-1775294	ID:14	RTIMER_SECOND: 32768
-1776270	ID:48	App: Epoch 0 New NBR 49
-1776277	ID:40	App: Epoch 0 New NBR 49
-1776350	ID:13	App: Epoch 0 New NBR 49
-1776470	ID:5	App: Epoch 0 New NBR 49
-1777372	ID:43	App: Epoch 1 New NBR 49
-1777373	ID:50	App: Epoch 1 New NBR 49
-1777461	ID:12	App: Epoch 0 New NBR 49
-1777462	ID:46	App: Epoch 0 New NBR 49
-1777795	ID:14	app_cb.nd_new_nbr is NULL
-1778675	ID:40	App: Epoch 0 New NBR 22
-1779859	ID:12	App: Epoch 0 New NBR 22
-1779860	ID:46	App: Epoch 0 New NBR 22
-1784884	ID:40	App: Epoch 0 New NBR 36
-1787423	ID:6	App: Epoch 0 New NBR 2
-1787423	ID:40	App: Epoch 0 New NBR 2
-1789671	ID:6	App: Epoch 0 New NBR 49
-1790341	ID:21	App: Epoch 0 New NBR 22
-1792070	ID:6	App: Epoch 0 New NBR 22
-1799627	ID:3	App: Epoch 0 New NBR 2
-1799627	ID:21	App: Epoch 0 New NBR 2
-1799627	ID:38	App: Epoch 0 New NBR 2
-1799710	ID:42	App: Epoch 0 New NBR 2
-1801785	ID:3	App: Epoch 0 New NBR 49
-1801785	ID:21	App: Epoch 0 New NBR 49
-1801785	ID:38	App: Epoch 0 New NBR 49
-1801869	ID:42	App: Epoch 0 New NBR 49
-1811835	ID:15	App: Epoch 0 New NBR 2
-1811835	ID:34	App: Epoch 0 New NBR 2
-1811837	ID:33	App: Epoch 0 New NBR 2
-1811838	ID:26	App: Epoch 0 New NBR 2
-1813994	ID:15	App: Epoch 0 New NBR 49
-1813995	ID:33	App: Epoch 0 New NBR 49
-1814011	ID:34	App: Epoch 0 New NBR 49
-1814265	ID:26	App: Epoch 0 New NBR 49
-1824040	ID:9	App: Epoch 0 New NBR 2
-1824040	ID:10	App: Epoch 0 New NBR 2
-1824040	ID:23	App: Epoch 0 New NBR 2
-1824040	ID:25	App: Epoch 0 New NBR 2
-1824040	ID:31	App: Epoch 0 New NBR 2
-1824041	ID:28	App: Epoch 1 New NBR 2
-1824041	ID:36	App: Epoch 1 New NBR 2
-1824049	ID:29	App: Epoch 0 New NBR 2
-1824059	ID:22	App: Epoch 1 New NBR 2
-1824122	ID:18	App: Epoch 0 New NBR 2
-1824162	ID:35	App: Epoch 0 New NBR 2
-1825860	ID:42	App: Epoch 0 finished Num NBR 29
-1826199	ID:9	App: Epoch 0 New NBR 49
-1826199	ID:10	App: Epoch 0 New NBR 49
-1826199	ID:23	App: Epoch 0 New NBR 49
-1826199	ID:25	App: Epoch 0 New NBR 49
-1826200	ID:31	App: Epoch 0 New NBR 49
-1826201	ID:28	App: Epoch 1 New NBR 49
-1826207	ID:29	App: Epoch 0 New NBR 49
-1826212	ID:36	App: Epoch 1 New NBR 49
-1826218	ID:22	App: Epoch 1 New NBR 49
-1826280	ID:18	App: Epoch 0 New NBR 49
-1826391	ID:35	App: Epoch 0 New NBR 49
-1828920	ID:9	App: Epoch 0 New NBR 42
-1828920	ID:15	App: Epoch 0 New NBR 42
-1828920	ID:29	App: Epoch 0 New NBR 42
-1828920	ID:31	App: Epoch 0 New NBR 42
-1828920	ID:33	App: Epoch 0 New NBR 42
-1828920	ID:35	App: Epoch 0 New NBR 42
-1828920	ID:41	App: Epoch 0 New NBR 42
-1828920	ID:45	App: Epoch 0 New NBR 42
-1828923	ID:18	App: Epoch 0 New NBR 42
-1828926	ID:10	App: Epoch 0 New NBR 42
-1828991	ID:25	App: Epoch 0 New NBR 42
-1829000	ID:23	App: Epoch 0 New NBR 42
-1829067	ID:34	App: Epoch 0 New NBR 42
-1837259	ID:41	App: Epoch 0 New NBR 49
-1837280	ID:45	App: Epoch 0 New NBR 49
-1841142	ID:5	App: Epoch 0 New NBR 42
-1850013	ID:5	App: Epoch 0 New NBR 8
-1850013	ID:13	App: Epoch 0 New NBR 8
-1850013	ID:35	App: Epoch 0 New NBR 8
-1850016	ID:45	App: Epoch 0 New NBR 8
-1850103	ID:41	App: Epoch 0 New NBR 8
-1850228	ID:10	App: Epoch 0 New NBR 8
-1850256	ID:29	App: Epoch 0 New NBR 8
-1850269	ID:9	App: Epoch 0 New NBR 8
-1853351	ID:13	App: Epoch 0 New NBR 42
-1853431	ID:48	App: Epoch 0 New NBR 42
-1862213	ID:50	App: Epoch 1 New NBR 8
-1862219	ID:2	App: Epoch 0 New NBR 8
-1862220	ID:12	App: Epoch 0 New NBR 8
-1862220	ID:46	App: Epoch 0 New NBR 8
-1862220	ID:48	App: Epoch 0 New NBR 8
-1865555	ID:2	App: Epoch 0 New NBR 42
-1865555	ID:12	App: Epoch 0 New NBR 42
-1865555	ID:46	App: Epoch 0 New NBR 42
-1874427	ID:40	App: Epoch 0 New NBR 8
-1874427	ID:43	App: Epoch 1 New NBR 8
-1874517	ID:49	App: Epoch 0 New NBR 8
-1877765	ID:49	App: Epoch 0 New NBR 42
-1877766	ID:6	App: Epoch 0 New NBR 42
-1877768	ID:40	App: Epoch 0 New NBR 42
-1886632	ID:3	App: Epoch 0 New NBR 8
-1886632	ID:6	App: Epoch 0 New NBR 8
-1886632	ID:21	App: Epoch 0 New NBR 8
-1886632	ID:38	App: Epoch 0 New NBR 8
-1889970	ID:3	App: Epoch 0 New NBR 42
-1889970	ID:21	App: Epoch 0 New NBR 42
-1889970	ID:38	App: Epoch 0 New NBR 42
-1898841	ID:15	App: Epoch 0 New NBR 8
-1898846	ID:26	App: Epoch 0 New NBR 8
-1898854	ID:34	App: Epoch 0 New NBR 8
-1910990	ID:21	App: Epoch 0 finished Num NBR 29
-1911051	ID:18	App: Epoch 0 New NBR 8
-1911051	ID:23	App: Epoch 0 New NBR 8
-1911051	ID:31	App: Epoch 0 New NBR 8
-1911052	ID:28	App: Epoch 1 New NBR 8
-1911052	ID:36	App: Epoch 1 New NBR 8
-1911054	ID:25	App: Epoch 0 New NBR 8
-1911068	ID:33	App: Epoch 0 New NBR 8
-1911253	ID:22	App: Epoch 1 New NBR 8
-1914047	ID:10	App: Epoch 0 New NBR 21
-1914047	ID:18	App: Epoch 0 New NBR 21
-1914047	ID:25	App: Epoch 0 New NBR 21
-1914047	ID:29	App: Epoch 0 New NBR 21
-1914047	ID:33	App: Epoch 0 New NBR 21
-1914048	ID:34	App: Epoch 0 New NBR 21
-1914050	ID:15	App: Epoch 0 New NBR 21
-1914072	ID:31	App: Epoch 0 New NBR 21
-1914138	ID:23	App: Epoch 0 New NBR 21
-1914141	ID:9	App: Epoch 0 New NBR 21
-1914207	ID:26	App: Epoch 0 New NBR 21
-1923257	ID:42	App: Epoch 1 New NBR 8
-1926271	ID:35	App: Epoch 0 New NBR 21
-1926271	ID:41	App: Epoch 0 New NBR 21
-1926351	ID:45	App: Epoch 0 New NBR 21
-1929380	ID:11	Rime started with address 11.0
-1930657	ID:33	App: Epoch 0 finished Num NBR 28
-1933688	ID:35	App: Epoch 0 New NBR 33
-1933713	ID:29	App: Epoch 0 New NBR 33
-1933714	ID:9	App: Epoch 0 New NBR 33
-1933714	ID:10	App: Epoch 0 New NBR 33
-1933714	ID:23	App: Epoch 0 New NBR 33
-1933714	ID:31	App: Epoch 0 New NBR 33
-1933714	ID:41	App: Epoch 0 New NBR 33
-1933717	ID:5	App: Epoch 0 New NBR 33
-1933726	ID:45	App: Epoch 0 New NBR 33
-1933793	ID:18	App: Epoch 0 New NBR 33
-1933908	ID:25	App: Epoch 0 New NBR 33
-1936066	ID:39	Rime started with address 39.0
-1938560	ID:5	App: Epoch 0 New NBR 21
-1938900	ID:11	MAC 0b:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 11.
-1944874	ID:11	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1945682	ID:39	MAC 27:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 39.
-1945939	ID:2	App: Epoch 0 New NBR 33
-1945939	ID:8	App: Epoch 0 New NBR 33
-1945939	ID:13	App: Epoch 0 New NBR 33
-1945940	ID:48	App: Epoch 0 New NBR 33
-1947128	ID:11	Starting 'Application process'
-1948379	ID:11	Node ID: 11
-1950225	ID:11	RTIMER_SECOND: 32768
-1950683	ID:2	App: Epoch 0 New NBR 21
-1950683	ID:8	App: Epoch 0 New NBR 21
-1950683	ID:13	App: Epoch 0 New NBR 21
-1950683	ID:48	App: Epoch 0 New NBR 21
-1950684	ID:12	App: Epoch 0 New NBR 21
-1950704	ID:46	App: Epoch 0 New NBR 21
-1951655	ID:39	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1953904	ID:39	Starting 'Application process'
-1955097	ID:39	Node ID: 39
-1956943	ID:39	RTIMER_SECOND: 32768
-1958192	ID:40	App: Epoch 0 New NBR 33
-1958192	ID:49	App: Epoch 0 New NBR 33
-1958210	ID:46	App: Epoch 0 New NBR 33
-1958211	ID:12	App: Epoch 0 New NBR 33
-1960077	ID:2	App: Epoch 0 New NBR 7
-1960077	ID:8	App: Epoch 0 New NBR 7
-1960077	ID:13	App: Epoch 0 New NBR 7
-1960077	ID:48	App: Epoch 0 New NBR 7
-1960078	ID:50	App: Epoch 1 New NBR 7
-1960168	ID:43	App: Epoch 1 New NBR 7
-1960170	ID:40	App: Epoch 0 New NBR 7
-1960170	ID:49	App: Epoch 0 New NBR 7
-1960187	ID:46	App: Epoch 0 New NBR 7
-1960189	ID:12	App: Epoch 0 New NBR 7
-1962892	ID:40	App: Epoch 0 New NBR 21
-1962892	ID:49	App: Epoch 0 New NBR 21
-1970477	ID:6	App: Epoch 0 New NBR 33
-1972303	ID:3	App: Epoch 0 New NBR 7
-1972455	ID:6	App: Epoch 0 New NBR 7
-1973447	ID:48	App: Epoch 0 finished Num NBR 28
-1975101	ID:3	App: Epoch 0 New NBR 21
-1975101	ID:6	App: Epoch 0 New NBR 21
-1975182	ID:38	App: Epoch 0 New NBR 21
-1976503	ID:49	App: Epoch 0 New NBR 48
-1976506	ID:40	App: Epoch 0 New NBR 48
-1976507	ID:1	Rime started with address 1.0
-1976713	ID:12	App: Epoch 0 New NBR 48
-1976747	ID:46	App: Epoch 0 New NBR 48
-1977232	ID:3	App: Epoch 0 New NBR 48
-1977312	ID:38	App: Epoch 0 New NBR 48
-1980422	ID:27	Rime started with address 27.0
-1982561	ID:34	App: Epoch 0 New NBR 33
-1982561	ID:38	App: Epoch 0 New NBR 33
-1982563	ID:3	App: Epoch 0 New NBR 33
-1984643	ID:34	App: Epoch 0 New NBR 7
-1984831	ID:38	App: Epoch 0 New NBR 7
-1985877	ID:1	MAC 01:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 1.
-1988728	ID:26	App: Epoch 0 New NBR 48
-1988728	ID:34	App: Epoch 0 New NBR 48
-1988729	ID:15	App: Epoch 0 New NBR 48
-1990029	ID:27	MAC 1b:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 27.
-1991823	ID:1	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1994071	ID:1	Starting 'Application process'
-1994766	ID:26	App: Epoch 0 New NBR 33
-1994768	ID:15	App: Epoch 0 New NBR 33
-1995184	ID:1	Node ID: 1
-1996003	ID:27	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-1996716	ID:36	App: Epoch 1 New NBR 7
-1996768	ID:26	App: Epoch 0 New NBR 7
-1996860	ID:15	App: Epoch 0 New NBR 7
-1997029	ID:1	RTIMER_SECOND: 32768
-1998252	ID:27	Starting 'Application process'
-1999446	ID:27	Node ID: 27
-1999527	ID:1	app_cb.nd_new_nbr is NULL
-1999796	ID:3	App: Epoch 0 New NBR 4
-1999796	ID:15	App: Epoch 0 New NBR 4
-1999796	ID:18	App: Epoch 0 New NBR 4
-1999796	ID:25	App: Epoch 0 New NBR 4
-1999796	ID:34	App: Epoch 0 New NBR 4
-1999796	ID:38	App: Epoch 0 New NBR 4
-1999841	ID:36	App: Epoch 1 New NBR 4
-1999876	ID:23	App: Epoch 0 New NBR 4
-1999877	ID:28	App: Epoch 1 New NBR 4
-1999886	ID:26	App: Epoch 0 New NBR 4
-2001291	ID:27	RTIMER_SECOND: 32768
-2001954	ID:18	App: Epoch 0 New NBR 48
-2001959	ID:25	App: Epoch 0 New NBR 48
-2002034	ID:23	App: Epoch 0 New NBR 48
-2003789	ID:27	app_cb.nd_new_nbr is NULL
-2008898	ID:23	App: Epoch 0 New NBR 7
-2008923	ID:10	App: Epoch 0 New NBR 7
-2008924	ID:9	App: Epoch 0 New NBR 7
-2008924	ID:18	App: Epoch 0 New NBR 7
-2008924	ID:29	App: Epoch 0 New NBR 7
-2008924	ID:31	App: Epoch 0 New NBR 7
-2008924	ID:35	App: Epoch 0 New NBR 7
-2008924	ID:41	App: Epoch 0 New NBR 7
-2008925	ID:22	App: Epoch 1 New NBR 7
-2008929	ID:25	App: Epoch 0 New NBR 7
-2009015	ID:21	App: Epoch 1 New NBR 7
-2009140	ID:28	App: Epoch 1 New NBR 7
-2011999	ID:9	App: Epoch 0 New NBR 4
-2011999	ID:10	App: Epoch 0 New NBR 4
-2011999	ID:31	App: Epoch 0 New NBR 4
-2011999	ID:35	App: Epoch 0 New NBR 4
-2012000	ID:21	App: Epoch 1 New NBR 4
-2012001	ID:41	App: Epoch 0 New NBR 4
-2012003	ID:42	App: Epoch 1 New NBR 4
-2012080	ID:22	App: Epoch 1 New NBR 4
-2012089	ID:45	App: Epoch 0 New NBR 4
-2012159	ID:29	App: Epoch 0 New NBR 4
-2012590	ID:34	App: Epoch 0 finished Num NBR 32
-2014158	ID:10	App: Epoch 0 New NBR 48
-2014158	ID:35	App: Epoch 0 New NBR 48
-2014160	ID:31	App: Epoch 0 New NBR 48
-2014236	ID:9	App: Epoch 0 New NBR 48
-2014241	ID:41	App: Epoch 0 New NBR 48
-2014561	ID:45	App: Epoch 0 New NBR 48
-2015648	ID:18	App: Epoch 0 New NBR 34
-2015648	ID:25	App: Epoch 0 New NBR 34
-2015648	ID:29	App: Epoch 0 New NBR 34
-2015728	ID:23	App: Epoch 0 New NBR 34
-2015960	ID:26	App: Epoch 0 New NBR 34
-2016289	ID:10	App: Epoch 0 New NBR 34
-2016289	ID:35	App: Epoch 0 New NBR 34
-2016291	ID:31	App: Epoch 0 New NBR 34
-2016368	ID:9	App: Epoch 0 New NBR 34
-2016372	ID:41	App: Epoch 0 New NBR 34
-2016763	ID:45	App: Epoch 0 New NBR 34
-2021129	ID:5	App: Epoch 0 New NBR 7
-2021129	ID:45	App: Epoch 0 New NBR 7
-2021130	ID:42	App: Epoch 1 New NBR 7
-2024209	ID:33	App: Epoch 1 New NBR 4
-2024298	ID:5	App: Epoch 0 New NBR 4
-2026769	ID:5	App: Epoch 0 New NBR 48
-2028972	ID:5	App: Epoch 0 New NBR 34
-2033291	ID:9	App: Epoch 0 finished Num NBR 29
-2033339	ID:33	App: Epoch 1 New NBR 7
-2036226	ID:2	App: Epoch 0 New NBR 9
-2036226	ID:5	App: Epoch 0 New NBR 9
-2036238	ID:13	App: Epoch 0 New NBR 9
-2036263	ID:45	App: Epoch 0 New NBR 9
-2036395	ID:41	App: Epoch 0 New NBR 9
-2036402	ID:8	App: Epoch 0 New NBR 9
-2038385	ID:2	App: Epoch 0 New NBR 48
-2038632	ID:8	App: Epoch 0 New NBR 48
-2040061	ID:12	App: Epoch 0 New NBR 34
-2040061	ID:46	App: Epoch 0 New NBR 34
-2040064	ID:13	App: Epoch 0 New NBR 34
-2040516	ID:2	App: Epoch 0 New NBR 34
-2040763	ID:8	App: Epoch 0 New NBR 34
-2044520	ID:32	Rime started with address 32.0
-2048361	ID:49	App: Epoch 0 New NBR 9
-2048431	ID:12	App: Epoch 0 New NBR 9
-2048431	ID:46	App: Epoch 0 New NBR 9
-2052264	ID:40	App: Epoch 0 New NBR 34
-2052264	ID:49	App: Epoch 0 New NBR 34
-2052265	ID:7	App: Epoch 0 New NBR 34
-2053894	ID:16	Rime started with address 16.0
-2054133	ID:32	MAC 20:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 32.
-2060107	ID:32	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-2060596	ID:6	App: Epoch 0 New NBR 9
-2060596	ID:40	App: Epoch 0 New NBR 9
-2060794	ID:7	App: Epoch 0 New NBR 9
-2062383	ID:32	Starting 'Application process'
-2063505	ID:16	MAC 10:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 16.
-2063596	ID:32	Node ID: 32
-2064472	ID:6	App: Epoch 0 New NBR 34
-2064546	ID:3	App: Epoch 0 New NBR 34
-2065441	ID:32	RTIMER_SECOND: 32768
-2067940	ID:32	app_cb.nd_new_nbr is NULL
-2069479	ID:16	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-2071726	ID:16	Starting 'Application process'
-2072774	ID:3	App: Epoch 0 New NBR 9
-2072803	ID:38	App: Epoch 0 New NBR 9
-2072925	ID:16	Node ID: 16
-2074769	ID:16	RTIMER_SECOND: 32768
-2076771	ID:38	App: Epoch 0 New NBR 34
-2077268	ID:16	app_cb.nd_new_nbr is NULL
-2085044	ID:15	App: Epoch 0 New NBR 9
-2085115	ID:26	App: Epoch 0 New NBR 9
-2095096	ID:38	App: Epoch 0 finished Num NBR 32
-2097249	ID:4	App: Epoch 0 New NBR 9
-2097249	ID:10	App: Epoch 0 New NBR 9
-2097249	ID:23	App: Epoch 0 New NBR 9
-2097249	ID:25	App: Epoch 0 New NBR 9
-2097249	ID:31	App: Epoch 0 New NBR 9
-2097257	ID:18	App: Epoch 0 New NBR 9
-2097279	ID:35	App: Epoch 0 New NBR 9
-2097339	ID:29	App: Epoch 0 New NBR 9
-2098158	ID:26	App: Epoch 0 New NBR 38
-2098158	ID:41	App: Epoch 0 New NBR 38
-2098211	ID:15	App: Epoch 0 New NBR 38
-2099408	ID:10	App: Epoch 0 New NBR 38
-2099408	ID:23	App: Epoch 0 New NBR 38
-2099408	ID:25	App: Epoch 0 New NBR 38
-2099409	ID:31	App: Epoch 0 New NBR 38
-2099415	ID:4	App: Epoch 0 New NBR 38
-2099438	ID:35	App: Epoch 0 New NBR 38
-2099685	ID:18	App: Epoch 0 New NBR 38
-2099767	ID:29	App: Epoch 0 New NBR 38
-2108647	ID:4	App: Epoch 0 New NBR 47
-2108647	ID:10	App: Epoch 0 New NBR 47
-2108647	ID:18	App: Epoch 0 New NBR 47
-2108647	ID:25	App: Epoch 0 New NBR 47
-2108647	ID:29	App: Epoch 0 New NBR 47
-2108647	ID:35	App: Epoch 0 New NBR 47
-2108647	ID:45	App: Epoch 0 New NBR 47
-2108648	ID:21	App: Epoch 1 New NBR 47
-2108648	ID:22	App: Epoch 1 New NBR 47
-2108648	ID:34	App: Epoch 1 New NBR 47
-2108648	ID:42	App: Epoch 1 New NBR 47
-2108694	ID:41	App: Epoch 0 New NBR 47
-2108727	ID:23	App: Epoch 0 New NBR 47
-2108727	ID:31	App: Epoch 0 New NBR 47
-2108728	ID:28	App: Epoch 1 New NBR 47
-2108739	ID:36	App: Epoch 1 New NBR 47
-2111170	ID:45	App: Epoch 0 New NBR 38
-2120873	ID:5	App: Epoch 0 New NBR 47
-2120874	ID:33	App: Epoch 1 New NBR 47
-2122584	ID:13	App: Epoch 0 New NBR 38
-2122587	ID:8	App: Epoch 0 New NBR 38
-2123005	ID:5	App: Epoch 0 New NBR 38
-2125022	ID:29	App: Epoch 0 finished Num NBR 28
-2125193	ID:5	App: Epoch 0 New NBR 19
-2125223	ID:8	App: Epoch 0 New NBR 19
-2125223	ID:13	App: Epoch 0 New NBR 19
-2125223	ID:45	App: Epoch 0 New NBR 19
-2125224	ID:33	App: Epoch 1 New NBR 19
-2125224	ID:42	App: Epoch 1 New NBR 19
-2125466	ID:35	App: Epoch 0 New NBR 19
-2127910	ID:41	App: Epoch 0 finished Num NBR 30
-2128079	ID:5	App: Epoch 0 New NBR 29
-2128079	ID:45	App: Epoch 0 New NBR 29
-2128080	ID:2	App: Epoch 0 New NBR 29
-2128080	ID:13	App: Epoch 0 New NBR 29
-2128170	ID:8	App: Epoch 0 New NBR 29
-2130970	ID:2	App: Epoch 0 New NBR 41
-2130970	ID:5	App: Epoch 0 New NBR 41
-2130970	ID:8	App: Epoch 0 New NBR 41
-2130970	ID:13	App: Epoch 0 New NBR 41
-2131068	ID:46	App: Epoch 0 New NBR 41
-2131098	ID:12	App: Epoch 0 New NBR 41
-2131192	ID:45	App: Epoch 0 New NBR 41
-2133080	ID:50	App: Epoch 1 New NBR 47
-2133098	ID:9	App: Epoch 1 New NBR 47
-2133124	ID:8	App: Epoch 0 New NBR 47
-2133125	ID:2	App: Epoch 0 New NBR 47
-2133125	ID:13	App: Epoch 0 New NBR 47
-2133199	ID:46	App: Epoch 0 New NBR 47
-2133227	ID:12	App: Epoch 0 New NBR 47
-2135261	ID:2	App: Epoch 0 New NBR 38
-2135330	ID:46	App: Epoch 0 New NBR 38
-2135357	ID:12	App: Epoch 0 New NBR 38
-2137450	ID:9	App: Epoch 1 New NBR 19
-2137450	ID:50	App: Epoch 1 New NBR 19
-2137522	ID:12	App: Epoch 0 New NBR 19
-2137539	ID:46	App: Epoch 0 New NBR 19
-2137703	ID:2	App: Epoch 0 New NBR 19
-2140304	ID:12	App: Epoch 0 New NBR 29
-2140304	ID:40	App: Epoch 0 New NBR 29
-2140307	ID:46	App: Epoch 0 New NBR 29
-2140397	ID:49	App: Epoch 0 New NBR 29
-2142846	ID:8	App: Epoch 0 New NBR 0
-2142846	ID:13	App: Epoch 0 New NBR 0
-2142846	ID:40	App: Epoch 0 New NBR 0
-2142847	ID:2	App: Epoch 0 New NBR 0
-2143019	ID:7	App: Epoch 0 New NBR 14
-2143019	ID:9	App: Epoch 1 New NBR 14
-2143019	ID:46	App: Epoch 0 New NBR 14
-2143044	ID:49	App: Epoch 0 New NBR 14
-2143090	ID:33	App: Epoch 1 New NBR 0
-2145266	ID:49	App: Epoch 0 New NBR 47
-2145286	ID:43	App: Epoch 1 New NBR 47
-2145331	ID:40	App: Epoch 0 New NBR 47
-2145347	ID:7	App: Epoch 0 New NBR 47
-2147397	ID:49	App: Epoch 0 New NBR 38
-2147463	ID:40	App: Epoch 0 New NBR 38
-2147477	ID:7	App: Epoch 0 New NBR 38
-2149639	ID:40	App: Epoch 0 New NBR 19
-2149652	ID:7	App: Epoch 0 New NBR 19
-2149655	ID:43	App: Epoch 1 New NBR 19
-2149698	ID:49	App: Epoch 0 New NBR 19
-2152516	ID:6	App: Epoch 0 New NBR 29
-2152590	ID:7	App: Epoch 0 New NBR 29
-2155052	ID:6	App: Epoch 0 New NBR 0
-2157522	ID:3	App: Epoch 0 New NBR 47
-2157574	ID:6	App: Epoch 0 New NBR 47
-2159653	ID:3	App: Epoch 0 New NBR 38
-2159705	ID:6	App: Epoch 0 New NBR 38
-2161842	ID:3	App: Epoch 0 New NBR 19
-2161862	ID:48	App: Epoch 1 New NBR 19
-2161879	ID:6	App: Epoch 0 New NBR 19
-2164717	ID:3	App: Epoch 0 New NBR 29
-2167676	ID:15	App: Epoch 0 New NBR 41
-2169698	ID:26	App: Epoch 0 New NBR 47
-2169700	ID:48	App: Epoch 1 New NBR 47
-2170075	ID:15	App: Epoch 0 New NBR 47
-2174068	ID:15	App: Epoch 0 New NBR 19
-2174068	ID:26	App: Epoch 0 New NBR 19
-2176927	ID:15	App: Epoch 0 New NBR 29
-2176927	ID:26	App: Epoch 0 New NBR 29
-2179468	ID:15	App: Epoch 0 New NBR 0
-2179468	ID:25	App: Epoch 0 New NBR 0
-2179469	ID:36	App: Epoch 1 New NBR 0
-2179720	ID:26	App: Epoch 0 New NBR 14
-2185936	ID:21	App: Epoch 1 New NBR 19
-2186277	ID:10	App: Epoch 0 New NBR 19
-2186277	ID:18	App: Epoch 0 New NBR 19
-2186277	ID:23	App: Epoch 0 New NBR 19
-2186277	ID:25	App: Epoch 0 New NBR 19
-2186278	ID:22	App: Epoch 1 New NBR 19
-2186278	ID:28	App: Epoch 1 New NBR 19
-2186278	ID:31	App: Epoch 0 New NBR 19
-2186279	ID:36	App: Epoch 1 New NBR 19
-2186314	ID:4	App: Epoch 0 New NBR 19
-2189133	ID:4	App: Epoch 0 New NBR 29
-2189133	ID:18	App: Epoch 0 New NBR 29
-2189133	ID:23	App: Epoch 0 New NBR 29
-2189133	ID:31	App: Epoch 0 New NBR 29
-2189140	ID:25	App: Epoch 0 New NBR 29
-2189190	ID:10	App: Epoch 0 New NBR 29
-2189215	ID:35	App: Epoch 0 New NBR 29
-2191673	ID:35	App: Epoch 0 New NBR 0
-2191674	ID:28	App: Epoch 1 New NBR 0
-2191684	ID:10	App: Epoch 0 New NBR 0
-2191846	ID:31	App: Epoch 0 New NBR 14
-2191926	ID:4	App: Epoch 0 New NBR 14
-2191938	ID:22	App: Epoch 1 New NBR 14
-2194462	ID:4	App: Epoch 0 New NBR 16
-2194462	ID:10	App: Epoch 0 New NBR 16
-2194462	ID:15	App: Epoch 0 New NBR 16
-2194462	ID:18	App: Epoch 0 New NBR 16
-2194462	ID:25	App: Epoch 0 New NBR 16
-2194462	ID:35	App: Epoch 0 New NBR 16
-2194462	ID:45	App: Epoch 0 New NBR 16
-2194463	ID:21	App: Epoch 1 New NBR 16
-2194463	ID:38	App: Epoch 1 New NBR 16
-2194463	ID:42	App: Epoch 1 New NBR 16
-2194496	ID:22	App: Epoch 1 New NBR 16
-2194542	ID:26	App: Epoch 0 New NBR 16
-2194543	ID:36	App: Epoch 1 New NBR 16
-2194551	ID:31	App: Epoch 0 New NBR 16
-2194553	ID:23	App: Epoch 0 New NBR 16
-2194554	ID:28	App: Epoch 1 New NBR 16
-2198483	ID:34	App: Epoch 1 New NBR 19
-2198483	ID:38	App: Epoch 1 New NBR 19
-2201341	ID:47	App: Epoch 0 New NBR 29
-2203882	ID:45	App: Epoch 0 New NBR 0
-2203882	ID:47	App: Epoch 0 New NBR 0
-2203962	ID:5	App: Epoch 0 New NBR 0
-2206669	ID:5	App: Epoch 0 New NBR 16
-2206669	ID:47	App: Epoch 0 New NBR 16
-2206670	ID:33	App: Epoch 1 New NBR 16
-2206670	ID:34	App: Epoch 1 New NBR 16
-2210045	ID:18	App: Epoch 0 finished Num NBR 33
-2213104	ID:13	App: Epoch 0 New NBR 18
-2213104	ID:45	App: Epoch 0 New NBR 18
-2213104	ID:47	App: Epoch 0 New NBR 18
-2213106	ID:5	App: Epoch 0 New NBR 18
-2213266	ID:10	App: Epoch 0 New NBR 18
-2216258	ID:5	App: Epoch 0 New NBR 14
-2216258	ID:8	App: Epoch 0 New NBR 14
-2216258	ID:13	App: Epoch 0 New NBR 14
-2216259	ID:19	App: Epoch 0 New NBR 14
-2216259	ID:34	App: Epoch 1 New NBR 14
-2216259	ID:42	App: Epoch 1 New NBR 14
-2216259	ID:47	App: Epoch 0 New NBR 14
-2216344	ID:45	App: Epoch 0 New NBR 14
-2216350	ID:33	App: Epoch 1 New NBR 14
-2216471	ID:35	App: Epoch 0 New NBR 14
-2218876	ID:2	App: Epoch 0 New NBR 16
-2218876	ID:8	App: Epoch 0 New NBR 16
-2218876	ID:13	App: Epoch 0 New NBR 16
-2218876	ID:19	App: Epoch 0 New NBR 16
-2218877	ID:9	App: Epoch 1 New NBR 16
-2218877	ID:29	App: Epoch 1 New NBR 16
-2225325	ID:2	App: Epoch 0 New NBR 18
-2225325	ID:8	App: Epoch 0 New NBR 18
-2225325	ID:12	App: Epoch 0 New NBR 18
-2225325	ID:46	App: Epoch 0 New NBR 18
-2225409	ID:19	App: Epoch 0 New NBR 18
-2233439	ID:20	Rime started with address 20.0
-2237530	ID:7	App: Epoch 0 New NBR 18
-2237530	ID:14	App: Epoch 0 New NBR 18
-2237530	ID:49	App: Epoch 0 New NBR 18
-2237531	ID:40	App: Epoch 0 New NBR 18
-2237621	ID:16	App: Epoch 0 New NBR 18
-2243051	ID:20	MAC 14:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 20.
-2249026	ID:20	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
-2249819	ID:6	App: Epoch 0 New NBR 18
-2250770	ID:46	App: Epoch 0 finished Num NBR 31
-2250818	ID:12	App: Epoch 0 finished Num NBR 30
-2251275	ID:20	Starting 'Application process'
-2252470	ID:20	Node ID: 20
-2253831	ID:14	App: Epoch 0 New NBR 46
-2253834	ID:49	App: Epoch 0 New NBR 46
-2253836	ID:40	App: Epoch 0 New NBR 46
-2253877	ID:3	App: Epoch 0 New NBR 12
-2253877	ID:6	App: Epoch 0 New NBR 12
-2253878	ID:16	App: Epoch 0 New NBR 12
-2253911	ID:7	App: Epoch 0 New NBR 46
-2254315	ID:20	RTIMER_SECOND: 32768
-2256813	ID:20	app_cb.nd_new_nbr is NULL
-2260193	ID:15	App: Epoch 0 New NBR 44
-2260194	ID:14	App: Epoch 0 New NBR 44
-2260194	ID:48	App: Epoch 1 New NBR 44
-2260196	ID:6	App: Epoch 0 New NBR 44
-2260269	ID:16	App: Epoch 0 New NBR 44
-2260368	ID:7	App: Epoch 0 New NBR 44
-2260436	ID:3	App: Epoch 0 New NBR 44
-2260449	ID:40	App: Epoch 0 New NBR 44
-2261948	ID:26	App: Epoch 0 New NBR 18
-2262414	ID:15	App: Epoch 0 New NBR 18
-2266102	ID:15	App: Epoch 0 New NBR 12
-2266126	ID:26	App: Epoch 0 New NBR 12
-2272398	ID:25	App: Epoch 0 New NBR 44
-2272399	ID:4	App: Epoch 0 New NBR 44
-2272399	ID:23	App: Epoch 0 New NBR 44
-2272429	ID:26	App: Epoch 0 New NBR 44
-2272472	ID:36	App: Epoch 1 New NBR 44
-2273814	ID:31	App: Epoch 0 New NBR 18
-2274529	ID:4	App: Epoch 0 New NBR 18
-2274529	ID:25	App: Epoch 0 New NBR 18
-2275215	ID:3	App: Epoch 0 finished Num NBR 33
-2278123	ID:23	App: Epoch 0 New NBR 3
-2278256	ID:10	App: Epoch 0 New NBR 46
-2278256	ID:25	App: Epoch 0 New NBR 46
-2278256	ID:31	App: Epoch 0 New NBR 46
-2278306	ID:4	App: Epoch 0 New NBR 12
-2284608	ID:10	App: Epoch 0 New NBR 44
-2284608	ID:21	App: Epoch 1 New NBR 44
-2284608	ID:28	App: Epoch 1 New NBR 44
-2284608	ID:38	App: Epoch 1 New NBR 44
-2284608	ID:42	App: Epoch 1 New NBR 44
-2284609	ID:22	App: Epoch 1 New NBR 44
-2284609	ID:31	App: Epoch 0 New NBR 44
-2284609	ID:45	App: Epoch 0 New NBR 44
-2284674	ID:35	App: Epoch 0 New NBR 44
-2288552	ID:15	App: Epoch 0 finished Num NBR 35
-2290508	ID:47	App: Epoch 0 New NBR 46
-2290558	ID:45	App: Epoch 0 New NBR 12
-2290599	ID:35	App: Epoch 0 New NBR 12
-2291609	ID:4	App: Epoch 0 New NBR 15
-2291609	ID:31	App: Epoch 0 New NBR 15
-2291612	ID:23	App: Epoch 0 New NBR 15
-2291689	ID:10	App: Epoch 0 New NBR 15
-2291692	ID:25	App: Epoch 0 New NBR 15
-2292682	ID:47	App: Epoch 0 New NBR 15
-2292823	ID:45	App: Epoch 0 New NBR 15
-2293025	ID:35	App: Epoch 0 New NBR 15
-2294491	ID:5	App: Epoch 0 New NBR 1
-2294491	ID:10	App: Epoch 0 New NBR 1
-2294491	ID:23	App: Epoch 0 New NBR 1
-2294491	ID:25	App: Epoch 0 New NBR 1
-2294492	ID:21	App: Epoch 1 New NBR 1
-2294492	ID:22	App: Epoch 1 New NBR 1
-2294492	ID:31	App: Epoch 0 New NBR 1
-2294492	ID:34	App: Epoch 1 New NBR 1
-2294492	ID:36	App: Epoch 1 New NBR 1
-2294492	ID:42	App: Epoch 1 New NBR 1
-2294494	ID:28	App: Epoch 1 New NBR 1
-2294496	ID:38	App: Epoch 1 New NBR 1
-2294516	ID:4	App: Epoch 0 New NBR 1
-2294784	ID:47	App: Epoch 0 New NBR 1
-2295069	ID:45	App: Epoch 0 New NBR 1
-2295076	ID:35	App: Epoch 0 New NBR 1
-2296847	ID:5	App: Epoch 0 New NBR 44
-2296849	ID:34	App: Epoch 1 New NBR 44
-2296943	ID:47	App: Epoch 0 New NBR 44
-2300389	ID:23	App: Epoch 0 finished Num NBR 34
-2302721	ID:5	App: Epoch 0 New NBR 12
-2303422	ID:47	App: Epoch 0 New NBR 23
-2303448	ID:35	App: Epoch 0 New NBR 23
-2303448	ID:45	App: Epoch 0 New NBR 23
-2303490	ID:13	App: Epoch 0 New NBR 23
-2303603	ID:10	App: Epoch 0 New NBR 23
-2303674	ID:31	App: Epoch 0 New NBR 23
-2304895	ID:5	App: Epoch 0 New NBR 23
-2306714	ID:8	App: Epoch 0 New NBR 1
-2306714	ID:13	App: Epoch 0 New NBR 1
-2306714	ID:19	App: Epoch 0 New NBR 1
-2306715	ID:18	App: Epoch 1 New NBR 1
-2306715	ID:33	App: Epoch 1 New NBR 1
-2308989	ID:19	App: Epoch 0 New NBR 44
-2308990	ID:8	App: Epoch 0 New NBR 44
-2308996	ID:33	App: Epoch 1 New NBR 44
-2309012	ID:9	App: Epoch 1 New NBR 44
-2309013	ID:18	App: Epoch 1 New NBR 44
-2309017	ID:2	App: Epoch 0 New NBR 44
-2309069	ID:13	App: Epoch 0 New NBR 44
-2314759	ID:13	App: Epoch 0 New NBR 3
-2314759	ID:19	App: Epoch 0 New NBR 3
-2314927	ID:8	App: Epoch 0 New NBR 12
-2314935	ID:2	App: Epoch 0 New NBR 12
-2316917	ID:19	App: Epoch 0 New NBR 23
-2317110	ID:2	App: Epoch 0 New NBR 23
-2317185	ID:8	App: Epoch 0 New NBR 23
-2318923	ID:29	App: Epoch 1 New NBR 1
-2318923	ID:50	App: Epoch 1 New NBR 1
-2318947	ID:9	App: Epoch 1 New NBR 1
-2318994	ID:41	App: Epoch 1 New NBR 1
-2319131	ID:2	App: Epoch 0 New NBR 1
-2321199	ID:29	App: Epoch 1 New NBR 44
-2321202	ID:50	App: Epoch 1 New NBR 44
-2321211	ID:43	App: Epoch 1 New NBR 44
-2321230	ID:49	App: Epoch 0 New NBR 44
-2321466	ID:41	App: Epoch 1 New NBR 44
-2327136	ID:40	App: Epoch 0 New NBR 12
-2327876	ID:7	App: Epoch 0 New NBR 23
-2327876	ID:16	App: Epoch 0 New NBR 23
-2327962	ID:49	App: Epoch 0 New NBR 23
-2327967	ID:14	App: Epoch 0 New NBR 23
-2329310	ID:40	App: Epoch 0 New NBR 23
-2331131	ID:7	App: Epoch 0 New NBR 1
-2331131	ID:14	App: Epoch 0 New NBR 1
-2331132	ID:43	App: Epoch 1 New NBR 1
-2331133	ID:49	App: Epoch 0 New NBR 1
-2331221	ID:16	App: Epoch 0 New NBR 1
-2331412	ID:40	App: Epoch 0 New NBR 1
-2339172	ID:6	App: Epoch 0 New NBR 3
-2339172	ID:14	App: Epoch 0 New NBR 3
-2339172	ID:49	App: Epoch 0 New NBR 3
-2339173	ID:7	App: Epoch 0 New NBR 3
-2339252	ID:16	App: Epoch 0 New NBR 3
-2339262	ID:40	App: Epoch 0 New NBR 3
-2341330	ID:6	App: Epoch 0 New NBR 23
-2343337	ID:48	App: Epoch 1 New NBR 1
-2343432	ID:6	App: Epoch 0 New NBR 1
-2350677	ID:43	App: Epoch 1 finished Num NBR 17
-2351380	ID:44	App: Epoch 0 New NBR 3
-2351460	ID:26	App: Epoch 0 New NBR 3
-2353618	ID:26	App: Epoch 0 New NBR 23
-2353782	ID:16	App: Epoch 0 New NBR 43
-2353793	ID:6	App: Epoch 0 New NBR 43
-2353859	ID:44	App: Epoch 0 New NBR 23
-2353980	ID:14	App: Epoch 0 New NBR 43
-2355634	ID:12	App: Epoch 1 New NBR 1
-2355634	ID:46	App: Epoch 1 New NBR 1
-2356111	ID:44	App: Epoch 0 New NBR 43
-2358169	ID:44	App: Epoch 0 New NBR 1
-2364498	ID:25	App: Epoch 0 New NBR 23
-2364577	ID:4	App: Epoch 0 New NBR 23
-2366016	ID:31	App: Epoch 0 New NBR 43
-2366638	ID:25	App: Epoch 0 New NBR 43
-2366751	ID:4	App: Epoch 0 New NBR 43
-2378165	ID:45	App: Epoch 0 New NBR 43
-2378248	ID:35	App: Epoch 0 New NBR 43
-2378315	ID:10	App: Epoch 0 New NBR 43
-2390373	ID:1	App: Epoch 0 New NBR 43
-2390373	ID:5	App: Epoch 0 New NBR 43
-2390373	ID:47	App: Epoch 0 New NBR 43
-2396179	ID:10	App: Epoch 0 finished Num NBR 35
-2399240	ID:1	App: Epoch 0 New NBR 10
-2399240	ID:2	App: Epoch 0 New NBR 10
-2399240	ID:8	App: Epoch 0 New NBR 10
-2399240	ID:13	App: Epoch 0 New NBR 10
-2399240	ID:45	App: Epoch 0 New NBR 10
-2399240	ID:47	App: Epoch 0 New NBR 10
-2399331	ID:5	App: Epoch 0 New NBR 10
-2402580	ID:19	App: Epoch 0 New NBR 43
-2402581	ID:13	App: Epoch 0 New NBR 43
-2402584	ID:8	App: Epoch 0 New NBR 43
-2402652	ID:2	App: Epoch 0 New NBR 43
-2414785	ID:7	App: Epoch 0 New NBR 43
-2414785	ID:40	App: Epoch 0 New NBR 43
-2414786	ID:49	App: Epoch 0 New NBR 43
-2423668	ID:6	App: Epoch 0 New NBR 10
-2423668	ID:7	App: Epoch 0 New NBR 10
-2423668	ID:14	App: Epoch 0 New NBR 10
-2423668	ID:40	App: Epoch 0 New NBR 10
-2423673	ID:16	App: Epoch 0 New NBR 10
-2423824	ID:49	App: Epoch 0 New NBR 10
-2439051	ID:7	App: Epoch 0 New NBR 27
-2439051	ID:14	App: Epoch 0 New NBR 27
-2439051	ID:40	App: Epoch 0 New NBR 27
-2439052	ID:12	App: Epoch 1 New NBR 27
-2439052	ID:46	App: Epoch 1 New NBR 27
-2439077	ID:48	App: Epoch 1 New NBR 27
-2439131	ID:6	App: Epoch 0 New NBR 27
-2439138	ID:49	App: Epoch 0 New NBR 27
-2439142	ID:16	App: Epoch 0 New NBR 27
-2448080	ID:17	App: Epoch 0 New NBR 10
-2448080	ID:26	App: Epoch 0 New NBR 10
-2448080	ID:44	App: Epoch 0 New NBR 10
-2451274	ID:17	App: Epoch 0 New NBR 27
-2451274	ID:26	App: Epoch 0 New NBR 27
-2451274	ID:44	App: Epoch 0 New NBR 27
-2451275	ID:43	App: Epoch 2 New NBR 27
-2451366	ID:36	App: Epoch 1 New NBR 27
-2460289	ID:25	App: Epoch 0 New NBR 10
-2460289	ID:35	App: Epoch 0 New NBR 10
-2460292	ID:4	App: Epoch 0 New NBR 10
-2460383	ID:31	App: Epoch 0 New NBR 10
-2463482	ID:4	App: Epoch 0 New NBR 27
-2463482	ID:31	App: Epoch 0 New NBR 27
-2463483	ID:28	App: Epoch 1 New NBR 27
-2463483	ID:38	App: Epoch 1 New NBR 27
-2463484	ID:22	App: Epoch 1 New NBR 27
-2463560	ID:3	App: Epoch 1 New NBR 27
-2463565	ID:25	App: Epoch 0 New NBR 27
-2463573	ID:35	App: Epoch 0 New NBR 27
-2463718	ID:21	App: Epoch 1 New NBR 27
-2469895	ID:4	App: Epoch 0 New NBR 37
-2469895	ID:31	App: Epoch 0 New NBR 37
-2469895	ID:45	App: Epoch 0 New NBR 37
-2469896	ID:22	App: Epoch 1 New NBR 37
-2469896	ID:25	App: Epoch 0 New NBR 37
-2469896	ID:36	App: Epoch 1 New NBR 37
-2469896	ID:38	App: Epoch 1 New NBR 37
-2469896	ID:43	App: Epoch 2 New NBR 37
-2469898	ID:35	App: Epoch 0 New NBR 37
-2469910	ID:28	App: Epoch 1 New NBR 37
-2469939	ID:42	App: Epoch 1 New NBR 37
-2469976	ID:3	App: Epoch 1 New NBR 37
-2469976	ID:21	App: Epoch 1 New NBR 37
-2469976	ID:34	App: Epoch 1 New NBR 37
-2469982	ID:17	App: Epoch 0 New NBR 37
-2470047	ID:44	App: Epoch 0 New NBR 37
-2472441	ID:26	App: Epoch 0 New NBR 37App: Epoch 0 finished Num NBR 32
-2473581	ID:26	
-2475500	ID:4	App: Epoch 0 New NBR 26
-2475505	ID:31	App: Epoch 0 New NBR 26
-2481506	ID:25	App: Epoch 0 finished Num NBR 35
-2482121	ID:1	App: Epoch 0 New NBR 37
-2482121	ID:5	App: Epoch 0 New NBR 37
-2482122	ID:15	App: Epoch 1 New NBR 37
-2482123	ID:33	App: Epoch 1 New NBR 37
-2482201	ID:47	App: Epoch 0 New NBR 37
-2484460	ID:28	App: Epoch 1 finished Num NBR 18
-2484566	ID:1	App: Epoch 0 New NBR 25
-2484566	ID:5	App: Epoch 0 New NBR 25
-2484566	ID:35	App: Epoch 0 New NBR 25
-2484566	ID:45	App: Epoch 0 New NBR 25
-2484569	ID:47	App: Epoch 0 New NBR 25
-2486142	ID:31	App: Epoch App: Epoch 0 finished Num NBR 36
-2487493	ID:45	App: Epoch 0 New NBR 28
-2487521	ID:13	App: Epoch 0 New NBR 28
-2487522	ID:5	App: Epoch 0 New NBR 28
-2487522	ID:47	App: Epoch 0 New NBR 28
-2487559	ID:35	App: Epoch 0 New NBR 28
-2487562	ID:8	App: Epoch 0 New NBR 28
-2487613	ID:1	App: Epoch 0 New NBR 28
-2488341	ID:31	0 New NBR 25
-2489292	ID:19	App: Epoch 0 New NBR 31
-2489653	ID:5	App: Epoch 0 New NBR 31
-2489667	ID:47	App: Epoch 0 New NBR 31
-2489704	ID:45	App: Epoch 0 New NBR 31
-2489921	ID:13	App: Epoch 0 New NBR 31
-2489961	ID:8	App: Epoch 0 New NBR 31
-2490012	ID:1	App: Epoch 0 New NBR 31
-2490182	ID:35	App: Epoch 0 finished Num NBR 35
-2493028	ID:1	App: Epoch 0 New NBR 35
-2493028	ID:2	App: Epoch 0 New NBR 35
-2493028	ID:8	App: Epoch 0 New NBR 35
-2493028	ID:13	App: Epoch 0 New NBR 35
-2493028	ID:47	App: Epoch 0 New NBR 35
-2493031	ID:19	App: Epoch 0 New NBR 35
-2493119	ID:5	App: Epoch 0 New NBR 35
-2493137	ID:45	App: Epoch 0 New NBR 35
-2494328	ID:9	App: Epoch 1 New NBR 37
-2494328	ID:18	App: Epoch 1 New NBR 37
-2494328	ID:23	App: Epoch 1 New NBR 37
-2494328	ID:41	App: Epoch 1 New NBR 37
-2494331	ID:29	App: Epoch 1 New NBR 37
-2494337	ID:10	App: Epoch 1 New NBR 37
-2495161	ID:19	App: Epoch 0 New NBR 37
-2495177	ID:2	App: Epoch 0 New NBR 37
-2495194	ID:13	App: Epoch 0 New NBR 37
-2495239	ID:8	App: Epoch 0 New NBR 37
-2497292	ID:19	App: Epoch 0 New NBR 25
-2497324	ID:13	App: Epoch 0 New NBR 25
-2497369	ID:8	App: Epoch 0 New NBR 25
-2497576	ID:2	App: Epoch 0 New NBR 25
-2499700	ID:50	App: Epoch 1 New NBR 28
-2499742	ID:19	App: Epoch 0 New NBR 28
-2499752	ID:9	App: Epoch 1 New NBR 28
-2499821	ID:2	App: Epoch 0 New NBR 28
-2502032	ID:2	App: Epoch 0 New NBR 31
-2505148	ID:5	App: Epoch 0 finished Num NBR 36
-2505510	ID:49	App: Epoch 0 New NBR 35
-2505513	ID:40	App: Epoch 0 New NBR 35
-2505547	ID:7	App: Epoch 0 New NBR 35
-2506534	ID:50	App: Epoch 1 New NBR 37
-2506536	ID:14	App: Epoch 0 New NBR 37
-2507645	ID:40	App: Epoch 0 New NBR 37
-2507663	ID:49	App: Epoch 0 New NBR 37
-2507679	ID:7	App: Epoch 0 New NBR 37
-2508056	ID:2	App: Epoch 0 New NBR 5
-2508056	ID:8	App: Epoch 0 New NBR 5
-2508056	ID:13	App: Epoch 0 New NBR 5
-2508056	ID:19	App: Epoch 0 New NBR 5
-2508623	ID:14	App: Epoch 0 New NBR 5
-2508995	ID:16	App: Epoch 0 New NBR 25
-2509641	ID:49	App: Epoch 0 New NBR 5
-2509674	ID:40	App: Epoch 0 New NBR 5
-2509708	ID:7	App: Epoch 0 New NBR 5
-2510825	ID:14	App: Epoch 0 New NBR 25
-2511948	ID:16	App: Epoch 0 New NBR 28
-2511965	ID:7	App: Epoch 0 New NBR 25
-2511974	ID:40	App: Epoch 0 New NBR 25
-2512801	ID:14	App: Epoch 0 New NBR 0
-2513632	ID:6	App: Epoch 0 New NBR 31
-2514079	ID:16	App: Epoch 0 New NBR 31
-2514262	ID:7	App: Epoch 0 New NBR 0
-2514423	ID:40	App: Epoch 0 New NBR 28
-2514880	ID:13	App: Epoch 0 finished Num NBR 35
-2514983	ID:14	App: Epoch 0 New NBR 31
-2516536	ID:7	App: Epoch 0 New NBR 31
-2516668	ID:40	App: Epoch 0 New NBR 31
-2517688	ID:6	App: Epoch 0 New NBR 35
-2517688	ID:14	App: Epoch 0 New NBR 35
-2517736	ID:16	App: Epoch 0 New NBR 35
-2519819	ID:6	App: Epoch 0 New NBR 37
-2520135	ID:16	App: Epoch 0 New NBR 37
-2521796	ID:6	App: Epoch 0 New NBR 5
-2525046	ID:50	App: Epoch 1 finished Num NBR 13
-2528105	ID:14	App: Epoch 0 New NBR 50
-2528197	ID:7	App: Epoch 0 New NBR 50
-2528307	ID:40	App: Epoch 0 New NBR 50
-2529761	ID:48	App: Epoch 1 New NBR 24
-2529826	ID:46	App: Epoch 1 New NBR 24
-2529839	ID:27	App: Epoch 0 New NBR 24
-2529874	ID:12	App: Epoch 1 New NBR 24
-2530327	ID:14	App: Epoch 0 New NBR 24
-2530648	ID:7	App: Epoch 0 New NBR 24
-2531896	ID:48	App: Epoch 1 New NBR 37
-2531971	ID:27	App: Epoch 0 New NBR 37
-2532029	ID:46	App: Epoch 1 New NBR 37
-2532079	ID:12	App: Epoch 1 New NBR 37
-2532486	ID:44	App: Epoch 0 New NBR 5
-2533949	ID:27	App: Epoch 0 New NBR 5
-2534645	ID:44	App: Epoch 0 New NBR 25
-2536208	ID:17	App: Epoch 0 New NBR 0
-2536632	ID:44	App: Epoch 0 New NBR 0
-2538491	ID:17	App: Epoch 0 New NBR 31
-2538883	ID:44	App: Epoch 0 New NBR 31
-2540623	ID:17	App: Epoch 0 New NBR 50
-2541284	ID:44	App: Epoch 0 New NBR 50
-2542798	ID:17	App: Epoch 0 New NBR 24
-2543373	ID:6	App: Epoch 0 finished Num NBR 31
-2543536	ID:44	App: Epoch 0 New NBR 24
-2545218	ID:17	App: Epoch 0 New NBR 5
-2545691	ID:4	App: Epoch 0 New NBR 25
-2546690	ID:44	App: Epoch 0 New NBR 6
-2547429	ID:17	App: Epoch 0 New NBR 25
-2547739	ID:4	App: Epoch 0 New NBR 6
-2549726	ID:17	App: Epoch 0 New NBR 6
-2549788	ID:4	App: Epoch 0 New NBR 0
-2552028	ID:4	App: Epoch 0 New NBR 31
-2554129	ID:21	App: Epoch 1 New NBR 24
-2554129	ID:22	App: Epoch 1 New NBR 24
-2554210	ID:4	App: Epoch 0 New NBR 50
-2556343	ID:4	App: Epoch 0 New NBR 24
-2556898	ID:45	App: Epoch 0 New NBR 5
-2558372	ID:4	App: Epoch 0 New NBR 5
-2558503	ID:22	App: Epoch 1 New NBR 6
-2559322	ID:45	App: Epoch 0 New NBR 6
-2560754	ID:22	App: Epoch 1 New NBR 28
-2560776	ID:17	App: Epoch 0 New NBR 28
-2560797	ID:37	App: Epoch 0 New NBR 28
-2560927	ID:44	App: Epoch 0 New NBR 28
-2561748	ID:4	App: Epoch 0 New NBR 28
-2562972	ID:37	App: Epoch 0 New NBR 31
-2564727	ID:45	App: Epoch 0 New NBR 50
-2565147	ID:37	App: Epoch 0 New NBR 50
-2566336	ID:26	App: Epoch 1 New NBR 24
-2566336	ID:42	App: Epoch 1 New NBR 24
-2566937	ID:45	App: Epoch 0 New NBR 24
-2567168	ID:37	App: Epoch 0 New NBR 0
-2569104	ID:1	App: Epoch 0 New NBR 5
-2569104	ID:47	App: Epoch 0 New NBR 5
-2569176	ID:37	App: Epoch 0 New NBR 5
-2571110	ID:47	App: Epoch 0 New NBR 6
-2571111	ID:1	App: Epoch 0 New NBR 6
-2571451	ID:37	App: Epoch 0 New NBR 6
-2576935	ID:1	App: Epoch 0 New NBR 50
-2578544	ID:8	App: Epoch 0 New NBR 24
-2578544	ID:37	App: Epoch 0 New NBR 24
-2578544	ID:47	App: Epoch 0 New NBR 24
-2578545	ID:15	App: Epoch 1 New NBR 24
-2578545	ID:18	App: Epoch 1 New NBR 24
-2578545	ID:28	App: Epoch 2 New NBR 24
-2578545	ID:33	App: Epoch 1 New NBR 24
-2578545	ID:38	App: Epoch 1 New NBR 24
-2578546	ID:23	App: Epoch 1 New NBR 24
-2578570	ID:25	App: Epoch 1 New NBR 24
-2578611	ID:34	App: Epoch 1 New NBR 24
-2578836	ID:3	App: Epoch 1 New NBR 24
-2579065	ID:1	App: Epoch 0 New NBR 24
-2582917	ID:2	App: Epoch 0 New NBR 6
-2582945	ID:8	App: Epoch 0 New NBR 6
-2583007	ID:19	App: Epoch 0 New NBR 6
-2586033	ID:45	App: Epoch 0 finished Num NBR 39
-2589093	ID:47	App: Epoch 0 New NBR 45
-2589094	ID:2	App: Epoch 0 New NBR 45
-2589125	ID:8	App: Epoch 0 New NBR 45
-2589144	ID:19	App: Epoch 0 New NBR 50
-2590749	ID:29	App: Epoch 1 New NBR 24
-2590750	ID:9	App: Epoch 1 New NBR 24
-2590750	ID:10	App: Epoch 1 New NBR 24
-2590750	ID:31	App: Epoch 1 New NBR 24
-2590750	ID:41	App: Epoch 1 New NBR 24
-2590753	ID:35	App: Epoch 1 New NBR 24
-2591287	ID:19	App: Epoch 0 New NBR 24
-2591493	ID:2	App: Epoch 0 New NBR 24
-2595121	ID:40	App: Epoch 0 New NBR 6
-2595216	ID:49	App: Epoch 0 New NBR 6
-2596179	ID:7	App: Epoch 0 New NBR 30
-2596179	ID:8	App: Epoch 0 New NBR 30
-2596179	ID:19	App: Epoch 0 New NBR 30
-2596180	ID:9	App: Epoch 1 New NBR 30
-2596180	ID:23	App: Epoch 1 New NBR 30
-2596180	ID:28	App: Epoch 2 New NBR 30
-2596180	ID:29	App: Epoch 1 New NBR 30
-2596180	ID:31	App: Epoch 1 New NBR 30
-2596180	ID:33	App: Epoch 1 New NBR 30
-2596180	ID:41	App: Epoch 1 New NBR 30
-2596185	ID:10	App: Epoch 1 New NBR 30
-2596186	ID:2	App: Epoch 0 New NBR 30
-2596260	ID:35	App: Epoch 1 New NBR 30
-2596271	ID:18	App: Epoch 1 New NBR 30
-2596271	ID:25	App: Epoch 1 New NBR 30
-2596403	ID:1	App: Epoch 0 New NBR 30
-2597281	ID:40	App: Epoch 0 New NBR 30
-2597644	ID:49	App: Epoch 0 New NBR 30
-2601309	ID:40	App: Epoch 0 New NBR 45
-2601314	ID:7	App: Epoch 0 New NBR 45
-2601314	ID:16	App: Epoch 0 New NBR 45
-2601388	ID:49	App: Epoch 0 New NBR 45
-2601391	ID:14	App: Epoch 0 New NBR 45
-2602978	ID:5	App: Epoch 1 New NBR 24
-2603440	ID:40	App: Epoch 0 New NBR 24
-2603457	ID:16	App: Epoch 0 New NBR 24
-2603518	ID:49	App: Epoch 0 New NBR 24
-2607330	ID:14	App: Epoch 0 New NBR 6
-2607330	ID:16	App: Epoch 0 New NBR 6
-2607362	ID:7	App: Epoch 0 New NBR 6
-2608386	ID:5	App: Epoch 1 New NBR 30
-2609489	ID:16	App: Epoch 0 New NBR 30
-2609490	ID:14	App: Epoch 0 New NBR 30
-2613461	ID:13	App: Epoch 1 New NBR 39
-2620593	ID:27	App: Epoch 0 New NBR 30
-2620594	ID:12	App: Epoch 1 New NBR 30
-2620594	ID:24	App: Epoch 0 New NBR 30
-2620594	ID:46	App: Epoch 1 New NBR 30
-2620594	ID:48	App: Epoch 1 New NBR 30
-2620594	ID:50	App: Epoch 2 New NBR 30
-2620595	ID:13	App: Epoch 1 New NBR 30
-2624293	ID:40	App: Epoch 0 finished Num NBR 38
-2625730	ID:24	App: Epoch 0 New NBR 45
-2625730	ID:27	App: Epoch 0 New NBR 45
-2625810	ID:44	App: Epoch 0 New NBR 45
-2627353	ID:17	App: Epoch 0 New NBR 40
-2627688	ID:16	App: Epoch 0 New NBR 40
-2627860	ID:27	App: Epoch 0 New NBR 40
-2627940	ID:24	App: Epoch 0 New NBR 40
-2627940	ID:44	App: Epoch 0 New NBR 40
-2632796	ID:17	App: Epoch 0 New NBR 30
-2632797	ID:44	App: Epoch 0 New NBR 30
-2632800	ID:36	App: Epoch 1 New NBR 30
-2632888	ID:43	App: Epoch 2 New NBR 30
-2637934	ID:17	App: Epoch 0 New NBR 45
-2638027	ID:4	App: Epoch 0 New NBR 45
-2640426	ID:4	App: Epoch 0 New NBR 40
-2645006	ID:3	App: Epoch 1 New NBR 30
-2645006	ID:21	App: Epoch 1 New NBR 30
-2645006	ID:38	App: Epoch 1 New NBR 30
-2645009	ID:6	App: Epoch 1 New NBR 30
-2645085	ID:4	App: Epoch 0 New NBR 30
-2645097	ID:22	App: Epoch 1 New NBR 30
-2650085	ID:38	App: Epoch 1 New NBR 39
-2651779	ID:37	App: Epoch 0 New NBR 40
-2657212	ID:37	App: Epoch 0 New NBR 30
-2657212	ID:47	App: Epoch 0 New NBR 30
-2657213	ID:15	App: Epoch 1 New NBR 30
-2657293	ID:34	App: Epoch 1 New NBR 30
-2657293	ID:42	App: Epoch 1 New NBR 30
-2657304	ID:26	App: Epoch 1 New NBR 30
-2662289	ID:1	App: Epoch 0 New NBR 39
-2662375	ID:37	App: Epoch 0 New NBR 45
-2662456	ID:36	App: Epoch 1 finished Num NBR 14
-2663988	ID:47	App: Epoch 0 New NBR 40
-2664463	ID:1	App: Epoch 0 New NBR 40
-2665516	ID:37	App: Epoch 0 New NBR 36
-2666119	ID:47	App: Epoch 0 New NBR 36
-2666674	ID:1	App: Epoch 0 New NBR 36
-2667823	ID:22	App: Epoch 1 finished Num NBR 17
-2670883	ID:37	App: Epoch 0 New NBR 22
-2670884	ID:1	App: Epoch 0 New NBR 22
-2670884	ID:8	App: Epoch 0 New NBR 22
-2670884	ID:47	App: Epoch 0 New NBR 22
-2670939	ID:19	App: Epoch 0 New NBR 22
-2674498	ID:8	App: Epoch 0 New NBR 39
-2674498	ID:15	App: Epoch 1 New NBR 39
-2674498	ID:19	App: Epoch 0 New NBR 39
-2674498	ID:37	App: Epoch 0 New NBR 39
-2674498	ID:47	App: Epoch 0 New NBR 39
-2674499	ID:9	App: Epoch 1 New NBR 39
-2674499	ID:23	App: Epoch 1 New NBR 39
-2674499	ID:26	App: Epoch 1 New NBR 39
-2674499	ID:28	App: Epoch 2 New NBR 39
-2674499	ID:29	App: Epoch 1 New NBR 39
-2674499	ID:31	App: Epoch 1 New NBR 39
-2674499	ID:33	App: Epoch 1 New NBR 39
-2674499	ID:34	App: Epoch 1 New NBR 39
-2674547	ID:25	App: Epoch 1 New NBR 39
-2674561	ID:18	App: Epoch 1 New NBR 39
-2674577	ID:2	App: Epoch 0 New NBR 39
-2674588	ID:10	App: Epoch 1 New NBR 39
-2674666	ID:42	App: Epoch 1 New NBR 39
-2676731	ID:2	App: Epoch 0 New NBR 40
-2676731	ID:8	App: Epoch 0 New NBR 40
-2676763	ID:19	App: Epoch 0 New NBR 40
-2678862	ID:2	App: Epoch 0 New NBR 36
-2679130	ID:8	App: Epoch 0 New NBR 36
-2679162	ID:19	App: Epoch 0 New NBR 36
-2683194	ID:2	App: Epoch 0 New NBR 22
-2686706	ID:49	App: Epoch 0 New NBR 39
-2686707	ID:35	App: Epoch 1 New NBR 39
-2686707	ID:41	App: Epoch 1 New NBR 39
-2686707	ID:45	App: Epoch 1 New NBR 39
-2686754	ID:30	App: Epoch 0 New NBR 39
-2688402	ID:7	App: Epoch 0 New NBR 40
-2688452	ID:14	App: Epoch 0 New NBR 40
-2688939	ID:49	App: Epoch 0 New NBR 40
-2689153	ID:30	App: Epoch 0 New NBR 40
-2690533	ID:7	App: Epoch 0 New NBR 36
-2690851	ID:14	App: Epoch 0 New NBR 36
-2691339	ID:49	App: Epoch 0 New NBR 36
-2691356	ID:30	App: Epoch 0 New NBR 36
-2695312	ID:7	App: Epoch 0 New NBR 22
-2695312	ID:14	App: Epoch 0 New NBR 22
-2695312	ID:16	App: Epoch 0 New NBR 22
-2695312	ID:30	App: Epoch 0 New NBR 22
-2695313	ID:49	App: Epoch 0 New NBR 22
-2701766	ID:2	App: Epoch 0 finished Num NBR 36
-2702152	ID:16	App: Epoch 0 New NBR 36
-2704673	ID:30	App: Epoch 0 New NBR 2
-2704676	ID:7	App: Epoch 0 New NBR 2
-2704738	ID:16	App: Epoch 0 New NBR 2
-2704753	ID:39	App: Epoch 0 New NBR 2
-2704923	ID:49	App: Epoch 0 New NBR 2
-2707518	ID:39	App: Epoch 0 New NBR 22
-2714360	ID:27	App: Epoch 0 New NBR 36
-2714360	ID:44	App: Epoch 0 New NBR 36
-2714372	ID:39	App: Epoch 0 New NBR 36
-2714383	ID:24	App: Epoch 0 New NBR 36
-2714780	ID:49	App: Epoch 0 finished Num NBR 34
-2716897	ID:24	App: Epoch 0 New NBR 2
-2716899	ID:44	App: Epoch 0 New NBR 2
-2716942	ID:27	App: Epoch 0 New NBR 2
-2717883	ID:16	App: Epoch 0 New NBR 49
-2717883	ID:39	App: Epoch 0 New NBR 49
-2717885	ID:17	App: Epoch 0 New NBR 49
-2719055	ID:24	App: Epoch 0 New NBR 49
-2719058	ID:44	App: Epoch 0 New NBR 49
-2719135	ID:27	App: Epoch 0 New NBR 49
-2720106	ID:17	App: Epoch 0 New NBR 22
-2721185	ID:24	App: Epoch 0 New NBR 22
-2721188	ID:44	App: Epoch 0 New NBR 22
-2721265	ID:27	App: Epoch 0 New NBR 22
-2726224	ID:4	App: Epoch 0 New NBR 36
-2726562	ID:17	App: Epoch 0 New NBR 36
-2729102	ID:4	App: Epoch 0 New NBR 2
-2729102	ID:17	App: Epoch 0 New NBR 2
-2731312	ID:4	App: Epoch 0 New NBR 49
-2731397	ID:24	App: Epoch 0 New NBR 20
-2731429	ID:27	App: Epoch 0 New NBR 20
-2731429	ID:44	App: Epoch 0 New NBR 20
-2731430	ID:6	App: Epoch 1 New NBR 20
-2731430	ID:40	App: Epoch 1 New NBR 20
-2731430	ID:43	App: Epoch 2 New NBR 20
-2731430	ID:50	App: Epoch 2 New NBR 20
-2731431	ID:39	App: Epoch 0 New NBR 20
-2731521	ID:12	App: Epoch 1 New NBR 20
-2731523	ID:46	App: Epoch 1 New NBR 20
-2731601	ID:48	App: Epoch 1 New NBR 20
-2731652	ID:17	App: Epoch 0 New NBR 20
-2733711	ID:4	App: Epoch 0 New NBR 20
-2742536	ID:37	App: Epoch 0 New NBR 49
-2743636	ID:38	App: Epoch 1 New NBR 20
-2743643	ID:21	App: Epoch 1 New NBR 20
-2743643	ID:34	App: Epoch 1 New NBR 20
-2743653	ID:3	App: Epoch 1 New NBR 20
-2743662	ID:42	App: Epoch 1 New NBR 20
-2744738	ID:37	App: Epoch 0 New NBR 20
-2753516	ID:1	App: Epoch 0 New NBR 2
-2753517	ID:37	App: Epoch 0 New NBR 2
-2753517	ID:47	App: Epoch 0 New NBR 2
-2755817	ID:47	App: Epoch 0 New NBR 49
-2755845	ID:26	App: Epoch 1 New NBR 20
-2755848	ID:15	App: Epoch 1 New NBR 20
-2755857	ID:33	App: Epoch 1 New NBR 20
-2755994	ID:1	App: Epoch 0 New NBR 49
-2758195	ID:1	App: Epoch 0 New NBR 20
-2758215	ID:47	App: Epoch 0 New NBR 20
-2761257	ID:42	App: Epoch 1 New NBR 32
-2761264	ID:1	App: Epoch 0 New NBR 32
-2761265	ID:8	App: Epoch 0 New NBR 32
-2761265	ID:19	App: Epoch 0 New NBR 32
-2761265	ID:37	App: Epoch 0 New NBR 32
-2761265	ID:47	App: Epoch 0 New NBR 32
-2761266	ID:18	App: Epoch 1 New NBR 32
-2761266	ID:23	App: Epoch 1 New NBR 32
-2761266	ID:25	App: Epoch 1 New NBR 32
-2761266	ID:26	App: Epoch 1 New NBR 32
-2761266	ID:33	App: Epoch 1 New NBR 32
-2761266	ID:34	App: Epoch 1 New NBR 32
-2761266	ID:36	App: Epoch 2 New NBR 32
-2761266	ID:38	App: Epoch 1 New NBR 32
-2761269	ID:28	App: Epoch 2 New NBR 32
-2761270	ID:15	App: Epoch 1 New NBR 32
-2761408	ID:3	App: Epoch 1 New NBR 32
-2761438	ID:21	App: Epoch 1 New NBR 32
-2763011	ID:10	App: Epoch 1 New NBR 11
-2763011	ID:22	App: Epoch 2 New NBR 11
-2763091	ID:31	App: Epoch 1 New NBR 11
-2763388	ID:42	App: Epoch 1 New NBR 11
-2763395	ID:1	App: Epoch 0 New NBR 11
-2763395	ID:8	App: Epoch 0 New NBR 11
-2763395	ID:37	App: Epoch 0 New NBR 11
-2763397	ID:18	App: Epoch 1 New NBR 11
-2763397	ID:23	App: Epoch 1 New NBR 11
-2763397	ID:25	App: Epoch 1 New NBR 11
-2763397	ID:26	App: Epoch 1 New NBR 11
-2763398	ID:34	App: Epoch 1 New NBR 11
-2763399	ID:36	App: Epoch 2 New NBR 11
-2763400	ID:28	App: Epoch 2 New NBR 11
-2763407	ID:33	App: Epoch 1 New NBR 11
-2763475	ID:19	App: Epoch 0 New NBR 11
-2763475	ID:47	App: Epoch 0 New NBR 11
-2763646	ID:38	App: Epoch 1 New NBR 11
-2763669	ID:15	App: Epoch 1 New NBR 11
-2765723	ID:8	App: Epoch 0 New NBR 2
-2765723	ID:19	App: Epoch 0 New NBR 2
-2767553	ID:42	App: Epoch 1 finished Num NBR 16
-2767932	ID:8	App: Epoch 0 New NBR 49
-2767932	ID:19	App: Epoch 0 New NBR 49
-2768050	ID:9	App: Epoch 1 New NBR 20
-2768050	ID:22	App: Epoch 2 New NBR 20
-2768050	ID:28	App: Epoch 2 New NBR 20
-2768050	ID:29	App: Epoch 1 New NBR 20
-2768050	ID:31	App: Epoch 1 New NBR 20
-2768050	ID:41	App: Epoch 1 New NBR 20
-2768053	ID:23	App: Epoch 1 New NBR 20
-2768053	ID:36	App: Epoch 2 New NBR 20
-2768059	ID:10	App: Epoch 1 New NBR 20
-2768130	ID:35	App: Epoch 1 New NBR 20
-2768141	ID:18	App: Epoch 1 New NBR 20
-2768141	ID:25	App: Epoch 1 New NBR 20
-2770063	ID:19	App: Epoch 0 New NBR 20
-2770154	ID:8	App: Epoch 0 New NBR 20
-2770610	ID:1	App: Epoch 0 New NBR 42
-2770611	ID:47	App: Epoch 0 New NBR 42
-2770789	ID:37	App: Epoch 0 New NBR 42
-2772328	ID:19	App: Epoch 0 New NBR 42
-2772555	ID:8	App: Epoch 0 New NBR 42
-2773483	ID:41	App: Epoch 1 New NBR 32
-2773484	ID:10	App: Epoch 1 New NBR 32
-2773484	ID:22	App: Epoch 2 New NBR 32
-2773484	ID:29	App: Epoch 1 New NBR 32
-2773484	ID:31	App: Epoch 1 New NBR 32
-2773484	ID:35	App: Epoch 1 New NBR 32
-2773484	ID:45	App: Epoch 1 New NBR 32
-2773519	ID:9	App: Epoch 1 New NBR 32
-2775614	ID:35	App: Epoch 1 New NBR 11
-2775615	ID:29	App: Epoch 1 New NBR 11
-2775615	ID:45	App: Epoch 1 New NBR 11
-2775722	ID:9	App: Epoch 1 New NBR 11
-2775884	ID:41	App: Epoch 1 New NBR 11
-2778870	ID:14	App: Epoch 0 New NBR 49
-2778870	ID:30	App: Epoch 0 New NBR 49
-2778959	ID:7	App: Epoch 0 New NBR 49
-2780260	ID:45	App: Epoch 1 New NBR 20
-2781092	ID:14	App: Epoch 0 New NBR 20
-2781092	ID:30	App: Epoch 0 New NBR 20
-2781358	ID:7	App: Epoch 0 New NBR 20
-2782916	ID:16	App: Epoch 0 New NBR 42
-2783490	ID:14	App: Epoch 0 New NBR 42
-2783491	ID:30	App: Epoch 0 New NBR 42
-2783559	ID:7	App: Epoch 0 New NBR 42
-2785690	ID:5	App: Epoch 1 New NBR 32
-2785691	ID:16	App: Epoch 0 New NBR 32
-2785715	ID:7	App: Epoch 0 New NBR 32
-2785738	ID:30	App: Epoch 0 New NBR 32
-2785740	ID:14	App: Epoch 0 New NBR 32
-2787821	ID:16	App: Epoch 0 New NBR 11
-2787822	ID:5	App: Epoch 1 New NBR 11
-2787846	ID:7	App: Epoch 0 New NBR 11
-2787948	ID:30	App: Epoch 0 New NBR 11
-2787950	ID:14	App: Epoch 0 New NBR 11
-2788772	ID:8	App: Epoch 0 finished Num NBR 41
-2791678	ID:7	App: Epoch 0 New NBR 8
-2791678	ID:14	App: Epoch 0 New NBR 8
-2791678	ID:30	App: Epoch 0 New NBR 8
-2791690	ID:16	App: Epoch 0 New NBR 8
-2792465	ID:13	App: Epoch 1 New NBR 20
-2792577	ID:5	App: Epoch 1 New NBR 20
-2793892	ID:16	App: Epoch 0 New NBR 20
-2795030	ID:39	App: Epoch 0 New NBR 42
-2797898	ID:2	App: Epoch 1 New NBR 32
-2797898	ID:13	App: Epoch 1 New NBR 32
-2797972	ID:48	App: Epoch 1 New NBR 32
-2797979	ID:39	App: Epoch 0 New NBR 32
-2799652	ID:12	App: Epoch 1 New NBR 11
-2799652	ID:46	App: Epoch 1 New NBR 11
-2800030	ID:2	App: Epoch 1 New NBR 11
-2800030	ID:13	App: Epoch 1 New NBR 11
-2800109	ID:39	App: Epoch 0 New NBR 11
-2800372	ID:48	App: Epoch 1 New NBR 11
-2803903	ID:39	App: Epoch 0 New NBR 8
-2803905	ID:24	App: Epoch 0 New NBR 8
-2803907	ID:27	App: Epoch 0 New NBR 8
-2807239	ID:24	App: Epoch 0 New NBR 42
-2807239	ID:27	App: Epoch 0 New NBR 42
-2807239	ID:44	App: Epoch 0 New NBR 42
-2810102	ID:40	App: Epoch 1 New NBR 32
-2810103	ID:12	App: Epoch 1 New NBR 32
-2810103	ID:17	App: Epoch 0 New NBR 32
-2810103	ID:24	App: Epoch 0 New NBR 32
-2810103	ID:27	App: Epoch 0 New NBR 32
-2810103	ID:44	App: Epoch 0 New NBR 32
-2810103	ID:46	App: Epoch 1 New NBR 32
-2810104	ID:43	App: Epoch 2 New NBR 32
-2810104	ID:49	App: Epoch 1 New NBR 32
-2810104	ID:50	App: Epoch 2 New NBR 32
-2812233	ID:24	App: Epoch 0 New NBR 11
-2812234	ID:40	App: Epoch 1 New NBR 11
-2812235	ID:50	App: Epoch 2 New NBR 11
-2812237	ID:17	App: Epoch 0 New NBR 11
-2812248	ID:27	App: Epoch 0 New NBR 11
-2812250	ID:43	App: Epoch 2 New NBR 11
-2812313	ID:44	App: Epoch 0 New NBR 11
-2812325	ID:49	App: Epoch 1 New NBR 11
-2816109	ID:17	App: Epoch 0 New NBR 8
-2816109	ID:44	App: Epoch 0 New NBR 8
-2819444	ID:4	App: Epoch 0 New NBR 42
-2819444	ID:17	App: Epoch 0 New NBR 42
-2822312	ID:4	App: Epoch 0 New NBR 32
-2822312	ID:20	App: Epoch 0 New NBR 32
-2822388	ID:6	App: Epoch 1 New NBR 32
-2824066	ID:3	App: Epoch 1 New NBR 11
-2824066	ID:21	App: Epoch 1 New NBR 11
-2824483	ID:4	App: Epoch 0 New NBR 11
-2824590	ID:6	App: Epoch 1 New NBR 11
-2824710	ID:20	App: Epoch 0 New NBR 11
-2828315	ID:4	App: Epoch 0 New NBR 8
-2828315	ID:20	App: Epoch 0 New NBR 8
-2831650	ID:20	App: Epoch 0 New NBR 42
-2840524	ID:1	App: Epoch 0 New NBR 8
-2840524	ID:37	App: Epoch 0 New NBR 8
-2840606	ID:47	App: Epoch 0 New NBR 8
-2852671	ID:21	App: Epoch 1 finished Num NBR 14
-2852729	ID:19	App: Epoch 0 New NBR 8
-2852729	ID:32	App: Epoch 0 New NBR 8
-2855731	ID:11	App: Epoch 0 New NBR 21
-2855731	ID:19	App: Epoch 0 New NBR 21
-2855731	ID:32	App: Epoch 0 New NBR 21
-2855732	ID:47	App: Epoch 0 New NBR 21
-2855734	ID:37	App: Epoch 0 New NBR 21
-2855811	ID:1	App: Epoch 0 New NBR 21
-2864936	ID:11	App: Epoch 0 New NBR 8
-2872338	ID:33	App: Epoch 1 finished Num NBR 16
-2875400	ID:32	App: Epoch 0 New NBR 33
-2875401	ID:7	App: Epoch 0 New NBR 33
-2875401	ID:11	App: Epoch 0 New NBR 33
-2875401	ID:16	App: Epoch 0 New NBR 33
-2875401	ID:19	App: Epoch 0 New NBR 33
-2875414	ID:30	App: Epoch 0 New NBR 33
-2875449	ID:14	App: Epoch 0 New NBR 33
-2880161	ID:14	App: Epoch 0 New NBR 21
-2880161	ID:16	App: Epoch 0 New NBR 21
-2880161	ID:30	App: Epoch 0 New NBR 21
-2880166	ID:7	App: Epoch 0 New NBR 21
-2887621	ID:39	App: Epoch 0 New NBR 33
-2892446	ID:39	App: Epoch 0 New NBR 21
-2898853	ID:7	App: Epoch 0 finished Num NBR 39
-2899830	ID:24	App: Epoch 0 New NBR 33
-2899830	ID:27	App: Epoch 0 New NBR 33
-2899927	ID:44	App: Epoch 0 New NBR 33
-2899956	ID:17	App: Epoch 0 New NBR 33
-2901763	ID:39	App: Epoch 0 New NBR 7
-2901830	ID:27	App: Epoch 0 New NBR 7
-2901905	ID:44	App: Epoch 0 New NBR 7
-2901920	ID:24	App: Epoch 0 New NBR 7
-2901934	ID:17	App: Epoch 0 New NBR 7
-2902018	ID:16	App: Epoch 0 New NBR 7
-2904573	ID:17	App: Epoch 0 New NBR 21
-2904576	ID:44	App: Epoch 0 New NBR 21
-2904596	ID:24	App: Epoch 0 New NBR 21
-2904653	ID:27	App: Epoch 0 New NBR 21
-2912112	ID:4	App: Epoch 0 New NBR 33
-2913983	ID:20	App: Epoch 0 New NBR 7
-2914090	ID:4	App: Epoch 0 New NBR 7
-2915129	ID:48	App: Epoch 1 finished Num NBR 11
-2916779	ID:4	App: Epoch 0 New NBR 21
-2916780	ID:20	App: Epoch 0 New NBR 21
-2918187	ID:44	App: Epoch 0 New NBR 48
-2918188	ID:24	App: Epoch 0 New NBR 48
-2918189	ID:17	App: Epoch 0 New NBR 48
-2918920	ID:4	App: Epoch 0 New NBR 48
-2919178	ID:20	App: Epoch 0 New NBR 48
-2924240	ID:37	App: Epoch 0 New NBR 33
-2924304	ID:20	App: Epoch 0 New NBR 33
-2926198	ID:47	App: Epoch 0 New NBR 7
-2926242	ID:37	App: Epoch 0 New NBR 7
-2930411	ID:37	App: Epoch 0 New NBR 48
-2930411	ID:47	App: Epoch 0 New NBR 48
-2936447	ID:1	App: Epoch 0 New NBR 33
-2936447	ID:47	App: Epoch 0 New NBR 33
-2938449	ID:1	App: Epoch 0 New NBR 7
-2938552	ID:4	App: Epoch 0 finished Num NBR 41
-2941461	ID:37	App: Epoch 0 New NBR 4
-2941503	ID:47	App: Epoch 0 New NBR 4
-2941548	ID:1	App: Epoch 0 New NBR 4
-2941564	ID:20	App: Epoch 0 New NBR 4
-2950602	ID:11	App: Epoch 0 New NBR 7
-2950602	ID:32	App: Epoch 0 New NBR 7
-2950603	ID:19	App: Epoch 0 New NBR 7
-2953682	ID:11	App: Epoch 0 New NBR 4
-2953682	ID:19	App: Epoch 0 New NBR 4
-2953762	ID:32	App: Epoch 0 New NBR 4
-2954225	ID:34	App: Epoch 1 finished Num NBR 13
-2955841	ID:19	App: Epoch 0 New NBR 48
-2955919	ID:32	App: Epoch 0 New NBR 48
-2955931	ID:11	App: Epoch 0 New NBR 48
-2957377	ID:1	App: Epoch 0 New NBR 34
-2958063	ID:19	App: Epoch 0 New NBR 34
-2958330	ID:11	App: Epoch 0 New NBR 34
-2962810	ID:14	App: Epoch 0 New NBR 7
-2962810	ID:30	App: Epoch 0 New NBR 7
-2965891	ID:14	App: Epoch 0 New NBR 4
-2965891	ID:16	App: Epoch 0 New NBR 4
-2965891	ID:30	App: Epoch 0 New NBR 4
-2968050	ID:14	App: Epoch 0 New NBR 48
-2968050	ID:16	App: Epoch 0 New NBR 48
-2968073	ID:30	App: Epoch 0 New NBR 48
-2970449	ID:14	App: Epoch 0 New NBR 34
-2970472	ID:30	App: Epoch 0 New NBR 34
-2974973	ID:9	App: Epoch 1 finished Num NBR 14
-2977906	ID:14	App: Epoch 0 New NBR 9
-2977906	ID:30	App: Epoch 0 New NBR 9
-2977906	ID:39	App: Epoch 0 New NBR 9
-2977986	ID:16	App: Epoch 0 New NBR 9
-2980335	ID:39	App: Epoch 0 New NBR 48
-2982537	ID:39	App: Epoch 0 New NBR 34
-2990114	ID:17	App: Epoch 0 New NBR 9
-2990114	ID:24	App: Epoch 0 New NBR 9
-2990114	ID:27	App: Epoch 0 New NBR 9
-2990114	ID:44	App: Epoch 0 New NBR 9
-2993916	ID:17	App: Epoch 0 New NBR 34
-2993916	ID:24	App: Epoch 0 New NBR 34
-2993916	ID:27	App: Epoch 0 New NBR 34
-2993916	ID:44	App: Epoch 0 New NBR 34
-3006125	ID:20	App: Epoch 0 New NBR 34
-3014483	ID:20	App: Epoch 0 New NBR 9
-3018331	ID:47	App: Epoch 0 New NBR 34
-3018334	ID:37	App: Epoch 0 New NBR 34
-3026725	ID:37	App: Epoch 0 New NBR 9
-3026725	ID:47	App: Epoch 0 New NBR 9
-3026726	ID:1	App: Epoch 0 New NBR 9
-3036777	ID:38	App: Epoch 1 finished Num NBR 12
-3038931	ID:11	App: Epoch 0 New NBR 9
-3038931	ID:19	App: Epoch 0 New NBR 9
-3039021	ID:32	App: Epoch 0 New NBR 9
-3039825	ID:37	App: Epoch 0 New NBR 38
-3039837	ID:1	App: Epoch 0 New NBR 38
-3039837	ID:47	App: Epoch 0 New NBR 38
-3041090	ID:19	App: Epoch 0 New NBR 38
-3041170	ID:11	App: Epoch 0 New NBR 38
-3041449	ID:32	App: Epoch 0 New NBR 38
-3047269	ID:47	App: Epoch 0 finished Num NBR 41
-3050328	ID:19	App: Epoch 0 New NBR 47
-3050328	ID:30	App: Epoch 0 New NBR 47
-3050328	ID:32	App: Epoch 0 New NBR 47
-3050353	ID:11	App: Epoch 0 New NBR 47
-3050580	ID:1	App: Epoch 0 New NBR 47
-3052060	ID:14	App: Epoch 0 New NBR 38
-3052851	ID:30	App: Epoch 0 New NBR 38
-3062553	ID:16	App: Epoch 0 New NBR 47
-3062554	ID:14	App: Epoch 0 New NBR 47
-3063847	ID:19	App: Epoch 0 finished Num NBR 38
-3064696	ID:16	App: Epoch 0 New NBR 38
-3066705	ID:29	App: Epoch 1 finished Num NBR 10
-3066907	ID:14	App: Epoch 0 New NBR 19
-3066907	ID:30	App: Epoch 0 New NBR 19
-3066908	ID:41	App: Epoch 1 New NBR 19
-3067138	ID:16	App: Epoch 0 New NBR 19
-3069590	ID:41	App: Epoch 1 finished Num NBR 10
-3069766	ID:14	App: Epoch 0 New NBR 29
-3069766	ID:16	App: Epoch 0 New NBR 29
-3069766	ID:39	App: Epoch 0 New NBR 29
-3069768	ID:30	App: Epoch 0 New NBR 29
-3072645	ID:30	App: Epoch 0 New NBR 41
-3072646	ID:14	App: Epoch 0 New NBR 41
-3072658	ID:39	App: Epoch 0 New NBR 41
-3072769	ID:16	App: Epoch 0 New NBR 41
-3074840	ID:24	App: Epoch 0 New NBR 47
-3075079	ID:39	App: Epoch 0 New NBR 47
-3076553	ID:27	App: Epoch 0 New NBR 38
-3077284	ID:24	App: Epoch 0 New NBR 38
-3077326	ID:39	App: Epoch 0 New NBR 38
-3079128	ID:27	App: Epoch 0 New NBR 19
-3079128	ID:44	App: Epoch 0 New NBR 19
-3079457	ID:39	App: Epoch 0 New NBR 19
-3079527	ID:24	App: Epoch 0 New NBR 19
-3081625	ID:14	App: Epoch 0 finished Num NBR 41
-3081982	ID:17	App: Epoch 0 New NBR 29
-3081982	ID:27	App: Epoch 0 New NBR 29
-3081982	ID:44	App: Epoch 0 New NBR 29
-3081983	ID:24	App: Epoch 0 New NBR 29
-3084242	ID:16	App: Epoch 0 finished Num NBR 39
-3084526	ID:39	App: Epoch 0 New NBR 0
-3084527	ID:27	App: Epoch 0 New NBR 0
-3084682	ID:17	App: Epoch 0 New NBR 14
-3084682	ID:24	App: Epoch 0 New NBR 14
-3086999	ID:27	App: Epoch 0 New NBR 47
-3087016	ID:17	App: Epoch 0 New NBR 47
-3087178	ID:44	App: Epoch 0 New NBR 47
-3089148	ID:17	App: Epoch 0 New NBR 38
-3089425	ID:44	App: Epoch 0 New NBR 38
-3091321	ID:17	App: Epoch 0 New NBR 19
-3096817	ID:20	App: Epoch 0 New NBR 0
-3099175	ID:20	App: Epoch 0 New NBR 47
-3101306	ID:20	App: Epoch 0 New NBR 38
-3103529	ID:20	App: Epoch 0 New NBR 19
-3106399	ID:20	App: Epoch 0 New NBR 29
-3106399	ID:37	App: Epoch 0 New NBR 29
-3111380	ID:37	App: Epoch 0 New NBR 47
-3115751	ID:1	App: Epoch 0 New NBR 19
-3115752	ID:37	App: Epoch 0 New NBR 19
-3118606	ID:1	App: Epoch 0 New NBR 29
-3121227	ID:1	App: Epoch 0 New NBR 0
-3127956	ID:32	App: Epoch 0 New NBR 19
-3128004	ID:11	App: Epoch 0 New NBR 19
-3130815	ID:11	App: Epoch 0 New NBR 29
-3130818	ID:32	App: Epoch 0 New NBR 29
-3133446	ID:32	App: Epoch 0 New NBR 0
-3133529	ID:11	App: Epoch 0 New NBR 14
-3136142	ID:11	App: Epoch 0 New NBR 16
-3136143	ID:32	App: Epoch 0 New NBR 16
-3136180	ID:1	App: Epoch 0 New NBR 16
-3145563	ID:30	App: Epoch 0 New NBR 0
-3148382	ID:30	App: Epoch 0 New NBR 16
-3151573	ID:18	App: Epoch 1 finished Num NBR 9
-3154662	ID:30	App: Epoch 0 New NBR 18
-3154868	ID:11	App: Epoch 0 New NBR 18
-3157941	ID:30	App: Epoch 0 New NBR 14
-3157945	ID:38	App: Epoch 2 New NBR 14
-3160558	ID:39	App: Epoch 0 New NBR 16
-3166886	ID:27	App: Epoch 0 New NBR 18
-3166977	ID:24	App: Epoch 0 New NBR 18
-3166980	ID:39	App: Epoch 0 New NBR 18
-3179172	ID:17	App: Epoch 0 New NBR 18
-3192298	ID:46	App: Epoch 1 finished Num NBR 8
-3192346	ID:12	App: Epoch 1 finished Num NBR 8
-3195385	ID:17	App: Epoch 0 New NBR 46
-3195431	ID:20	App: Epoch 0 New NBR 12
-3195431	ID:44	App: Epoch 0 New NBR 12
-3195697	ID:27	App: Epoch 0 New NBR 12
-3198791	ID:44	App: Epoch 0 finished Num NBR 38
-3201849	ID:20	App: Epoch 0 New NBR 44
-3201929	ID:37	App: Epoch 0 New NBR 44
-3203506	ID:1	App: Epoch 0 New NBR 18
-3204059	ID:37	App: Epoch 0 New NBR 18
-3207658	ID:37	App: Epoch 0 New NBR 12
-3207866	ID:1	App: Epoch 0 New NBR 12
-3214151	ID:1	App: Epoch 0 New NBR 44
-3215714	ID:32	App: Epoch 0 New NBR 18
-3216743	ID:3	App: Epoch 1 finished Num NBR 7
-3219675	ID:1	App: Epoch 0 New NBR 3
-3219675	ID:37	App: Epoch 0 New NBR 3
-3219678	ID:32	App: Epoch 0 New NBR 3
-3219816	ID:11	App: Epoch 0 New NBR 46
-3226278	ID:32	App: Epoch 0 New NBR 44
-3226279	ID:11	App: Epoch 0 New NBR 44
-3230079	ID:15	App: Epoch 1 finished Num NBR 7
-3232114	ID:30	App: Epoch 0 New NBR 12
-3233165	ID:32	App: Epoch 0 New NBR 15
-3233168	ID:11	App: Epoch 0 New NBR 15
-3233267	ID:1	App: Epoch 0 finished Num NBR 39
-3234349	ID:30	App: Epoch 0 New NBR 15
-3236218	ID:32	App: Epoch 0 New NBR 1
-3236267	ID:11	App: Epoch 0 New NBR 1
-3236597	ID:30	App: Epoch 0 New NBR 1
-3238826	ID:30	App: Epoch 0 New NBR 44
-3241917	ID:23	App: Epoch 1 finished Num NBR 7
-3245003	ID:30	App: Epoch 0 New NBR 23
-3245283	ID:11	App: Epoch 0 New NBR 23
-3250691	ID:39	App: Epoch 0 New NBR 44
-3256318	ID:39	App: Epoch 0 New NBR 3
-3256440	ID:24	App: Epoch 0 New NBR 46
-3257234	ID:27	App: Epoch 0 New NBR 23
-3258476	ID:39	App: Epoch 0 New NBR 23
-3258571	ID:24	App: Epoch 0 New NBR 23
-3260603	ID:27	App: Epoch 0 New NBR 1
-3260682	ID:24	App: Epoch 0 New NBR 1
-3260904	ID:39	App: Epoch 0 New NBR 1
-3262901	ID:17	App: Epoch 0 New NBR 44
-3262959	ID:27	App: Epoch 0 New NBR 44
-3263153	ID:24	App: Epoch 0 New NBR 44
-3269435	ID:17	App: Epoch 0 New NBR 23
-3272890	ID:17	App: Epoch 0 New NBR 1
-3280733	ID:27	App: Epoch 0 New NBR 3
-3280736	ID:20	App: Epoch 0 New NBR 3
-3280736	ID:24	App: Epoch 0 New NBR 3
-3280806	ID:17	App: Epoch 0 New NBR 3
-3282896	ID:20	App: Epoch 0 New NBR 23
-3284996	ID:20	App: Epoch 0 New NBR 1
-3292205	ID:43	App: Epoch 2 finished Num NBR 6
-3292848	ID:17	App: Epoch 0 finished Num NBR 40
-3293851	ID:37	App: Epoch 0 New NBR 23
-3295291	ID:20	App: Epoch 0 New NBR 43
-3295335	ID:26	App: Epoch 1 New NBR 43
-3295980	ID:37	App: Epoch 0 New NBR 43
-3297361	ID:26	App: Epoch 1 New NBR 1
-3297958	ID:37	App: Epoch 0 New NBR 1
-3305780	ID:32	App: Epoch 0 New NBR 23
-3308178	ID:32	App: Epoch 0 New NBR 43
-3319726	ID:11	App: Epoch 0 New NBR 43
-3331931	ID:30	App: Epoch 0 New NBR 43
-3337707	ID:10	App: Epoch 1 finished Num NBR 7
-3340793	ID:39	App: Epoch 0 New NBR 10
-3340796	ID:30	App: Epoch 0 New NBR 10
-3344138	ID:39	App: Epoch 0 New NBR 43
-3353018	ID:24	App: Epoch 0 New NBR 10
-3353018	ID:27	App: Epoch 0 New NBR 10
-3356345	ID:27	App: Epoch 0 New NBR 43
-3356397	ID:24	App: Epoch 0 New NBR 43
-3377433	ID:20	App: Epoch 0 New NBR 10
-3377676	ID:27	App: Epoch 0 finished Num NBR 33
-3380735	ID:20	App: Epoch 0 New NBR 27
-3380826	ID:37	App: Epoch 0 New NBR 27
-3401846	ID:11	App: Epoch 0 New NBR 10
-3401846	ID:32	App: Epoch 0 New NBR 10
-3405163	ID:11	App: Epoch 0 New NBR 27
-3405163	ID:32	App: Epoch 0 New NBR 27
-3408519	ID:37	App: Epoch 0 finished Num NBR 39
-3411578	ID:32	App: Epoch 0 New NBR 37
-3411581	ID:11	App: Epoch 0 New NBR 37
-3413971	ID:26	App: Epoch 1 finished Num NBR 8
-3417057	ID:30	App: Epoch 0 New NBR 26
-3417057	ID:32	App: Epoch 0 New NBR 26
-3417058	ID:25	App: Epoch 1 New NBR 26
-3417058	ID:45	App: Epoch 1 New NBR 26
-3417058	ID:47	App: Epoch 1 New NBR 26
-3417059	ID:35	App: Epoch 1 New NBR 26
-3417073	ID:11	App: Epoch 0 New NBR 26
-3417247	ID:5	App: Epoch 1 New NBR 26
-3423034	ID:25	App: Epoch 1 finished Num NBR 7
-3423803	ID:30	App: Epoch 0 New NBR 37
-3425988	ID:28	App: Epoch 2 finished Num NBR 6
-3426163	ID:30	App: Epoch 0 New NBR 25
-3426236	ID:11	App: Epoch 0 New NBR 25
-3426277	ID:32	App: Epoch 0 New NBR 25
-3427671	ID:31	App: Epoch 1 finished Num NBR 6
-3429074	ID:30	App: Epoch 0 New NBR 28
-3431206	ID:30	App: Epoch 0 New NBR 31
-3431713	ID:35	App: App: Epoch 1 finished Num NBR 8
-3434422	ID:35	Epoch 1 New NBR 31
-3434843	ID:30	App: Epoch 0 New NBR 35
-3434846	ID:39	App: Epoch 0 New NBR 35
-3436976	ID:39	App: Epoch 0 New NBR 37
-3438346	ID:24	App: Epoch 0 New NBR 25
-3439185	ID:39	App: Epoch 0 New NBR 25
-3441145	ID:24	App: Epoch 0 New NBR 0
-3441338	ID:39	App: Epoch 0 New NBR 28
-3443304	ID:24	App: Epoch 0 New NBR 31
-3443469	ID:39	App: Epoch 0 New NBR 31
-3446676	ID:5	App: Epoch 1 finished Num NBR 6
-3447070	ID:24	App: Epoch 0 New NBR 35
-3449202	ID:24	App: Epoch 0 New NBR 37
-3449613	ID:39	App: Epoch 0 New NBR 5
-3450556	ID:49	App: Epoch 1 New NBR 25
-3451448	ID:24	App: Epoch 0 New NBR 5
-3453442	ID:49	App: Epoch 1 New NBR 0
-3455872	ID:49	App: Epoch 1 New NBR 31
-3456409	ID:13	App: Epoch 1 finished Num NBR 5
-3459243	ID:20	App: Epoch 0 New NBR 35
-3461375	ID:20	App: Epoch 0 New NBR 37
-3461836	ID:16	App: Epoch 1 New NBR 5
-3463010	ID:6	App: Epoch 1 New NBR 25
-3463431	ID:20	App: Epoch 0 New NBR 5
-3465909	ID:20	App: Epoch 0 New NBR 25
-3466561	ID:50	App: Epoch 2 finished Num NBR 4
-3468322	ID:24	App: Epoch 0 finished Num NBR 37
-3468548	ID:20	App: Epoch 0 New NBR 31
-3469657	ID:6	App: Epoch 1 New NBR 50
-3469686	ID:16	App: Epoch 1 New NBR 50
-3470679	ID:20	App: Epoch 0 New NBR 50
-3471789	ID:6	App: Epoch 1 New NBR 24
-3472860	ID:20	App: Epoch 0 New NBR 24
-3475059	ID:27	App: Epoch 1 New NBR 25
-3479606	ID:27	App: Epoch 1 New NBR 31
-3481856	ID:27	App: Epoch 1 New NBR 50
-3483775	ID:43	App: Epoch 3 New NBR 35
-3484901	ID:6	App: Epoch 1 finished Num NBR 7
-3487835	ID:32	App: Epoch 0 New NBR 6
-3487836	ID:27	App: Epoch 1 New NBR 6
-3490066	ID:27	App: Epoch 1 New NBR 28
-3490086	ID:11	App: Epoch 0 New NBR 28
-3490087	ID:48	App: Epoch 2 New NBR 28
-3490111	ID:32	App: Epoch 0 New NBR 28
-3490163	ID:46	App: Epoch 2 New NBR 28
-3490167	ID:12	App: Epoch 2 New NBR 28
-3492261	ID:11	App: Epoch 0 New NBR 31
-3492376	ID:32	App: Epoch 0 New NBR 31
-3494428	ID:11	App: Epoch 0 New NBR 50
-3494820	ID:32	App: Epoch 0 New NBR 50
-3495855	ID:3	App: Epoch 2 New NBR 35
-3495855	ID:38	App: Epoch 2 New NBR 35
-3496602	ID:11	App: Epoch 0 New NBR 24
-3497024	ID:32	App: Epoch 0 New NBR 35
-3498579	ID:11	App: Epoch 0 New NBR 5
-3499052	ID:32	App: Epoch 0 New NBR 5
-3501021	ID:11	App: Epoch 0 New NBR 6
-3508119	ID:37	App: Epoch 1 New NBR 35
-3510662	ID:30	App: Epoch 0 New NBR 5
-3512668	ID:30	App: Epoch 0 New NBR 6
-3520225	ID:30	App: Epoch 0 New NBR 24
-3524474	ID:39	App: Epoch 0 New NBR 6
-3527561	ID:45	App: Epoch 1 finished Num NBR 5
-3530702	ID:39	App: Epoch 0 New NBR 50
-3532912	ID:39	App: Epoch 0 New NBR 24
-3534783	ID:30	App: Epoch 0 finished Num NBR 43
-3537841	ID:39	App: Epoch 0 New NBR 30
-3548989	ID:20	App: Epoch 0 New NBR 6
-3551148	ID:20	App: Epoch 0 New NBR 30
-3552068	ID:39	App: Epoch 0 finished Num NBR 39
-3555081	ID:20	App: Epoch 0 New NBR 45
-3555131	ID:5	App: Epoch 2 New NBR 39
-3555131	ID:16	App: Epoch 1 New NBR 39
-3555131	ID:40	App: Epoch 1 New NBR 39
-3565821	ID:40	App: Epoch 1 finished Num NBR 4
-3567350	ID:50	App: Epoch 3 New NBR 39
-3568911	ID:20	App: Epoch 0 New NBR 40
-3579560	ID:32	App: Epoch 0 New NBR 39
-3579560	ID:36	App: Epoch 2 New NBR 39
-3579560	ID:43	App: Epoch 3 New NBR 39
-3581146	ID:11	App: Epoch 0 New NBR 40
-3581690	ID:32	App: Epoch 0 New NBR 40
-3586686	ID:11	App: Epoch 0 New NBR 30
-3586777	ID:32	App: Epoch 0 New NBR 30
-3591697	ID:11	App: Epoch 0 New NBR 45
-3591764	ID:3	App: Epoch 2 New NBR 39
-3603983	ID:36	App: Epoch 2 finished Num NBR 4
-3607071	ID:11	App: Epoch 0 New NBR 36
-3607222	ID:32	App: Epoch 0 New NBR 36
-3609351	ID:22	App: Epoch 2 finished Num NBR 3
-3643294	ID:2	App: Epoch 1 finished Num NBR 2
-3643791	ID:20	App: Epoch 0 New NBR 36
-3646227	ID:20	App: Epoch 0 New NBR 2
-3649076	ID:20	App: Epoch 0 New NBR 22
-3656216	ID:49	App: Epoch 1 finished Num NBR 5
-3659426	ID:20	App: Epoch 0 New NBR 49
-3670036	ID:20	App: Epoch 0 finished Num NBR 39
-3670661	ID:32	App: Epoch 0 New NBR 2
-3671508	ID:11	
+900482	ID:2	Rime started with address 2.0
+909849	ID:2	MAC 02:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 2.
+915751	ID:2	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
+917999	ID:2	Starting 'Application process'
+919114	ID:2	Node ID: 2
+920960	ID:2	RTIMER_SECOND: 32768
+1072082	ID:2	START: BURST, 1, 10, 2978, 2978, 6, 480, 744
+1088708	ID:2	START: TYPE,         TRANSMISSION_WINDOW_COUNT,         RECEPTION_WINDOW_COUNT,         TRANSMISSION_WINDOW_DURATION,         RECEPTION_WINDOW_DURATION,         TRANSMISSION_PER_WINDOW,         TRANSMISSION_DURATION,         RECEPTION_DURATION
+1089326	ID:2	NCO: 0
+1827802	ID:1	Rime started with address 1.0
+1837172	ID:1	MAC 01:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 1.
+1843074	ID:1	nullsec CSMA nd-rdc, channel check rate 128 Hz, radio channel 26
+1845322	ID:1	Starting 'Application process'
+1846437	ID:1	Node ID: 1
+1848283	ID:1	RTIMER_SECOND: 32768
+2092637	ID:2	App: Epoch 1 finished Num NBR 0 Num new NBR 0
+2093445	ID:2	NCO: 80
+2147548	ID:1	START: BURST, 1, 10, 2978, 2978, 6, 480, 744
+2164184	ID:1	START: TYPE,         TRANSMISSION_WINDOW_COUNT,         RECEPTION_WINDOW_COUNT,         TRANSMISSION_WINDOW_DURATION,         RECEPTION_WINDOW_DURATION,         TRANSMISSION_PER_WINDOW,         TRANSMISSION_DURATION,         RECEPTION_DURATION
+2164801	ID:1	NCO: 0
+2187704	ID:2	App: Epoch 2 New NBR 1
+3092639	ID:2	App: Epoch 2 finished Num NBR 1 Num new NBR 1
+3093295	ID:2	NCO: 9
+3096837	ID:1	App: Epoch 1 New NBR 2
+3168125	ID:1	App: Epoch 1 finished Num NBR 1 Num new NBR 1
+3169085	ID:1	NCO: 167
+4092638	ID:2	App: Epoch 3 finished Num NBR 1 Num new NBR 0
+4093446	ID:2	NCO: 14
+4168124	ID:1	App: Epoch 2 finished Num NBR 1 Num new NBR 0
+4169087	ID:1	NCO: 276
+5092638	ID:2	App: Epoch 4 finished Num NBR 1 Num new NBR 0
+5093599	ID:2	NCO: 175
+5168124	ID:1	App: Epoch 3 finished Num NBR 1 Num new NBR 0
+5168933	ID:1	NCO: 61
+6092638	ID:2	App: Epoch 5 finished Num NBR 1 Num new NBR 0
+6093599	ID:2	NCO: 188
+6168124	ID:1	App: Epoch 4 finished Num NBR 1 Num new NBR 0
+6169085	ID:1	NCO: 178
+7092638	ID:2	App: Epoch 6 finished Num NBR 1 Num new NBR 0
+7093447	ID:2	NCO: 69
+7168124	ID:1	App: Epoch 5 finished Num NBR 1 Num new NBR 0
+7168933	ID:1	NCO: 67
+8092638	ID:2	App: Epoch 7 finished Num NBR 1 Num new NBR 0
+8093446	ID:2	NCO: 26
+8168124	ID:1	App: Epoch 6 finished Num NBR 1 Num new NBR 0
+8169086	ID:1	NCO: 192
+9092638	ID:2	App: Epoch 8 finished Num NBR 1 Num new NBR 0
+9093600	ID:2	NCO: 267
+9168124	ID:1	App: Epoch 7 finished Num NBR 1 Num new NBR 0
+9169085	ID:1	NCO: 121
+10092638	ID:2	App: Epoch 9 finished Num NBR 1 Num new NBR 0
+10093601	ID:2	NCO: 296
+10168124	ID:1	App: Epoch 8 finished Num NBR 1 Num new NBR 0
+10169086	ID:1	NCO: 254
+11092791	ID:2	App: Epoch 10 finished Num NBR 1 Num new NBR 0
+11093753	ID:2	NCO: 257
+11168124	ID:1	App: Epoch 9 finished Num NBR 1 Num new NBR 0
+11168933	ID:1	NCO: 31
+12092791	ID:2	App: Epoch 11 finished Num NBR 1 Num new NBR 0
+12093754	ID:2	NCO: 230
+12168277	ID:1	App: Epoch 10 finished Num NBR 1 Num new NBR 0
+12169085	ID:1	NCO: 44
+13092791	ID:2	App: Epoch 12 finished Num NBR 1 Num new NBR 0
+13093751	ID:2	NCO: 167
+13168277	ID:1	App: Epoch 11 finished Num NBR 1 Num new NBR 0
+13169241	ID:1	NCO: 309
+14092791	ID:2	App: Epoch 13 finished Num NBR 1 Num new NBR 0
+14093753	ID:2	NCO: 212
+14168277	ID:1	App: Epoch 12 finished Num NBR 1 Num new NBR 0
+14169238	ID:1	NCO: 202
+15092791	ID:2	App: Epoch 14 finished Num NBR 1 Num new NBR 0
+15093756	ID:2	NCO: 317
+15168277	ID:1	App: Epoch 13 finished Num NBR 1 Num new NBR 0
+15169239	ID:1	NCO: 251
+16092791	ID:2	App: Epoch 15 finished Num NBR 1 Num new NBR 0
+16093752	ID:2	NCO: 242
+16168277	ID:1	App: Epoch 14 finished Num NBR 1 Num new NBR 0
+16169085	ID:1	NCO: 88
+17092791	ID:2	App: Epoch 16 finished Num NBR 1 Num new NBR 0
+17093753	ID:2	NCO: 131
+17168277	ID:1	App: Epoch 15 finished Num NBR 1 Num new NBR 0
+17169239	ID:1	NCO: 113
+18092791	ID:2	App: Epoch 17 finished Num NBR 1 Num new NBR 0
+18093752	ID:2	NCO: 128
+18168277	ID:1	App: Epoch 16 finished Num NBR 1 Num new NBR 0
+18169085	ID:1	NCO: 22
+19092791	ID:2	App: Epoch 18 finished Num NBR 1 Num new NBR 0
+19093752	ID:2	NCO: 185
+19168277	ID:1	App: Epoch 17 finished Num NBR 1 Num new NBR 0
+19169240	ID:1	NCO: 151
+20092791	ID:2	App: Epoch 19 finished Num NBR 1 Num new NBR 0
+20093600	ID:2	NCO: 62
+20168277	ID:1	App: Epoch 18 finished Num NBR 1 Num new NBR 0
+20169239	ID:1	NCO: 260
+21092791	ID:2	App: Epoch 20 finished Num NBR 1 Num new NBR 0
+21093753	ID:2	NCO: 287
+21168277	ID:1	App: Epoch 19 finished Num NBR 1 Num new NBR 0
+21169238	ID:1	NCO: 173
+22092791	ID:2	App: Epoch 21 finished Num NBR 1 Num new NBR 0
+22093752	ID:2	NCO: 108
+22168277	ID:1	App: Epoch 20 finished Num NBR 1 Num new NBR 0
+22169239	ID:1	NCO: 226
+23092791	ID:2	App: Epoch 22 finished Num NBR 1 Num new NBR 0
+23093600	ID:2	NCO: 53
+23168277	ID:1	App: Epoch 21 finished Num NBR 1 Num new NBR 0
+23169241	ID:1	NCO: 307
+24092791	ID:2	App: Epoch 23 finished Num NBR 1 Num new NBR 0
+24093753	ID:2	NCO: 266
+24168277	ID:1	App: Epoch 22 finished Num NBR 1 Num new NBR 0
+24169239	ID:1	NCO: 112
+25092791	ID:2	App: Epoch 24 finished Num NBR 1 Num new NBR 0
+25093753	ID:2	NCO: 251
+25168277	ID:1	App: Epoch 23 finished Num NBR 1 Num new NBR 0
+25169238	ID:1	NCO: 105
+26092791	ID:2	App: Epoch 25 finished Num NBR 1 Num new NBR 0
+26093754	ID:2	NCO: 152
+26168277	ID:1	App: Epoch 24 finished Num NBR 1 Num new NBR 0
+26169085	ID:1	NCO: 46
+27092791	ID:2	App: Epoch 26 finished Num NBR 1 Num new NBR 0
+27093755	ID:2	NCO: 305
+27168277	ID:1	App: Epoch 25 finished Num NBR 1 Num new NBR 0
+27169240	ID:1	NCO: 271
+28092791	ID:2	App: Epoch 27 finished Num NBR 1 Num new NBR 0
+28093753	ID:2	NCO: 214
+28168277	ID:1	App: Epoch 26 finished Num NBR 1 Num new NBR 0
+28169085	ID:1	NCO: 28
+29092791	ID:2	App: Epoch 28 finished Num NBR 1 Num new NBR 0
+29093599	ID:2	NCO: 23
+29168277	ID:1	App: Epoch 27 finished Num NBR 1 Num new NBR 0
+29169238	ID:1	NCO: 101
+30092791	ID:2	App: Epoch 29 finished Num NBR 1 Num new NBR 0
+30093753	ID:2	NCO: 196
+30168277	ID:1	App: Epoch 28 finished Num NBR 1 Num new NBR 0
+30169242	ID:1	NCO: 314
+30919797	ID:2	Energest: 0 32403 950410 1368 243836
+31092792	ID:2	App: Epoch 30 finished Num NBR 1 Num new NBR 0
+31093756	ID:2	NCO: 301
+31168277	ID:1	App: Epoch 29 finished Num NBR 1 Num new NBR 0
+31169240	ID:1	NCO: 299
+31847103	ID:1	Energest: 0 33682 949131 1364 242964
+32092792	ID:2	App: Epoch 31 finished Num NBR 1 Num new NBR 0
+32093755	ID:2	NCO: 290
+32168278	ID:1	App: Epoch 30 finished Num NBR 1 Num new NBR 0
+32168933	ID:1	NCO: 8
+33092792	ID:2	App: Epoch 32 finished Num NBR 1 Num new NBR 0
+33093753	ID:2	NCO: 243
+33168278	ID:1	App: Epoch 31 finished Num NBR 1 Num new NBR 0
+33169238	ID:1	NCO: 161
+34092792	ID:2	App: Epoch 33 finished Num NBR 1 Num new NBR 0
+34093600	ID:2	NCO: 48
+34168278	ID:1	App: Epoch 32 finished Num NBR 1 Num new NBR 0
+34169240	ID:1	NCO: 198
+35092792	ID:2	App: Epoch 34 finished Num NBR 1 Num new NBR 0
+35093600	ID:2	NCO: 41
+35168278	ID:1	App: Epoch 33 finished Num NBR 1 Num new NBR 0
+35169240	ID:1	NCO: 263
+36092792	ID:2	App: Epoch 35 finished Num NBR 1 Num new NBR 0
+36093753	ID:2	NCO: 174
+36168278	ID:1	App: Epoch 34 finished Num NBR 1 Num new NBR 0
+36169239	ID:1	NCO: 244
+37092792	ID:2	App: Epoch 36 finished Num NBR 1 Num new NBR 0
+37093754	ID:2	NCO: 143
+37168278	ID:1	App: Epoch 35 finished Num NBR 1 Num new NBR 0
+37169087	ID:1	NCO: 93
+38092792	ID:2	App: Epoch 37 finished Num NBR 1 Num new NBR 0
+38093755	ID:2	NCO: 156
+38168278	ID:1	App: Epoch 36 finished Num NBR 1 Num new NBR 0
+38169086	ID:1	NCO: 18
+39092792	ID:2	App: Epoch 38 finished Num NBR 1 Num new NBR 0
+39093755	ID:2	NCO: 293
+39168278	ID:1	App: Epoch 37 finished Num NBR 1 Num new NBR 0
+39169241	ID:1	NCO: 291
+40092792	ID:2	App: Epoch 39 finished Num NBR 1 Num new NBR 0
+40093601	ID:2	NCO: 58
+40168278	ID:1	App: Epoch 38 finished Num NBR 1 Num new NBR 0
+40169240	ID:1	NCO: 288
+41092791	ID:2	App: Epoch 40 finished Num NBR 1 Num new NBR 0
+41093752	ID:2	NCO: 107
+41168278	ID:1	App: Epoch 39 finished Num NBR 1 Num new NBR 0
+41169086	ID:1	NCO: 89
+42092791	ID:2	App: Epoch 41 finished Num NBR 1 Num new NBR 0
+42093753	ID:2	NCO: 136
+42168277	ID:1	App: Epoch 40 finished Num NBR 1 Num new NBR 0
+42169240	ID:1	NCO: 158
+43092791	ID:2	App: Epoch 42 finished Num NBR 1 Num new NBR 0
+43093753	ID:2	NCO: 225
+43168277	ID:1	App: Epoch 41 finished Num NBR 1 Num new NBR 0
+43169239	ID:1	NCO: 191
+44092791	ID:2	App: Epoch 43 finished Num NBR 1 Num new NBR 0
+44093601	ID:2	NCO: 70
+44168277	ID:1	App: Epoch 42 finished Num NBR 1 Num new NBR 0
+44169238	ID:1	NCO: 204
+45092791	ID:2	App: Epoch 44 finished Num NBR 1 Num new NBR 0
+45093446	ID:2	NCO: 7
+45168277	ID:1	App: Epoch 43 finished Num NBR 1 Num new NBR 0
+45169085	ID:1	NCO: 85
+45919436	ID:2	Energest: 1 16024 475496 683 122929
+46092791	ID:2	App: Epoch 45 finished Num NBR 1 Num new NBR 0
+46093752	ID:2	NCO: 180
+46168277	ID:1	App: Epoch 44 finished Num NBR 1 Num new NBR 0
+46169085	ID:1	NCO: 42
+46846743	ID:1	Energest: 1 16526 474994 684 122925
+47092791	ID:2	App: Epoch 46 finished Num NBR 1 Num new NBR 0
+47093600	ID:2	NCO: 93
+47168277	ID:1	App: Epoch 45 finished Num NBR 1 Num new NBR 0
+47169240	ID:1	NCO: 155
+48092791	ID:2	App: Epoch 47 finished Num NBR 1 Num new NBR 0
+48093753	ID:2	NCO: 146
+48168277	ID:1	App: Epoch 46 finished Num NBR 1 Num new NBR 0
+48169242	ID:1	NCO: 312
+49092791	ID:2	App: Epoch 48 finished Num NBR 1 Num new NBR 0
+49093600	ID:2	NCO: 99
+49168277	ID:1	App: Epoch 47 finished Num NBR 1 Num new NBR 0
+49169085	ID:1	NCO: 17
+50092791	ID:2	App: Epoch 49 finished Num NBR 1 Num new NBR 0
+50093753	ID:2	NCO: 224
+50168277	ID:1	App: Epoch 48 finished Num NBR 1 Num new NBR 0
+50169238	ID:1	NCO: 182
+51092792	ID:2	App: Epoch 50 finished Num NBR 1 Num new NBR 0
+51093754	ID:2	NCO: 217
+51168277	ID:1	App: Epoch 49 finished Num NBR 1 Num new NBR 0
+51169238	ID:1	NCO: 183
+52092792	ID:2	App: Epoch 51 finished Num NBR 1 Num new NBR 0
+52093601	ID:2	NCO: 30
+52168278	ID:1	App: Epoch 50 finished Num NBR 1 Num new NBR 0
+52169238	ID:1	NCO: 164
+53092792	ID:2	App: Epoch 52 finished Num NBR 1 Num new NBR 0
+53093754	ID:2	NCO: 191
+53168278	ID:1	App: Epoch 51 finished Num NBR 1 Num new NBR 0
+53169088	ID:1	NCO: 77
+54092792	ID:2	App: Epoch 53 finished Num NBR 1 Num new NBR 0
+54093600	ID:2	NCO: 12
+54168278	ID:1	App: Epoch 52 finished Num NBR 1 Num new NBR 0
+54168933	ID:1	NCO: 2
+55092792	ID:2	App: Epoch 54 finished Num NBR 1 Num new NBR 0
+55093754	ID:2	NCO: 149
+55168278	ID:1	App: Epoch 53 finished Num NBR 1 Num new NBR 0
+55169086	ID:1	NCO: 19
+56092792	ID:2	App: Epoch 55 finished Num NBR 1 Num new NBR 0
+56093753	ID:2	NCO: 170
+56168278	ID:1	App: Epoch 54 finished Num NBR 1 Num new NBR 0
+56169086	ID:1	NCO: 16
+57092792	ID:2	App: Epoch 56 finished Num NBR 1 Num new NBR 0
+57093754	ID:2	NCO: 219
+57168278	ID:1	App: Epoch 55 finished Num NBR 1 Num new NBR 0
+57169240	ID:1	NCO: 137
+58092792	ID:2	App: Epoch 57 finished Num NBR 1 Num new NBR 0
+58093753	ID:2	NCO: 120
+58168278	ID:1	App: Epoch 56 finished Num NBR 1 Num new NBR 0
+58169241	ID:1	NCO: 270
+59092792	ID:2	App: Epoch 58 finished Num NBR 1 Num new NBR 0
+59093755	ID:2	NCO: 273
+59168278	ID:1	App: Epoch 57 finished Num NBR 1 Num new NBR 0
+59169240	ID:1	NCO: 111
+60092792	ID:2	App: Epoch 59 finished Num NBR 1 Num new NBR 0
+60093754	ID:2	NCO: 118
+60168278	ID:1	App: Epoch 58 finished Num NBR 1 Num new NBR 0
+60169239	ID:1	NCO: 188
+60919439	ID:2	Energest: 2 16008 475512 676 122925
+61092792	ID:2	App: Epoch 60 finished Num NBR 1 Num new NBR 0
+61093753	ID:2	NCO: 183
+61168278	ID:1	App: Epoch 59 finished Num NBR 1 Num new NBR 0
+61168933	ID:1	NCO: 5
+61846741	ID:1	Energest: 2 16685 474835 684 122925
+62092792	ID:2	App: Epoch 61 finished Num NBR 1 Num new NBR 0
+62093752	ID:2	NCO: 164
+62168278	ID:1	App: Epoch 60 finished Num NBR 1 Num new NBR 0
+62169087	ID:1	NCO: 90
+63092792	ID:2	App: Epoch 62 finished Num NBR 1 Num new NBR 0
+63093754	ID:2	NCO: 269
+63168278	ID:1	App: Epoch 61 finished Num NBR 1 Num new NBR 0
+63169240	ID:1	NCO: 267
+64092792	ID:2	App: Epoch 63 finished Num NBR 1 Num new NBR 0
+64093754	ID:2	NCO: 130
+64168278	ID:1	App: Epoch 62 finished Num NBR 1 Num new NBR 0
+64169086	ID:1	NCO: 40
+65092792	ID:2	App: Epoch 64 finished Num NBR 1 Num new NBR 0
+65093600	ID:2	NCO: 19
+65168278	ID:1	App: Epoch 63 finished Num NBR 1 Num new NBR 0
+65169239	ID:1	NCO: 129
+66092792	ID:2	App: Epoch 65 finished Num NBR 1 Num new NBR 0
+66093600	ID:2	NCO: 16
+66168278	ID:1	App: Epoch 64 finished Num NBR 1 Num new NBR 0
+66169239	ID:1	NCO: 102
+67092792	ID:2	App: Epoch 66 finished Num NBR 1 Num new NBR 0
+67093754	ID:2	NCO: 137
+67168278	ID:1	App: Epoch 65 finished Num NBR 1 Num new NBR 0
+67169241	ID:1	NCO: 295
+68092792	ID:2	App: Epoch 67 finished Num NBR 1 Num new NBR 0
+68093753	ID:2	NCO: 206
+68168278	ID:1	App: Epoch 66 finished Num NBR 1 Num new NBR 0
+68169240	ID:1	NCO: 148
+69092792	ID:2	App: Epoch 68 finished Num NBR 1 Num new NBR 0
+69093756	ID:2	NCO: 303
+69168278	ID:1	App: Epoch 67 finished Num NBR 1 Num new NBR 0
+69169239	ID:1	NCO: 189
+70092792	ID:2	App: Epoch 69 finished Num NBR 1 Num new NBR 0
+70093601	ID:2	NCO: 60
+70168278	ID:1	App: Epoch 68 finished Num NBR 1 Num new NBR 0
+70169087	ID:1	NCO: 50
+71092793	ID:2	App: Epoch 70 finished Num NBR 1 Num new NBR 0
+71093755	ID:2	NCO: 261
+71168278	ID:1	App: Epoch 69 finished Num NBR 1 Num new NBR 0
+71169087	ID:1	NCO: 67
+72092793	ID:2	App: Epoch 71 finished Num NBR 1 Num new NBR 0
+72093755	ID:2	NCO: 282
+72168279	ID:1	App: Epoch 70 finished Num NBR 1 Num new NBR 0
+72168933	ID:1	NCO: 0
+73092793	ID:2	App: Epoch 72 finished Num NBR 1 Num new NBR 0
+73093754	ID:2	NCO: 203
+73168279	ID:1	App: Epoch 71 finished Num NBR 1 Num new NBR 0
+73169240	ID:1	NCO: 121
+74092793	ID:2	App: Epoch 73 finished Num NBR 1 Num new NBR 0
+74093756	ID:2	NCO: 232
+74168279	ID:1	App: Epoch 72 finished Num NBR 1 Num new NBR 0
+74169241	ID:1	NCO: 190
+75092793	ID:2	App: Epoch 74 finished Num NBR 1 Num new NBR 0
+75093755	ID:2	NCO: 193
+75168279	ID:1	App: Epoch 73 finished Num NBR 1 Num new NBR 0
+75169241	ID:1	NCO: 223
+75919437	ID:2	Energest: 3 16013 475507 689 122925
+76092793	ID:2	App: Epoch 75 finished Num NBR 1 Num new NBR 0
+76093602	ID:2	NCO: 38
+76168279	ID:1	App: Epoch 74 finished Num NBR 1 Num new NBR 0
+76169243	ID:1	NCO: 300
+76846741	ID:1	Energest: 3 16600 474920 685 122925
+77092793	ID:2	App: Epoch 76 finished Num NBR 1 Num new NBR 0
+77093754	ID:2	NCO: 103
+77168279	ID:1	App: Epoch 75 finished Num NBR 1 Num new NBR 0
+77169240	ID:1	NCO: 181
+78092793	ID:2	App: Epoch 77 finished Num NBR 1 Num new NBR 0
+78093755	ID:2	NCO: 212
+78168279	ID:1	App: Epoch 76 finished Num NBR 1 Num new NBR 0
+78169089	ID:1	NCO: 74
+79092793	ID:2	App: Epoch 78 finished Num NBR 1 Num new NBR 0
+79093755	ID:2	NCO: 253
+79168279	ID:1	App: Epoch 77 finished Num NBR 1 Num new NBR 0
+79169241	ID:1	NCO: 251
+80092793	ID:2	App: Epoch 79 finished Num NBR 1 Num new NBR 0
+80093754	ID:2	NCO: 242
+80168279	ID:1	App: Epoch 78 finished Num NBR 1 Num new NBR 0
+80169242	ID:1	NCO: 152
+81092791	ID:2	App: Epoch 80 finished Num NBR 1 Num new NBR 0
+81093446	ID:2	NCO: 3
+81168279	ID:1	App: Epoch 79 finished Num NBR 1 Num new NBR 0
+81169243	ID:1	NCO: 305
+82092791	ID:2	App: Epoch 81 finished Num NBR 1 Num new NBR 0
+82093600	ID:2	NCO: 64
+82168277	ID:1	App: Epoch 80 finished Num NBR 1 Num new NBR 0
+82169240	ID:1	NCO: 150
+83092791	ID:2	App: Epoch 82 finished Num NBR 1 Num new NBR 0
+83093756	ID:2	NCO: 313
+83168277	ID:1	App: Epoch 81 finished Num NBR 1 Num new NBR 0
+83169240	ID:1	NCO: 151
+84092791	ID:2	App: Epoch 83 finished Num NBR 1 Num new NBR 0
+84093752	ID:2	NCO: 126
+84168277	ID:1	App: Epoch 82 finished Num NBR 1 Num new NBR 0
+84169086	ID:1	NCO: 68
+85092791	ID:2	App: Epoch 84 finished Num NBR 1 Num new NBR 0
+85093600	ID:2	NCO: 31
+85168277	ID:1	App: Epoch 83 finished Num NBR 1 Num new NBR 0
+85169085	ID:1	NCO: 45
+86092791	ID:2	App: Epoch 85 finished Num NBR 1 Num new NBR 0
+86093754	ID:2	NCO: 236
+86168277	ID:1	App: Epoch 84 finished Num NBR 1 Num new NBR 0
+86169237	ID:1	NCO: 162
+87092791	ID:2	App: Epoch 86 finished Num NBR 1 Num new NBR 0
+87093755	ID:2	NCO: 309
+87168277	ID:1	App: Epoch 85 finished Num NBR 1 Num new NBR 0
+87169238	ID:1	NCO: 243
+88092791	ID:2	App: Epoch 87 finished Num NBR 1 Num new NBR 0
+88093753	ID:2	NCO: 266
+88168277	ID:1	App: Epoch 86 finished Num NBR 1 Num new NBR 0
+88169238	ID:1	NCO: 176
+89092791	ID:2	App: Epoch 88 finished Num NBR 1 Num new NBR 0
+89093600	ID:2	NCO: 59
+89168277	ID:1	App: Epoch 87 finished Num NBR 1 Num new NBR 0
+89169237	ID:1	NCO: 169
+90092791	ID:2	App: Epoch 89 finished Num NBR 1 Num new NBR 0
+90093599	ID:2	NCO: 88
+90168277	ID:1	App: Epoch 88 finished Num NBR 1 Num new NBR 0
+90169085	ID:1	NCO: 46
+90919436	ID:2	Energest: 4 16054 475466 682 122928
+91092792	ID:2	App: Epoch 90 finished Num NBR 1 Num new NBR 0
+91093756	ID:2	NCO: 305
+91168277	ID:1	App: Epoch 89 finished Num NBR 1 Num new NBR 0
+91169087	ID:1	NCO: 79
+91846746	ID:1	Energest: 4 16766 474754 694 122925
+92092792	ID:2	App: Epoch 91 finished Num NBR 1 Num new NBR 0
+92093755	ID:2	NCO: 150
+92168278	ID:1	App: Epoch 90 finished Num NBR 1 Num new NBR 0
+92169240	ID:1	NCO: 284
+93092792	ID:2	App: Epoch 92 finished Num NBR 1 Num new NBR 0
+93093754	ID:2	NCO: 215
+93168278	ID:1	App: Epoch 91 finished Num NBR 1 Num new NBR 0
+93169241	ID:1	NCO: 293
+94092792	ID:2	App: Epoch 93 finished Num NBR 1 Num new NBR 0
+94093754	ID:2	NCO: 196
+94168278	ID:1	App: Epoch 92 finished Num NBR 1 Num new NBR 0
+94169243	ID:1	NCO: 314
+95092792	ID:2	App: Epoch 94 finished Num NBR 1 Num new NBR 0
+95093756	ID:2	NCO: 301
+95168278	ID:1	App: Epoch 93 finished Num NBR 1 Num new NBR 0
+95169239	ID:1	NCO: 171
+96092792	ID:2	App: Epoch 95 finished Num NBR 1 Num new NBR 0
+96093601	ID:2	NCO: 98
+96168278	ID:1	App: Epoch 94 finished Num NBR 1 Num new NBR 0
+96169088	ID:1	NCO: 72
+97092792	ID:2	App: Epoch 96 finished Num NBR 1 Num new NBR 0
+97093756	ID:2	NCO: 307
+97168278	ID:1	App: Epoch 95 finished Num NBR 1 Num new NBR 0
+97169087	ID:1	NCO: 97
+98092792	ID:2	App: Epoch 97 finished Num NBR 1 Num new NBR 0
+98093756	ID:2	NCO: 304
+98168278	ID:1	App: Epoch 96 finished Num NBR 1 Num new NBR 0
+98169240	ID:1	NCO: 134
+99092792	ID:2	App: Epoch 98 finished Num NBR 1 Num new NBR 0
+99093755	ID:2	NCO: 233
+99168278	ID:1	App: Epoch 97 finished Num NBR 1 Num new NBR 0
+99169240	ID:1	NCO: 135
+100092792	ID:2	App: Epoch 99 finished Num NBR 1 Num new NBR 0
+100093600	ID:2	NCO: 46
+100168278	ID:1	App: Epoch 98 finished Num NBR 1 Num new NBR 0
+100169242	ID:1	NCO: 308
+101092945	ID:2	App: Epoch 100 finished Num NBR 1 Num new NBR 0
+101093754	ID:2	NCO: 79
+101168278	ID:1	App: Epoch 99 finished Num NBR 1 Num new NBR 0
+101169086	ID:1	NCO: 29
+102092945	ID:2	App: Epoch 101 finished Num NBR 1 Num new NBR 0
+102093907	ID:2	NCO: 284
+102168430	ID:1	App: Epoch 100 finished Num NBR 1 Num new NBR 0
+102169392	ID:1	NCO: 146
+103092945	ID:2	App: Epoch 102 finished Num NBR 1 Num new NBR 0
+103093753	ID:2	NCO: 37
+103168430	ID:1	App: Epoch 101 finished Num NBR 1 Num new NBR 0
+103169239	ID:1	NCO: 99
+104092945	ID:2	App: Epoch 103 finished Num NBR 1 Num new NBR 0
+104093907	ID:2	NCO: 250
+104168430	ID:1	App: Epoch 102 finished Num NBR 1 Num new NBR 0
+104169239	ID:1	NCO: 32
+105092945	ID:2	App: Epoch 104 finished Num NBR 1 Num new NBR 0
+105093906	ID:2	NCO: 171
+105168430	ID:1	App: Epoch 103 finished Num NBR 1 Num new NBR 0
+105169392	ID:1	NCO: 217
+105919439	ID:2	Energest: 5 16019 475501 677 122925
+106092945	ID:2	App: Epoch 105 finished Num NBR 1 Num new NBR 0
+106093600	ID:2	NCO: 8
+106168430	ID:1	App: Epoch 104 finished Num NBR 1 Num new NBR 0
+106169239	ID:1	NCO: 30
+106846743	ID:1	Energest: 5 16609 474911 688 122925
+107092945	ID:2	App: Epoch 106 finished Num NBR 1 Num new NBR 0
+107093907	ID:2	NCO: 289
+107168430	ID:1	App: Epoch 105 finished Num NBR 1 Num new NBR 0
+107169392	ID:1	NCO: 191
+108092945	ID:2	App: Epoch 107 finished Num NBR 1 Num new NBR 0
+108093907	ID:2	NCO: 134
+108168430	ID:1	App: Epoch 106 finished Num NBR 1 Num new NBR 0
+108169392	ID:1	NCO: 140
+109092945	ID:2	App: Epoch 108 finished Num NBR 1 Num new NBR 0
+109093754	ID:2	NCO: 71
+109168430	ID:1	App: Epoch 107 finished Num NBR 1 Num new NBR 0
+109169238	ID:1	NCO: 21
+110092945	ID:2	App: Epoch 109 finished Num NBR 1 Num new NBR 0
+110093906	ID:2	NCO: 180
+110168430	ID:1	App: Epoch 108 finished Num NBR 1 Num new NBR 0
+110169393	ID:1	NCO: 234
+111092946	ID:2	App: Epoch 110 finished Num NBR 1 Num new NBR 0
+111093909	ID:2	NCO: 157
+111168430	ID:1	App: Epoch 109 finished Num NBR 1 Num new NBR 0
+111169392	ID:1	NCO: 283
+112092946	ID:2	App: Epoch 111 finished Num NBR 1 Num new NBR 0
+112093753	ID:2	NCO: 82
+112168431	ID:1	App: Epoch 110 finished Num NBR 1 Num new NBR 0
+112169240	ID:1	NCO: 56
+113092946	ID:2	App: Epoch 112 finished Num NBR 1 Num new NBR 0
+113093754	ID:2	NCO: 99
+113168431	ID:1	App: Epoch 111 finished Num NBR 1 Num new NBR 0
+113169239	ID:1	NCO: 17
+114092946	ID:2	App: Epoch 113 finished Num NBR 1 Num new NBR 0
+114093906	ID:2	NCO: 160
+114168431	ID:1	App: Epoch 112 finished Num NBR 1 Num new NBR 0
+114169396	ID:1	NCO: 310
+115092946	ID:2	App: Epoch 114 finished Num NBR 1 Num new NBR 0
+115093908	ID:2	NCO: 217
+115168431	ID:1	App: Epoch 113 finished Num NBR 1 Num new NBR 0
+115169396	ID:1	NCO: 311
+116092946	ID:2	App: Epoch 115 finished Num NBR 1 Num new NBR 0
+116093754	ID:2	NCO: 30
+116168431	ID:1	App: Epoch 114 finished Num NBR 1 Num new NBR 0
+116169394	ID:1	NCO: 292
+117092946	ID:2	App: Epoch 116 finished Num NBR 1 Num new NBR 0
+117093754	ID:2	NCO: 63
+117168431	ID:1	App: Epoch 115 finished Num NBR 1 Num new NBR 0
+117169241	ID:1	NCO: 77
+118092946	ID:2	App: Epoch 117 finished Num NBR 1 Num new NBR 0
+118093908	ID:2	NCO: 140
+118168431	ID:1	App: Epoch 116 finished Num NBR 1 Num new NBR 0
+118169393	ID:1	NCO: 194
+119092946	ID:2	App: Epoch 118 finished Num NBR 1 Num new NBR 0
+119093909	ID:2	NCO: 277
+119168431	ID:1	App: Epoch 117 finished Num NBR 1 Num new NBR 0
+119169239	ID:1	NCO: 19
+120092946	ID:2	App: Epoch 119 finished Num NBR 1 Num new NBR 0
+120093907	ID:2	NCO: 170
+120168431	ID:1	App: Epoch 118 finished Num NBR 1 Num new NBR 0
+120169239	ID:1	NCO: 80
+120919448	ID:2	Energest: 6 15992 475528 681 122925
+121092945	ID:2	App: Epoch 120 finished Num NBR 1 Num new NBR 0
+121093908	ID:2	NCO: 155
+121168431	ID:1	App: Epoch 119 finished Num NBR 1 Num new NBR 0
+121169393	ID:1	NCO: 265
+121846743	ID:1	Energest: 6 16597 474923 688 122925
+122092945	ID:2	App: Epoch 121 finished Num NBR 1 Num new NBR 0
+122093753	ID:2	NCO: 56
+122168430	ID:1	App: Epoch 120 finished Num NBR 1 Num new NBR 0
+122169393	ID:1	NCO: 270
+123092945	ID:2	App: Epoch 122 finished Num NBR 1 Num new NBR 0
+123093752	ID:2	NCO: 81
+123168430	ID:1	App: Epoch 121 finished Num NBR 1 Num new NBR 0
+123169394	ID:1	NCO: 303
+124092945	ID:2	App: Epoch 123 finished Num NBR 1 Num new NBR 0
+124093753	ID:2	NCO: 54
+124168430	ID:1	App: Epoch 122 finished Num NBR 1 Num new NBR 0
+124169391	ID:1	NCO: 124
+125092945	ID:2	App: Epoch 124 finished Num NBR 1 Num new NBR 0
+125093907	ID:2	NCO: 119
+125168430	ID:1	App: Epoch 123 finished Num NBR 1 Num new NBR 0
+125169086	ID:1	NCO: 5
+126092945	ID:2	App: Epoch 125 finished Num NBR 1 Num new NBR 0
+126093906	ID:2	NCO: 100
+126168430	ID:1	App: Epoch 124 finished Num NBR 1 Num new NBR 0
+126169239	ID:1	NCO: 90
+127092945	ID:2	App: Epoch 126 finished Num NBR 1 Num new NBR 0
+127093754	ID:2	NCO: 77
+127168430	ID:1	App: Epoch 125 finished Num NBR 1 Num new NBR 0
+127169392	ID:1	NCO: 267
+128092945	ID:2	App: Epoch 127 finished Num NBR 1 Num new NBR 0
+128093907	ID:2	NCO: 194
+128168430	ID:1	App: Epoch 126 finished Num NBR 1 Num new NBR 0
+128169238	ID:1	NCO: 40
+129092945	ID:2	App: Epoch 128 finished Num NBR 1 Num new NBR 0
+129093907	ID:2	NCO: 211
+129168430	ID:1	App: Epoch 127 finished Num NBR 1 Num new NBR 0
+129169391	ID:1	NCO: 129
+130092945	ID:2	App: Epoch 129 finished Num NBR 1 Num new NBR 0
+130093908	ID:2	NCO: 272
+130168430	ID:1	App: Epoch 128 finished Num NBR 1 Num new NBR 0
+130169393	ID:1	NCO: 294
+131092946	ID:2	App: Epoch 130 finished Num NBR 1 Num new NBR 0
+131093908	ID:2	NCO: 137
+131168430	ID:1	App: Epoch 129 finished Num NBR 1 Num new NBR 0
+131169393	ID:1	NCO: 295
+132092946	ID:2	App: Epoch 131 finished Num NBR 1 Num new NBR 0
+132093756	ID:2	NCO: 78
+132168431	ID:1	App: Epoch 130 finished Num NBR 1 Num new NBR 0
+132169393	ID:1	NCO: 212
+133092946	ID:2	App: Epoch 132 finished Num NBR 1 Num new NBR 0
+133093753	ID:2	NCO: 47
+133168431	ID:1	App: Epoch 131 finished Num NBR 1 Num new NBR 0
+133169392	ID:1	NCO: 189
+134092946	ID:2	App: Epoch 133 finished Num NBR 1 Num new NBR 0
+134093907	ID:2	NCO: 124
+134168431	ID:1	App: Epoch 132 finished Num NBR 1 Num new NBR 0
+134169240	ID:1	NCO: 50
+135092946	ID:2	App: Epoch 134 finished Num NBR 1 Num new NBR 0
+135093908	ID:2	NCO: 133
+135168431	ID:1	App: Epoch 133 finished Num NBR 1 Num new NBR 0
+135169240	ID:1	NCO: 67
+135919448	ID:2	Energest: 7 15974 475546 682 122925
+136092946	ID:2	App: Epoch 135 finished Num NBR 1 Num new NBR 0
+136093754	ID:2	NCO: 90
+136168431	ID:1	App: Epoch 134 finished Num NBR 1 Num new NBR 0
+136169086	ID:1	NCO: 0
+136846743	ID:1	Energest: 7 16466 475054 680 122925
+137092946	ID:2	App: Epoch 136 finished Num NBR 1 Num new NBR 0
+137093753	ID:2	NCO: 11
+137168431	ID:1	App: Epoch 135 finished Num NBR 1 Num new NBR 0
+137169240	ID:1	NCO: 57
+138092946	ID:2	App: Epoch 137 finished Num NBR 1 Num new NBR 0
+138093907	ID:2	NCO: 104
+138168431	ID:1	App: Epoch 136 finished Num NBR 1 Num new NBR 0
+138169396	ID:1	NCO: 318
+139092946	ID:2	App: Epoch 138 finished Num NBR 1 Num new NBR 0
+139093907	ID:2	NCO: 129
+139168431	ID:1	App: Epoch 137 finished Num NBR 1 Num new NBR 0
+139169240	ID:1	NCO: 31
+140092946	ID:2	App: Epoch 139 finished Num NBR 1 Num new NBR 0
+140093907	ID:2	NCO: 102
+140168431	ID:1	App: Epoch 138 finished Num NBR 1 Num new NBR 0
+140169394	ID:1	NCO: 236
+141092946	ID:2	App: Epoch 140 finished Num NBR 1 Num new NBR 0
+141093909	ID:2	NCO: 295
+141168431	ID:1	App: Epoch 139 finished Num NBR 1 Num new NBR 0
+141169392	ID:1	NCO: 245
+142092946	ID:2	App: Epoch 141 finished Num NBR 1 Num new NBR 0
+142093753	ID:2	NCO: 84
+142168431	ID:1	App: Epoch 140 finished Num NBR 1 Num new NBR 0
+142169392	ID:1	NCO: 202
+143092946	ID:2	App: Epoch 142 finished Num NBR 1 Num new NBR 0
+143093907	ID:2	NCO: 125
+143168431	ID:1	App: Epoch 141 finished Num NBR 1 Num new NBR 0
+143169392	ID:1	NCO: 123
+144092946	ID:2	App: Epoch 143 finished Num NBR 1 Num new NBR 0
+144093908	ID:2	NCO: 114
+144168431	ID:1	App: Epoch 142 finished Num NBR 1 Num new NBR 0
+144169393	ID:1	NCO: 216
+145092946	ID:2	App: Epoch 144 finished Num NBR 1 Num new NBR 0
+145093754	ID:2	NCO: 67
+145168431	ID:1	App: Epoch 143 finished Num NBR 1 Num new NBR 0
+145169393	ID:1	NCO: 113
+146092946	ID:2	App: Epoch 145 finished Num NBR 1 Num new NBR 0
+146093908	ID:2	NCO: 256
+146168431	ID:1	App: Epoch 144 finished Num NBR 1 Num new NBR 0
+146169393	ID:1	NCO: 214
+147092946	ID:2	App: Epoch 146 finished Num NBR 1 Num new NBR 0
+147093907	ID:2	NCO: 121
+147168431	ID:1	App: Epoch 145 finished Num NBR 1 Num new NBR 0
+147169239	ID:1	NCO: 87
+148092946	ID:2	App: Epoch 147 finished Num NBR 1 Num new NBR 0
+148093907	ID:2	NCO: 126
+148168431	ID:1	App: Epoch 146 finished Num NBR 1 Num new NBR 0
+148169393	ID:1	NCO: 132
+149092946	ID:2	App: Epoch 148 finished Num NBR 1 Num new NBR 0
+149093908	ID:2	NCO: 287
+149168431	ID:1	App: Epoch 147 finished Num NBR 1 Num new NBR 0
+149169392	ID:1	NCO: 109
+150092946	ID:2	App: Epoch 149 finished Num NBR 1 Num new NBR 0
+150093910	ID:2	NCO: 300
+150168431	ID:1	App: Epoch 148 finished Num NBR 1 Num new NBR 0
+150169240	ID:1	NCO: 34
+150919437	ID:2	Energest: 8 16058 475462 684 122930
+151092947	ID:2	App: Epoch 150 finished Num NBR 1 Num new NBR 0
+151093908	ID:2	NCO: 245
+151168431	ID:1	App: Epoch 149 finished Num NBR 1 Num new NBR 0
+151169240	ID:1	NCO: 51
+151846741	ID:1	Energest: 8 16656 474864 687 122925
+152092947	ID:2	App: Epoch 151 finished Num NBR 1 Num new NBR 0
+152093909	ID:2	NCO: 266
+152168432	ID:1	App: Epoch 150 finished Num NBR 1 Num new NBR 0
+152169393	ID:1	NCO: 240
+153092947	ID:2	App: Epoch 152 finished Num NBR 1 Num new NBR 0
+153093908	ID:2	NCO: 123
+153168432	ID:1	App: Epoch 151 finished Num NBR 1 Num new NBR 0
+153169392	ID:1	NCO: 169
+154092947	ID:2	App: Epoch 153 finished Num NBR 1 Num new NBR 0
+154093909	ID:2	NCO: 280
+154168432	ID:1	App: Epoch 152 finished Num NBR 1 Num new NBR 0
+154169240	ID:1	NCO: 46
+155092947	ID:2	App: Epoch 154 finished Num NBR 1 Num new NBR 0
+155093911	ID:2	NCO: 305
+155168432	ID:1	App: Epoch 153 finished Num NBR 1 Num new NBR 0
+155169242	ID:1	NCO: 79
+156092947	ID:2	App: Epoch 155 finished Num NBR 1 Num new NBR 0
+156093754	ID:2	NCO: 22
+156168432	ID:1	App: Epoch 154 finished Num NBR 1 Num new NBR 0
+156169394	ID:1	NCO: 220
+157092947	ID:2	App: Epoch 156 finished Num NBR 1 Num new NBR 0
+157093910	ID:2	NCO: 279
+157168432	ID:1	App: Epoch 155 finished Num NBR 1 Num new NBR 0
+157169241	ID:1	NCO: 37
+158092947	ID:2	App: Epoch 157 finished Num NBR 1 Num new NBR 0
+158093756	ID:2	NCO: 68
+158168432	ID:1	App: Epoch 156 finished Num NBR 1 Num new NBR 0
+158169394	ID:1	NCO: 250
+159092947	ID:2	App: Epoch 158 finished Num NBR 1 Num new NBR 0
+159093910	ID:2	NCO: 237
+159168432	ID:1	App: Epoch 157 finished Num NBR 1 Num new NBR 0
+159169395	ID:1	NCO: 235
+160092947	ID:2	App: Epoch 159 finished Num NBR 1 Num new NBR 0
+160093907	ID:2	NCO: 162
+160168432	ID:1	App: Epoch 158 finished Num NBR 1 Num new NBR 0
+160169242	ID:1	NCO: 72
+161092944	ID:2	App: Epoch 160 finished Num NBR 1 Num new NBR 0
+161093908	ID:2	NCO: 307
+161168432	ID:1	App: Epoch 159 finished Num NBR 1 Num new NBR 0
+161169394	ID:1	NCO: 289
+162092944	ID:2	App: Epoch 161 finished Num NBR 1 Num new NBR 0
+162093905	ID:2	NCO: 176
+162168429	ID:1	App: Epoch 160 finished Num NBR 1 Num new NBR 0
+162169085	ID:1	NCO: 6
+163092944	ID:2	App: Epoch 162 finished Num NBR 1 Num new NBR 0
+163093905	ID:2	NCO: 105
+163168429	ID:1	App: Epoch 161 finished Num NBR 1 Num new NBR 0
+163169085	ID:1	NCO: 7
+164092944	ID:2	App: Epoch 163 finished Num NBR 1 Num new NBR 0
+164093905	ID:2	NCO: 174
+164168429	ID:1	App: Epoch 162 finished Num NBR 1 Num new NBR 0
+164169238	ID:1	NCO: 52
+165092944	ID:2	App: Epoch 164 finished Num NBR 1 Num new NBR 0
+165093905	ID:2	NCO: 207
+165168429	ID:1	App: Epoch 163 finished Num NBR 1 Num new NBR 0
+165169392	ID:1	NCO: 157
+165919437	ID:2	Energest: 9 16037 475483 679 122925
+166092944	ID:2	App: Epoch 165 finished Num NBR 1 Num new NBR 0
+166093906	ID:2	NCO: 284
+166168429	ID:1	App: Epoch 164 finished Num NBR 1 Num new NBR 0
+166169391	ID:1	NCO: 146
+166846741	ID:1	Energest: 9 16675 474845 684 122925
+167092944	ID:2	App: Epoch 166 finished Num NBR 1 Num new NBR 0
+167093907	ID:2	NCO: 293
+167168429	ID:1	App: Epoch 165 finished Num NBR 1 Num new NBR 0
+167169389	ID:1	NCO: 163
+168092944	ID:2	App: Epoch 167 finished Num NBR 1 Num new NBR 0
+168093752	ID:2	NCO: 58
+168168429	ID:1	App: Epoch 166 finished Num NBR 1 Num new NBR 0
+168169238	ID:1	NCO: 32
+169092944	ID:2	App: Epoch 168 finished Num NBR 1 Num new NBR 0
+169093905	ID:2	NCO: 107
+169168429	ID:1	App: Epoch 167 finished Num NBR 1 Num new NBR 0
+169169391	ID:1	NCO: 281
+170092944	ID:2	App: Epoch 169 finished Num NBR 1 Num new NBR 0
+170093905	ID:2	NCO: 200
+170168429	ID:1	App: Epoch 168 finished Num NBR 1 Num new NBR 0
+170169238	ID:1	NCO: 94
+171092945	ID:2	App: Epoch 170 finished Num NBR 1 Num new NBR 0
+171093907	ID:2	NCO: 289
+171168429	ID:1	App: Epoch 169 finished Num NBR 1 Num new NBR 0
+171169390	ID:1	NCO: 127
+172092945	ID:2	App: Epoch 171 finished Num NBR 1 Num new NBR 0
+172093907	ID:2	NCO: 198
+172168430	ID:1	App: Epoch 170 finished Num NBR 1 Num new NBR 0
+172169238	ID:1	NCO: 12
+173092945	ID:2	App: Epoch 172 finished Num NBR 1 Num new NBR 0
+173093754	ID:2	NCO: 71
+173168430	ID:1	App: Epoch 171 finished Num NBR 1 Num new NBR 0
+173169392	ID:1	NCO: 149
+174092945	ID:2	App: Epoch 173 finished Num NBR 1 Num new NBR 0
+174093753	ID:2	NCO: 52
+174168430	ID:1	App: Epoch 172 finished Num NBR 1 Num new NBR 0
+174169393	ID:1	NCO: 298
+175092945	ID:2	App: Epoch 174 finished Num NBR 1 Num new NBR 0
+175093908	ID:2	NCO: 157
+175168430	ID:1	App: Epoch 173 finished Num NBR 1 Num new NBR 0
+175169392	ID:1	NCO: 283
+176092945	ID:2	App: Epoch 175 finished Num NBR 1 Num new NBR 0
+176093908	ID:2	NCO: 274
+176168430	ID:1	App: Epoch 174 finished Num NBR 1 Num new NBR 0
+176169395	ID:1	NCO: 312
+177092945	ID:2	App: Epoch 176 finished Num NBR 1 Num new NBR 0
+177093908	ID:2	NCO: 291
+177168430	ID:1	App: Epoch 175 finished Num NBR 1 Num new NBR 0
+177169393	ID:1	NCO: 273
+178092945	ID:2	App: Epoch 177 finished Num NBR 1 Num new NBR 0
+178093907	ID:2	NCO: 288
+178168430	ID:1	App: Epoch 176 finished Num NBR 1 Num new NBR 0
+178169395	ID:1	NCO: 310
+179092945	ID:2	App: Epoch 178 finished Num NBR 1 Num new NBR 0
+179093752	ID:2	NCO: 89
+179168430	ID:1	App: Epoch 177 finished Num NBR 1 Num new NBR 0
+179169239	ID:1	NCO: 55
