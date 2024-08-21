@@ -8,20 +8,28 @@ import numpy as np
 
 FILENAME = "test.log"
 LOGS_FOLDER = "logs"
-FILENAMES = [
-    "cooja_BURST_2.log",
-    "cooja_BURST_5.log",
-    "cooja_BURST_10.log",
-    "cooja_BURST_20.log",
-    "cooja_BURST_30.log",
-    "cooja_BURST_50.log",
-    "cooja_SCATTER_2.log",
-    "cooja_SCATTER_5.log",
-    "cooja_SCATTER_10.log",
-    "cooja_SCATTER_20.log",
-    "cooja_SCATTER_30.log",
-    "cooja_SCATTER_50.log",
-]
+
+# Select cooja or testbed files
+if False:
+    FILENAMES = [
+        "cooja_BURST_2.log",
+        "cooja_BURST_5.log",
+        "cooja_BURST_10.log",
+        "cooja_BURST_20.log",
+        "cooja_BURST_30.log",
+        "cooja_BURST_50.log",
+        "cooja_SCATTER_2.log",
+        "cooja_SCATTER_5.log",
+        "cooja_SCATTER_10.log",
+        "cooja_SCATTER_20.log",
+        "cooja_SCATTER_30.log",
+        "cooja_SCATTER_50.log",
+    ]
+else:
+    FILENAMES = [
+        "testbed_BURST_1-7.log",
+        "testbed_SCATTER_1-7.log"
+    ]
 
 
 class Node:
@@ -34,8 +42,8 @@ class Node:
     n_new_count_epoch: list  # n new neighbour discovered each epoch
 
     def __init__(self):
-        self.n_count_epoch = [0 for i in range(200)]
-        self.n_new_count_epoch = [0 for i in range(200)]
+        self.n_count_epoch = [0 for i in range(1000)]
+        self.n_new_count_epoch = [0 for i in range(1000)]
         self.neighbours = []
 
 
@@ -48,7 +56,7 @@ class Experiment:
     TRANSMISSION_PER_WINDOW: int
     TRANSMISSION_DURATION: int
     RECEPTION_DURATION: int
-    name:str
+    name: str
 
     epochs: list
 
@@ -72,21 +80,28 @@ class Experiment:
     def clear_empty_nodes(self):
         self.nodes.pop(0)  # first element is always absent
 
-        for i, n in enumerate(self.nodes):
-            if n.node_id == -1:
-                break
+        tmp = self.nodes.copy()
 
-        self.nodes = self.nodes[0:i]
+        self.nodes = []
+
+        for i in tmp:
+            if i.node_id != -1:
+                self.nodes.append(i)
+
+        # self.nodes = self.nodes[0:i]
 
         for n in self.nodes:
             n.neighbour_count = len(n.neighbours)
 
         for n in self.nodes:
-            while len(n.n_count_epoch) != self.max_epoch:
-                n.n_count_epoch.pop(-1)
+            try:
+                while len(n.n_count_epoch) != self.max_epoch:
+                    n.n_count_epoch.pop(-1)
 
-            while len(n.n_new_count_epoch) != self.max_epoch:
-                n.n_new_count_epoch.pop(-1)
+                while len(n.n_new_count_epoch) != self.max_epoch:
+                    n.n_new_count_epoch.pop(-1)
+            except IndexError:
+                pass
 
             n.n_count_epoch = n.n_count_epoch[self.TRUNC_EP_LOW:self.TRUNC_EP_HIGH]
             n.n_new_count_epoch = n.n_new_count_epoch[self.TRUNC_EP_LOW:self.TRUNC_EP_HIGH]
@@ -102,13 +117,13 @@ class Experiment:
             arrays_new.append(n.n_new_count_epoch)
 
         self.avg_n_count_epoch = np.mean(arrays, axis=0)
-        self.avg_n_count_epoch_norm = self.avg_n_count_epoch / (self.max_node_id -1)
+        self.avg_n_count_epoch_norm = self.avg_n_count_epoch / (self.max_node_id - 1)
 
         self.avg_n_count_epoch_overall = np.mean(arrays, axis=None)
-        self.avg_n_count_epoch_overall_percentage = self.avg_n_count_epoch_overall / (self.max_node_id -1)
+        self.avg_n_count_epoch_overall_percentage = self.avg_n_count_epoch_overall / (self.max_node_id - 1)
 
-        self.avg_n_new_count_epoch = np.mean(arrays_new,axis=0)
-        self.avg_n_new_count_epoch_norm = self.avg_n_new_count_epoch / (self.max_node_id -1)
+        self.avg_n_new_count_epoch = np.mean(arrays_new, axis=0)
+        self.avg_n_new_count_epoch_norm = self.avg_n_new_count_epoch / (self.max_node_id - 1)
 
         self.name = f"{"cooja" if not self.is_testbed else "testbed"}_{self.TYPE}_{self.max_node_id}"
 
@@ -125,7 +140,7 @@ class Experiment:
 
             dc = 100 * total_radio / total_time
             dc_lst.append(dc)
-            self.nodes[nid-1].duty_cycle = dc
+            self.nodes[nid - 1].duty_cycle = dc
 
             print("Node {}:  Duty Cycle: {:.3f}%".format(nid, dc))
 
@@ -154,7 +169,7 @@ def save_output(e: Experiment):
 
 def parse(filename=FILENAME, log_file=False, printinfo=False) -> Experiment:
     e = Experiment()
-    e.nodes = [Node() for i in range(1, 100)]
+    e.nodes = [Node() for i in range(1, 1000)]
     settings_found = False
 
     f = open(filename, "r")
@@ -167,7 +182,7 @@ def parse(filename=FILENAME, log_file=False, printinfo=False) -> Experiment:
     cooja_pattern_epoch_end = "\d+\sID:(\d+)\sApp:\sEpoch\s(\d+)\sfinished\sNum\sNBR\s(\d+)\sNum\snew\sNBR\s(\d+)"
     record_pattern = r"(?P<time>[\w:.]+)\s+ID:(?P<self_id>\d+)\s+"
     cooja_regex_dc = re.compile(r"{}Energest: (?P<cnt>\d+) (?P<cpu>\d+) "
-                          r"(?P<lpm>\d+) (?P<tx>\d+) (?P<rx>\d+)".format(record_pattern))
+                                r"(?P<lpm>\d+) (?P<tx>\d+) (?P<rx>\d+)".format(record_pattern))
 
     # Testbed patterns
     testbed_pattern_settings = "INFO:firefly.(\d+):\s\d+.firefly\s<\sb'START:\s(.+),\s(\d+),\s(\d+),\s(\d+),\s(\d+),\s(\d+),\s(\d+),\s(\d+)"
@@ -175,7 +190,7 @@ def parse(filename=FILENAME, log_file=False, printinfo=False) -> Experiment:
     testbed_pattern_epoch_end = "INFO:firefly.(\d+):\s\d+.firefly\s<\sb'App:\sEpoch\s(\d+)\sfinished\sNum\sNBR\s(\d+)\sNum\snew\sNBR\s(\d+)"
     testbed_record_pattern = r"\[(?P<time>.{23})\] INFO:firefly\.(?P<self_id>\d+): \d+\.firefly < b"
     testbed_regex_dc = re.compile(r"{}'Energest: (?P<cnt>\d+) (?P<cpu>\d+) "
-                          r"(?P<lpm>\d+) (?P<tx>\d+) (?P<rx>\d+)'".format(testbed_record_pattern))
+                                  r"(?P<lpm>\d+) (?P<tx>\d+) (?P<rx>\d+)'".format(testbed_record_pattern))
 
     pattern_settings = cooja_patter_settings
     pattern_new_n = cooja_pattern_new_n
@@ -184,7 +199,7 @@ def parse(filename=FILENAME, log_file=False, printinfo=False) -> Experiment:
 
     c = 0
     for line in f:
-        if c==0:
+        if c == 0:
             m = re.search(pattern_check_testbed, line)
             if m:
                 e.is_testbed = True
@@ -220,6 +235,7 @@ def parse(filename=FILENAME, log_file=False, printinfo=False) -> Experiment:
                 if node_id > e.max_node_id:
                     e.max_node_id = node_id
 
+                print(node_id)
                 n = e.nodes[int(node_id)]
                 n.node_id = node_id
                 if (not n_discovered in n.neighbours):
@@ -358,6 +374,7 @@ def get_min_epoch(exps: list[Experiment]) -> int:
 
     return min_epoch
 
+
 # TODO USE
 def plot_exps_n_discovered_per_epoch(exps: list[Experiment]):
     fig, axs = plt.subplots(1, 1)
@@ -365,7 +382,7 @@ def plot_exps_n_discovered_per_epoch(exps: list[Experiment]):
     min_epoch = get_min_epoch(exps)
 
     for expm in exps:
-        #print(f"{len(expm.epochs)} {len(expm.avg_n_count_epoch_norm)}")
+        # print(f"{len(expm.epochs)} {len(expm.avg_n_count_epoch_norm)}")
         axs.plot(expm.epochs, expm.avg_n_count_epoch_norm[:min_epoch], label=expm.name)
         axs.set_xlabel('Epoch')
         axs.set_ylabel('average node discovered / all nodes in network')
@@ -403,36 +420,40 @@ def plot_exps_dc_avg_n_discovered(exps: list[Experiment]):
     plt.legend()
     plt.show()
 
-FILEPATHS = []
 
-for fn in FILENAMES:
-    FILEPATHS.append(join(LOGS_FOLDER, fn))
+def run_exps():
+    FILEPATHS = []
 
-expmnts = []
+    for fn in FILENAMES:
+        FILEPATHS.append(join(LOGS_FOLDER, fn))
 
-for fp in FILEPATHS:
-    expmnts.append(parse(fp))
+    expmnts = []
 
-print("Experiments considered:")
-for ep in expmnts:
-    print(f"Exp: {ep.TYPE} {ep.max_node_id}")
-    print(f"\tAvg dc: {ep.dc_mean}")
+    for fp in FILEPATHS:
+        expmnts.append(parse(fp))
 
-#plot_exps_n_new_discovered_per_epoch(expmnts)
-plot_exps_dc_avg_n_discovered(expmnts)
-#plot_exps_n_discovered_per_epoch(expmnts)
+    print("Experiments considered:")
+    for ep in expmnts:
+        print(f"Exp: {ep.TYPE} {ep.max_node_id}")
+        print(f"\tAvg dc: {ep.dc_mean}")
 
-#for ep in expmnts:
-#    plot_n_discovered_per_epoch_avg(ep)
+    # plot_exps_n_new_discovered_per_epoch(expmnts)
+    # plot_exps_dc_avg_n_discovered(expmnts)
+    plot_exps_n_discovered_per_epoch(expmnts)
+
+    # for ep in expmnts:
+    #   plot_n_discovered_per_epoch_avg(ep)
+
+    """
+    exit()
+    e: Experiment = parse()
+    
+    e.calculate_values()
+    print(e.avg_n_count_epoch_overall)
+    
+    #plot_n_discovered_per_epoch_avg(e)
+    """
 
 
-
-"""
-exit()
-e: Experiment = parse()
-
-e.calculate_values()
-print(e.avg_n_count_epoch_overall)
-
-#plot_n_discovered_per_epoch_avg(e)
-"""
+run_exps()  # Generate graphs
+# parse(log_file=True, printinfo=True) # First file parse

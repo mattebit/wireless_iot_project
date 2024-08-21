@@ -9,6 +9,7 @@ contiki-sky.a
 contiki-sky.map
 app.sky
 obj_sky/
+obj_zoul/
 cooja_folder/
 .idea/
 .vscode/
